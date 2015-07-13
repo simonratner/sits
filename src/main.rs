@@ -19,15 +19,15 @@ struct Args {
 extern crate sits;
 
 fn main() {
-  let args: Args = Docopt::new(USAGE)
-                          .and_then(|d| d.decode())
-                          .unwrap_or_else(|e| e.exit());
+    let args: Args = Docopt::new(USAGE)
+        .and_then(|d| d.decode())
+        .unwrap_or_else(|e| e.exit());
 
-  match sits::read_property_file(Path::new(&args.arg_source)) {
-    Ok(v) => v,
-    Err(e) => {
-      println!("Cannot read '{}': {}", args.arg_source, e);
-      process::exit(1);
-    }
-  };
+    match sits::read_property_file(Path::new(&args.arg_source)) {
+        Ok(v) => v,
+        Err(e) => {
+            println!("Cannot read '{}': {}", args.arg_source, e);
+            process::exit(1);
+        }
+    };
 }
