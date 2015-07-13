@@ -6,7 +6,7 @@ extern crate byteorder;
 use byteorder::{NativeEndian, ReadBytesExt};
 
 pub use io::{Error, Result};
-use io::{ReadSizedStringExt};
+use io::{ReadVariableExt};
 
 pub use prop::{Property, PropertyBag};
 
@@ -27,13 +27,13 @@ pub fn read_property_file(path: &Path) -> Result<PropertyBag> {
     if done {
       break;
     }
-    let name = try!(buf.read_sized_string());
+    let name = try!(buf.read_variable_string());
     let data_len = try!(buf.read_u32::<NativeEndian>()) as usize;
     if data_len > 0 {
         let data_type = try!(buf.read_u8());
         println!("name: {}, type: 0x{:x}, len: {}", name, data_type, data_len);
         res.insert(name, match data_type {
-            //0x01 => Property::String(try!(buf.read_sized_string())),
+            0x01 => Property::String(try!(buf.read_variable_string())),
             0x02 => Property::Integer(try!(buf.read_u32::<NativeEndian>())),
             0x06 => Property::Numeric(try!(buf.read_f32::<NativeEndian>())),
             0x09 => Property::Boolean(try!(buf.read_u8()) != 0),
