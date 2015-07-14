@@ -31,7 +31,6 @@ pub fn read_property_file(path: &Path) -> Result<PropertyBag> {
         let data_len = try!(buf.read_u32::<NativeEndian>()) as usize;
         if data_len > 0 {
             let data_type = try!(buf.read_u8());
-            println!("name: {}, type: 0x{:x}, len: {}", name, data_type, data_len);
             res.insert(name, match data_type {
                 0x01 => Property::String(try!(buf.read_variable_string())),
                 0x02 => Property::Integer(try!(buf.read_u32::<NativeEndian>())),
