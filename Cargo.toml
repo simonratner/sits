@@ -2,6 +2,13 @@
 name = "sits"
 version = "0.1.0"
 authors = ["Simon Ratner <simon+github@probablyprime.net>"]
+include = ["src/**/*", "application.manifest"]
+build = "build.rs"
+
+[build-dependencies]
+mustache = "*"
+rustc-serialize = "*"
+toml = "*"
 
 [dependencies]
 byteorder = "*"
