@@ -39,7 +39,7 @@ pub fn read_property_file(path: &Path) -> Result<PropertyMap> {
             res.insert(name, match data_type {
                 0x01 => Property::String(try!(buf.read_variable_string())),
                 0x02 => Property::Integer(try!(buf.read_u32::<NativeEndian>())),
-                0x06 => Property::Numeric(try!(buf.read_f32::<NativeEndian>())),
+                0x06 => Property::Float(try!(buf.read_f32::<NativeEndian>())),
                 0x09 => Property::Boolean(try!(buf.read_u8()) != 0),
                 _    => {
                     let mut v = vec![0; data_len - 2];

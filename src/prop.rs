@@ -7,9 +7,25 @@ use std::rc::Rc;
 pub enum Property {
     Boolean(bool),
     Integer(u32),
-    Numeric(f32),
+    Float(f32),
     String(String),
     Unknown(Vec<u8>),
+}
+
+impl From<bool> for Property {
+    fn from(v: bool) -> Self { Property::Boolean(v) }
+}
+
+impl From<u32> for Property {
+    fn from(v: u32) -> Self { Property::Integer(v) }
+}
+
+impl From<f32> for Property {
+    fn from(v: f32) -> Self { Property::Float(v) }
+}
+
+impl<'a> From<&'a str> for Property {
+    fn from(v: &'a str) -> Self { Property::String(String::from(v)) }
 }
 
 impl fmt::Display for Property {
@@ -17,7 +33,7 @@ impl fmt::Display for Property {
         match *self {
             Property::Boolean(v) => write!(f, "{}", v),
             Property::Integer(v) => write!(f, "{}", v),
-            Property::Numeric(v) => write!(f, "{}", v),
+            Property::Float(v) => write!(f, "{}", v),
             Property::String(ref v) => write!(f, "{}", v),
             Property::Unknown(ref v) => write!(f, "<{} bytes>", v.len()),
         }

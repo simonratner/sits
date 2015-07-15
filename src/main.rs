@@ -52,5 +52,5 @@ fn main() {
         }
     }
 
-    run_ui_loop(game, &party);
+    run_ui_loop(game, Rc::new(RefCell::new(party)));
 }
