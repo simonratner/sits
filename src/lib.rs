@@ -2,21 +2,26 @@ use std::fs::{File};
 use std::io::{BufReader, BufRead, Read};
 use std::path::Path;
 
+#[macro_use]
+extern crate iup;
 extern crate byteorder;
 use byteorder::{NativeEndian, ReadBytesExt};
+
+pub use prop::{Property, PropertyMap, PropertyMapRef};
 
 pub use io::{Error, Result};
 use io::{ReadVariableExt};
 
-pub use prop::{Property, PropertyBag};
+pub use ui::{run_ui_loop};
 
-mod io;
 mod prop;
+mod io;
+mod ui;
 
-pub fn read_property_file(path: &Path) -> Result<PropertyBag> {
+pub fn read_property_file(path: &Path) -> Result<PropertyMap> {
     let file = try!(File::open(path));
     let mut buf = BufReader::new(&file);
-    let mut res = PropertyBag::new();
+    let mut res = PropertyMap::new();
     loop {
         let done = try!(match buf.read_u8() {
             Ok(0x7e) => Ok(false),
