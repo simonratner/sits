@@ -18,7 +18,7 @@ static DIALOG: &'static str = r#"
     text_occ = text[SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
     text_per = text[SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
 
-    list_party = list[DROPDOWN=YES, VALUE=1](_)
+    list_party = list[DROPDOWN=YES, VALUE=1, VISIBLE_ITEMS=6](_)
 
     dlg = dialog(
         vbox[CGAP=2, CMARGIN=4x2, ALIGNMENT=ARIGHT](
@@ -69,7 +69,6 @@ fn bind<T, E>(elem: &mut E, props: PropertyMapRef, key: &'static str)
             } else {
                 props.borrow_mut().insert(key.to_string(), Property::from(T::default()));
             }
-            println!("{:?}", props.borrow().get(key));
         }
     });
 }
@@ -79,8 +78,11 @@ fn bind<T, E>(elem: &mut E, props: PropertyMapRef, key: &'static str)
 // @param props {PropertyMapRef} a cloned refcounted property map.
 //
 fn bind_member(props: PropertyMapRef) {
-    if let Some(&Property::String(ref v)) = props.borrow().get("Name") {
-        from_name::<Frame>("member").set_attrib("TITLE", v.to_string());
+    if let Some(&Property::String(ref name)) = props.borrow().get("Name") {
+        if let Some(&Property::Float(level)) = props.borrow().get("Level") {
+            let title = format!("{} (Level {})", name, level);
+            from_name::<Frame>("member").set_attrib("TITLE", title);
+        }
     }
     let mut text_int = from_name::<Text>("text_int");
     bind::<f32,_>(&mut text_int, props.clone(), "Int");
