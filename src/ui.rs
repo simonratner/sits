@@ -73,6 +73,12 @@ fn bind<T, E>(elem: &mut E, props: PropertyMapRef, key: &'static str)
     });
 }
 
+macro_rules! bind_stat {
+    ($i:ident, $p:expr, $e:expr) => {
+        bind::<f32,_>(&mut from_name::<Text>(stringify!($i)), $p.clone(), $e);
+    }
+}
+
 // Data-bind all elements relevant to a party member.
 //
 // @param props {PropertyMapRef} a cloned refcounted property map.
@@ -84,20 +90,11 @@ fn bind_member(props: PropertyMapRef) {
             from_name::<Frame>("member").set_attrib("TITLE", title);
         }
     }
-    let mut text_int = from_name::<Text>("text_int");
-    bind::<f32,_>(&mut text_int, props.clone(), "Int");
-
-    let mut text_dex = from_name::<Text>("text_dex");
-    bind::<f32,_>(&mut text_dex, props.clone(), "Dex");
-
-    let mut text_str = from_name::<Text>("text_str");
-    bind::<f32,_>(&mut text_str, props.clone(), "Str");
-
-    let mut text_occ = from_name::<Text>("text_occ");
-    bind::<f32,_>(&mut text_occ, props.clone(), "Occ");
-
-    let mut text_per = from_name::<Text>("text_per");
-    bind::<f32,_>(&mut text_per, props.clone(), "Per");
+    bind_stat!(text_int, props, "Int");
+    bind_stat!(text_dex, props, "Dex");
+    bind_stat!(text_str, props, "Str");
+    bind_stat!(text_occ, props, "Occ");
+    bind_stat!(text_per, props, "Per");
 }
 
 pub fn run_ui_loop(game: PropertyMapRef, party: Rc<RefCell<Vec<PropertyMapRef>>>) {
