@@ -19,7 +19,7 @@ struct Args {
 }
 
 extern crate sits;
-use sits::{Property, PropertyMap, PropertyMapRef, read_property_file, run_ui_loop};
+use sits::{Property, PropertyMapRef, read_path, write_path, ui_loop};
 
 fn main() {
     let args: Args = Docopt::new(USAGE)
@@ -28,7 +28,7 @@ fn main() {
 
     let game: PropertyMapRef = Rc::new(RefCell::new({
         let path = Path::new(&args.arg_dir).join("Game.txt");
-        match read_property_file(path.as_path()) {
+        match read_path(path.as_path()) {
             Ok(v) => v,
             Err(e) => {
                 println!("Cannot read {:?}: {}", path, e);
@@ -41,7 +41,7 @@ fn main() {
     if let Some(&Property::String(ref v)) = game.borrow().get("PartyIDs") {
         for id in v.split(",") {
             let path = Path::new(&args.arg_dir).join("Party".to_string() + id + ".txt");
-            let party_member = match read_property_file(path.as_path()) {
+            let party_member = match read_path(path.as_path()) {
                 Ok(v) => v,
                 Err(e) => {
                     println!("Cannot read {:?}: {}", path, e);
@@ -52,5 +52,5 @@ fn main() {
         }
     }
 
-    run_ui_loop(game, Rc::new(RefCell::new(party)));
+    ui_loop(game, Rc::new(RefCell::new(party)));
 }

@@ -1,9 +1,9 @@
 use std::fmt;
-use std::io::{self, Read};
+use std::io::{self, Read, Write};
 use std::result;
 use std::string;
 
-use byteorder::{self, ReadBytesExt};
+use byteorder::{self, ReadBytesExt, WriteBytesExt};
 
 /// A short-hand for `result::Result<T, io::Error>`.
 pub type Result<T> = result::Result<T, Error>;
@@ -45,16 +45,14 @@ impl fmt::Display for Error {
 }
 
 pub trait ReadVariableExt: Read {
-
-    /// Reads a variable-length encoded integer.
+    /// Reads a variable-length encoded 32-bit integer.
     /// https://msdn.microsoft.com/en-us/library/system.io.binarywriter.write7bitencodedint.aspx
-    #[inline]
-    fn read_variable_uint(&mut self) -> Result<u64> {
-        let mut val = 0u64;
+    fn read_variable_uint(&mut self) -> Result<u32> {
+        let mut val = 0u32;
         let mut nread = 0usize;
-        loop {
+        while nread < 5 {
             let byte = try!(self.read_u8());
-            val = val | ((byte as u64 & 0x7f) << (nread * 7));
+            val = val | (((byte & 0x7f) as u32) << (nread * 7));
             nread += 1;
             if byte & 0x80 == 0 {
                 break;
@@ -65,7 +63,6 @@ pub trait ReadVariableExt: Read {
 
     /// Reads a variable-length encoded integer, representing the length of the string; then
     /// reads that many bytes from the undelying reader and interprets them as a utf8 string.
-    #[inline]
     fn read_variable_string(&mut self) -> Result<String> {
         let len = try!(self.read_variable_uint()) as usize;
         let mut buf = vec![0; len];
@@ -78,12 +75,35 @@ pub trait ReadVariableExt: Read {
                 Err(e) => return Err(From::from(e))
             }
         }
-        match String::from_utf8(buf) {
-            Ok(v) => Ok(v),
-            Err(e) => Err(Error::from(e)),
-        }
+        String::from_utf8(buf).map_err(Error::from)
     }
 }
 
 /// All types that implement `Read` get methods defined in `ReadVariableExt`.
 impl<R: Read + ?Sized> ReadVariableExt for R {}
+
+
+pub trait WriteVariableExt: Write {
+    /// Writes a variable-length encoded 32-bit integer.
+    /// https://msdn.microsoft.com/en-us/library/system.io.binarywriter.write7bitencodedint.aspx
+    fn write_variable_uint(&mut self, n: u32) -> Result<()> {
+        let mut val = n;
+        while val > 0x7f {
+            try!(self.write_u8((val & 0x7f) as u8));
+            val = val >> 7;
+        }
+        try!(self.write_u8((val & 0x7f) as u8));
+        Ok(())
+    }
+
+    /// Writes a variable-length encoded integer, representing the length of the string; then
+    /// writes that many bytes to the undelying writer, representing the utf8-encoded string.
+    fn write_variable_string(&mut self, s: &str) -> Result<()> {
+        try!(self.write_variable_uint(s.len() as u32));
+        try!(self.write_all(s.as_bytes()));
+        Ok(())
+    }
+}
+
+/// All types that implement `Write` get methods defined in `WriteVariableExt`.
+impl<W: Write + ?Sized> WriteVariableExt for W {}

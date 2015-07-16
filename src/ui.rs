@@ -7,7 +7,7 @@ use iup::prelude::*;
 use iup::control::{Frame, List, Text};
 use iup::led;
 
-use prop::{Property, PropertyMap, PropertyMapRef};
+use prop::{Property, PropertyMapRef};
 
 // LED dialog specification.
 static DIALOG: &'static str = r#"
@@ -97,7 +97,7 @@ fn bind_member(props: PropertyMapRef) {
     bind_stat!(text_per, props, "Per");
 }
 
-pub fn run_ui_loop(game: PropertyMapRef, party: Rc<RefCell<Vec<PropertyMapRef>>>) {
+pub fn ui_loop(game: PropertyMapRef, party: Rc<RefCell<Vec<PropertyMapRef>>>) {
     iup::with_iup(|| {
         // See also led::load(path) to load from a file
         led::load_buffer(DIALOG).unwrap();

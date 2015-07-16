@@ -9,7 +9,7 @@ pub enum Property {
     Integer(u32),
     Float(f32),
     String(String),
-    Unknown(Vec<u8>),
+    Unknown(u8, Vec<u8>),
 }
 
 impl From<bool> for Property {
@@ -24,6 +24,10 @@ impl From<f32> for Property {
     fn from(v: f32) -> Self { Property::Float(v) }
 }
 
+impl From<String> for Property {
+    fn from(v: String) -> Self { Property::String(v) }
+}
+
 impl<'a> From<&'a str> for Property {
     fn from(v: &'a str) -> Self { Property::String(String::from(v)) }
 }
@@ -35,7 +39,7 @@ impl fmt::Display for Property {
             Property::Integer(v) => write!(f, "{}", v),
             Property::Float(v) => write!(f, "{}", v),
             Property::String(ref v) => write!(f, "{}", v),
-            Property::Unknown(ref v) => write!(f, "<{} bytes>", v.len()),
+            Property::Unknown(_, ref v) => write!(f, "<{} bytes>", v.len()),
         }
     }
 }
