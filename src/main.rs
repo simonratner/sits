@@ -52,5 +52,9 @@ fn main() {
         }
     }
 
-    ui_loop(game, Rc::new(RefCell::new(party)));
+    ui_loop(game.clone(), Rc::new(RefCell::new(party)));
+
+    // Write out the files after ui loop has terminated.
+    let path = Path::new(&args.arg_dir).join("Game.out");
+    write_path(path.as_path(), &game.borrow()).unwrap();
 }

@@ -44,6 +44,7 @@ impl fmt::Display for Error {
     }
 }
 
+/// Extension for reading length-prefixed strings.
 pub trait ReadVariableExt: Read {
     /// Reads a variable-length encoded 32-bit integer.
     /// https://msdn.microsoft.com/en-us/library/system.io.binarywriter.write7bitencodedint.aspx
@@ -62,7 +63,7 @@ pub trait ReadVariableExt: Read {
     }
 
     /// Reads a variable-length encoded integer, representing the length of the string; then
-    /// reads that many bytes from the undelying reader and interprets them as a utf8 string.
+    /// reads that many bytes from the underlying reader and interprets them as a utf8 string.
     fn read_variable_string(&mut self) -> Result<String> {
         let len = try!(self.read_variable_uint()) as usize;
         let mut buf = vec![0; len];
@@ -82,7 +83,7 @@ pub trait ReadVariableExt: Read {
 /// All types that implement `Read` get methods defined in `ReadVariableExt`.
 impl<R: Read + ?Sized> ReadVariableExt for R {}
 
-
+/// Extension for writing length-prefixed strings.
 pub trait WriteVariableExt: Write {
     /// Writes a variable-length encoded 32-bit integer.
     /// https://msdn.microsoft.com/en-us/library/system.io.binarywriter.write7bitencodedint.aspx
@@ -97,7 +98,7 @@ pub trait WriteVariableExt: Write {
     }
 
     /// Writes a variable-length encoded integer, representing the length of the string; then
-    /// writes that many bytes to the undelying writer, representing the utf8-encoded string.
+    /// writes that many bytes to the underlying writer, representing the utf8-encoded string.
     fn write_variable_string(&mut self, s: &str) -> Result<()> {
         try!(self.write_variable_uint(s.len() as u32));
         try!(self.write_all(s.as_bytes()));

@@ -44,7 +44,7 @@ pub fn read_path(path: &Path) -> Result<PropertyMap> {
                 _    => {
                     let mut v = vec![0; data_len - 2];
                     try!(buf.read(&mut v));
-                    Property::Unknown(data_type, v)
+                    Property::Unknown(v, data_type)
                 }
             });
             buf.consume(1);
@@ -88,7 +88,7 @@ pub fn write_path(path: &Path, props: &PropertyMap) -> Result<()> {
                 try!(buf.write_u8(0x01));
                 try!(buf.write_variable_string(v));
             },
-            Property::Unknown(data_type, ref v) => {
+            Property::Unknown(ref v, data_type) => {
                 let len = v.len() as u32;
                 try!(buf.write_u32::<LittleEndian>(2 + len));
                 try!(buf.write_u8(data_type));
