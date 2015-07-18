@@ -90,7 +90,7 @@ pub trait WriteVariableExt: Write {
     fn write_variable_uint(&mut self, n: u32) -> Result<()> {
         let mut val = n;
         while val > 0x7f {
-            try!(self.write_u8((val & 0x7f) as u8));
+            try!(self.write_u8(((val & 0x7f) | 0x80) as u8));
             val = val >> 7;
         }
         try!(self.write_u8((val & 0x7f) as u8));
