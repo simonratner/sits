@@ -1,6 +1,6 @@
 [package]
 name = "sits"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Simon Ratner <simon+github@probablyprime.net>"]
 include = ["src/**/*", "application.manifest"]
 build = "build.rs"
