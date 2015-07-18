@@ -4,6 +4,7 @@ use std::path::Path;
 
 #[macro_use]
 extern crate iup;
+extern crate time;
 extern crate byteorder;
 use byteorder::{LittleEndian, ReadBytesExt, WriteBytesExt};
 

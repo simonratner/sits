@@ -14,6 +14,7 @@ toml = "*"
 byteorder = "*"
 docopt = "*"
 rustc-serialize = "*"
+time = "*"
 
 [dependencies.iup]
 git = "https://github.com/dcampbell24/iup-rust"

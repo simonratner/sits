@@ -1,4 +1,5 @@
 use std::cell::RefCell;
+use std::fs::copy;
 use std::path::Path;
 use std::str::FromStr;
 use std::rc::Rc;
@@ -8,6 +9,8 @@ use iup::prelude::*;
 use iup::control::{Button, Frame, List, Text};
 use iup::dialog::{FileDlg};
 use iup::led;
+
+use time;
 
 use prop::{Property, PropertyMapRef};
 use {read_path, write_path};
@@ -163,13 +166,16 @@ pub fn ui_loop() -> Result<(), String> {
             let game_clone = game.clone();
             let party_clone = party.clone();
             button_save.set_action(move |_| {
-                let path = Path::new(&dir).join("Game.out");
+                let timestamp = time::strftime("%FT%H.%M.%SZ.txt", &time::now_utc()).unwrap();
+                let path = Path::new(&dir).join("Game.txt");
                 println!("Writing {:?}", path);
+                copy(path.as_path(), path.with_extension(&timestamp)).unwrap();
                 write_path(path.as_path(), &game_clone.borrow()).unwrap();
                 for member in party_clone.borrow().iter().skip(1) {
                     if let Some(&Property::String(ref id)) = member.borrow().get("PartyID") {
-                        let path = Path::new(&dir).join("Party".to_string() + id + ".out");
+                        let path = Path::new(&dir).join("Party".to_string() + id + ".txt");
                         println!("Writing {:?}", path);
+                        copy(path.as_path(), path.with_extension(&timestamp)).unwrap();
                         write_path(path.as_path(), &member.borrow()).unwrap();
                     }
                 }
