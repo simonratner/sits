@@ -1,13 +1,16 @@
 use std::cell::RefCell;
+use std::path::Path;
 use std::str::FromStr;
 use std::rc::Rc;
 
 use iup;
 use iup::prelude::*;
-use iup::control::{Frame, List, Text};
+use iup::control::{Button, Frame, List, Text};
+use iup::dialog::{FileDlg};
 use iup::led;
 
 use prop::{Property, PropertyMapRef};
+use {read_path, write_path};
 
 // LED dialog specification.
 static DIALOG: &'static str = r#"
@@ -20,7 +23,12 @@ static DIALOG: &'static str = r#"
 
     list_party = list[DROPDOWN=YES, VALUE=1, VISIBLE_ITEMS=6](_)
 
-    dlg = dialog(
+    button_save = button[PADDING=6x1]("Save and Close", _)
+    button_cancel = button[PADDING=6x1]("Cancel", _)
+
+    dlg_open = filedlg[TITLE="Select saved game folder:", DIALOGTYPE=DIR]()
+
+    dlg = dialog[TITLE="SitS Editor"](
         vbox[CGAP=2, CMARGIN=4x2, ALIGNMENT=ARIGHT](
             gridbox[NUMDIV=2, SIZECOL=1, CGAPCOL=4, CGAPLIN=2, NORMALIZESIZE=HORIZONTAL](
                 label("Emeralds"), text_emeralds,
@@ -34,6 +42,10 @@ static DIALOG: &'static str = r#"
                     label("Occult (+10)"),       text_occ,
                     label("Perception (+10)"),   text_per
                 )
+            ),
+            hbox[CGAP=2](
+                button_save,
+                button_cancel
             )
         )
     )
@@ -97,10 +109,77 @@ fn bind_member(props: PropertyMapRef) {
     bind_stat!(text_per, props, "Per");
 }
 
-pub fn ui_loop(game: PropertyMapRef, party: Rc<RefCell<Vec<PropertyMapRef>>>) {
-    iup::with_iup(|| {
+/// Ui entry point.
+///
+/// Starts by showing a direction selection dialog; after the user selects a directory,
+/// the game is loaded from that directory and values bound to the ui elements.
+///
+pub fn ui_loop() -> Result<(), String> {
+    match iup::with_iup(|| {
         // See also led::load(path) to load from a file
         led::load_buffer(DIALOG).unwrap();
+
+        // Select saved game location
+        let mut dlg_open = from_name::<FileDlg>("dlg_open");
+        let dir = match dlg_open.popup(DialogPos::CenterParent, DialogPos::CenterParent) {
+            Ok(..) => match dlg_open.attrib("STATUS") {
+                Some(ref s) if s == "0" => {
+                    dlg_open.attrib("VALUE").unwrap()
+                },
+                _ => return Err("File selection cancelled.".to_string())
+            },
+            _ => return Err("File selection failed.".to_string())
+        };
+
+        // Read game and party member files
+        let game = Rc::new(RefCell::new({
+            let path = Path::new(&dir).join("Game.txt");
+            match read_path(path.as_path()) {
+                Ok(v) => v,
+                Err(e) => {
+                    return Err(format!("Cannot read {:?}: {}", path, e))
+                }
+            }
+        }));
+        let party = Rc::new(RefCell::new({
+            let mut members: Vec<PropertyMapRef> = Vec::new();
+            if let Some(&Property::String(ref ids)) = game.borrow().get("PartyIDs") {
+                for id in ids.split(",") {
+                    let path = Path::new(&dir).join("Party".to_string() + id + ".txt");
+                    match read_path(path.as_path()) {
+                        Ok(v) => members.push(Rc::new(RefCell::new(v))),
+                        Err(e) => {
+                            return Err(format!("Cannot read {:?}: {}", path, e))
+                        }
+                    };
+                }
+            }
+            members
+        }));
+
+        // Write game and party member files on save
+        let mut button_save = from_name::<Button>("button_save");
+        {
+            let game_clone = game.clone();
+            let party_clone = party.clone();
+            button_save.set_action(move |_| {
+                let path = Path::new(&dir).join("Game.out");
+                println!("Writing {:?}", path);
+                write_path(path.as_path(), &game_clone.borrow()).unwrap();
+                for member in party_clone.borrow().iter().skip(1) {
+                    if let Some(&Property::String(ref id)) = member.borrow().get("PartyID") {
+                        let path = Path::new(&dir).join("Party".to_string() + id + ".out");
+                        println!("Writing {:?}", path);
+                        write_path(path.as_path(), &member.borrow()).unwrap();
+                    }
+                }
+                CallbackReturn::Close
+            });
+        }
+        let mut button_cancel = from_name::<Button>("button_cancel");
+        button_cancel.set_action(|_| {
+            CallbackReturn::Close
+        });
 
         let mut text_emeralds = from_name::<Text>("text_emeralds");
         bind::<u32,_>(&mut text_emeralds, game, "Emeralds");
@@ -122,5 +201,10 @@ pub fn ui_loop(game: PropertyMapRef, party: Rc<RefCell<Vec<PropertyMapRef>>>) {
 
         let mut dlg = from_name::<Dialog>("dlg");
         dlg.show()
-    }).unwrap();
+
+    }) {
+        Err(iup::InitError::UserError(s)) => Err(s),
+        Err(e) => Err(format!("{:?}", e)),
+        _ => Ok(())
+    }
 }
