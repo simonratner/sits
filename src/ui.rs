@@ -12,8 +12,12 @@ use iup::led;
 
 use time;
 
-use prop::{Property, PropertyMapRef};
-use {read_path, write_path};
+use parser::{read_path, write_path};
+use property::{Property, PropertyMap};
+
+// Since we need to share mutable state with 'static ui callbacks,
+// we clone a refcounted cell for moving into each callback.
+type PropertyMapRc = Rc<RefCell<PropertyMap>>;
 
 // LED dialog specification.
 static DIALOG: &'static str = r#"
@@ -64,9 +68,9 @@ fn from_name<E>(name: &str) -> E where E: Element {
 // Value of the element is set to the current value of the property, and
 // changes to element value are written back to the property map.
 //
-// @param props {PropertyMapRef} a cloned refcounted property map.
+// @param props {PropertyMapRc} a cloned refcounted property map.
 //
-fn bind<T, E>(elem: &mut E, props: PropertyMapRef, key: &'static str)
+fn bind<T, E>(elem: &mut E, props: PropertyMapRc, key: &'static str)
     where Property: From<T>,
           T: FromStr + Default,
           E: Element + ValueChangedCb {
@@ -96,9 +100,9 @@ macro_rules! bind_stat {
 
 // Data-bind all elements relevant to a party member.
 //
-// @param props {PropertyMapRef} a cloned refcounted property map.
+// @param props {PropertyMapRc} a cloned refcounted property map.
 //
-fn bind_member(props: PropertyMapRef) {
+fn bind_member(props: PropertyMapRc) {
     if let Some(&Property::String(ref name)) = props.borrow().get("Name") {
         if let Some(&Property::Float(level)) = props.borrow().get("Level") {
             let title = format!("{} (Level {})", name, level);
@@ -145,7 +149,7 @@ pub fn ui_loop() -> Result<(), String> {
             }
         }));
         let party = Rc::new(RefCell::new({
-            let mut members: Vec<PropertyMapRef> = Vec::new();
+            let mut members: Vec<PropertyMapRc> = Vec::new();
             if let Some(&Property::String(ref ids)) = game.borrow().get("PartyIDs") {
                 for id in ids.split(",") {
                     let path = Path::new(&dir).join("Party".to_string() + id + ".txt");
@@ -168,13 +172,11 @@ pub fn ui_loop() -> Result<(), String> {
             button_save.set_action(move |_| {
                 let timestamp = time::strftime("%FT%H.%M.%SZ.txt", &time::now_utc()).unwrap();
                 let path = Path::new(&dir).join("Game.txt");
-                println!("Writing {:?}", path);
                 copy(path.as_path(), path.with_extension(&timestamp)).unwrap();
                 write_path(path.as_path(), &game_clone.borrow()).unwrap();
                 for member in party_clone.borrow().iter().skip(1) {
                     if let Some(&Property::String(ref id)) = member.borrow().get("PartyID") {
                         let path = Path::new(&dir).join("Party".to_string() + id + ".txt");
-                        println!("Writing {:?}", path);
                         copy(path.as_path(), path.with_extension(&timestamp)).unwrap();
                         write_path(path.as_path(), &member.borrow()).unwrap();
                     }

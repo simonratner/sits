@@ -1,7 +1,5 @@
 use std::collections::HashMap;
-use std::cell::RefCell;
 use std::fmt;
-use std::rc::Rc;
 
 #[derive(Debug)]
 pub enum Property {
@@ -46,9 +44,3 @@ impl fmt::Display for Property {
 
 /// A collection of properties.
 pub type PropertyMap = HashMap<String, Property>;
-
-/// A refcounted collection of properties.
-///
-/// Since we need to share mutable state with 'static ui callbacks,
-/// we clone a refcounted cell for moving into each callback.
-pub type PropertyMapRef = Rc<RefCell<PropertyMap>>;
