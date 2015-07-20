@@ -1,0 +1,12316 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<skills>
+
+<skill number="1">
+<name>Harbinger</name>
+<description>Those endowed with harbinger abilities do not simply follow the pack like a mindless sheep, they dominate and intimidate every encounter. They make weaker vessels shiver in their paltry boots while drawing followers to them like flies to a jar of honey.					
+
+Harbingers are not known just for their forceful personality, but also for their ability to inspire followers to whatever end. With harbinger one can gain favor of constables and arbiters, and by boasting of their tales they can yield larger rewards for bounties and charismatically sway others to their aid. 																									
+
+Harbinger Skill Uses:
+
+@
+
+Collect summoning horns that will call a variety kinds of creatures to your side that will protect and follow you to whatever end. (Useable inventory item)
+
+@
+
+A curious mortal might find many things around him or her to examine, and some of those things might be better examined with knowledge of Harbinger. (In quick skill book, choose Harbinger aptitude and with aptitude cursor select the object you wish to examine with skill.)
+
+@
+
+</description>																									
+</skill>
+
+<skill number="2">
+<name>Nobility</name>
+<description> With Nobility savvy one can impersonate highborns and utilize your social position as a Spicer to its fullest by getting access to places otherwise closed off to the commonfolk. 
+
+With knowledge of nobility one can understand and use Vykin crests, which have the commanding aura to be able to manipulate and control specific enemies. 
+
+With Nobility you can open more doors for yourself with noble houses and Consils in the Staglands, and reap what services they can offer to a Spicer of quality. Squires and Counselors are particularly quick to find kind words for one with noble bearing.
+
+Nobility Skill Uses:
+
+@
+
+Carry a Vykin crest in your inventory that will turn an enemy into an ally on use. (Useable inventory item)
+
+@
+
+A curious mortal might find many things around him or her to examine, and some of those things might be better examined with knowledge of Nobility. (In quick skill book, choose Nobility aptitude and with aptitude cursor select the object you wish to examine with skill.)
+
+@
+
+</description>
+</skill>
+
+<skill number="3">
+<name>Woodwise</name>
+<description>In a country where so much of the land is unsettled, knowledge in Woodwise gives you an edge when exploring forests and wilderness. 
+
+With your keen nose and eyes you can decipher markings and warnings in nature, as well as you can lay traps and detect and disable traps laid by others. You will also be able to a boon to your companions if you keep watch during rest breaks, keeping the camp safe from the dangers of the wild.
+
+A friend of animals and forest creatures, you understand their tongue and can converse with those willing to stop and talk.
+
+Woodwise Skill Uses:
+
+@
+
+Lay down sap, oil and claw traps that will trip up and harm your enemies. Multiple traps may be used at any given time. (Useable inventory item)
+
+@
+
+Detect and disable traps as you're exploring. (In quick skill book, choose Woodwise aptitude and with aptitude cursor select the companion you wish to detect traps. With same cursor you can disable a trap.)
+
+@
+
+A curious mortal might find many things around him or her to examine, and some of those things might be better examined with knowledge of Woodwise, such as trees and interesting nature formations. (In quick skill book, choose Woodwise aptitude and with aptitude cursor select the object you wish to examine with skill.)
+
+@
+
+</description>
+</skill>
+
+<skill number="4">
+<name>Philosophy</name>
+<description>Steeped in tomes and scrolls of the ancients, philosophers love to speak with other scholars and clerics, and can garner information about the world around them based on their previous knowledge of lore. 
+
+Because of their otherworldy wisdom, philosophers have the unique ability to converse with the demi gods known as the Bloodless, who generally dislike all mortals, but make concessions for humans with a thirst for knowledge.   
+
+Philosophers are also adept at cyphering ancient ruins, and can speak to thieving imps, who have the power to drain attributes from one mortal and give it to another. With enough skill, they are also able to discern the nature of any mortal nearby.
+
+Philosophy Skill Uses:
+
+@
+
+Collect thieving imps trapped in jars that will allow you to steal stats from your companions at no cost to you. (Useable inventory item)
+
+@
+
+Detect the nature of mortals around you. (In quick skill book, choose Philosophy aptitude and with aptitude cursor select the mortal you wish to examine.)
+
+@
+
+A curious mortal might find many things around him or her to examine, and some of those things might be better examined with knowledge of Philosophy. (In quick skill book, choose Philosophy aptitude and with aptitude cursor select the object you wish to examine with skill.)
+
+@
+
+</description>
+</skill>
+
+<skill number="5">
+<name>Linguistics</name>
+<description>Speaking and understanding the tongues of monsters, spirits and other races is a much prized skill for a traveler in the Staglands, helping you win friends with unconventional and misunderstood parties, and deciphering runes and ancient tomes.
+
+With Linguistics, you can unlock the powers of the Incantation Book, and use its runes to curse your enemies and control the elements.
+
+Linguistics Skill Uses:
+
+@
+
+With an Incantation Book you can type chants that will be shouted at a nearby friend or foe, enchant certain items, and make changes to the environment. Incantations require a prefix and an action word, and if your curse is aimed at a mortal or item, the true name of your target. 
+
+Amongst the better skilled apprentices of linguists, it is common to use Incantation Books to pickpocket neighbors with the simple curse "Vrosk Rife Gheorghe", the prefix "vrosk" aiming the spell at a mortal, the action word "rife" indicating an intention to pickpocket, and "Gheorge" being the poor soul about to be short a brooch. 
+
+(Useable inventory item)
+
+@
+
+A curious mortal might find many things around him or her to examine, and some of those things might be better examined with knowledge of Linguistics, like runes, books written by other races, and ancient writings on walls or stones. (In quick skill book, choose Linguistics aptitude and with aptitude cursor select the object you wish to examine with skill.)
+
+@
+
+
+</description>
+</skill>
+
+<skill number="6">
+<name>Herbology</name>
+<description>The patience and knowledge of crafting potions and tonics to ease ailments is a skill known to few, and those mired in the lore of herbology tend to have a fraternal relationship, trading herbs and secrets and trust. 
+
+Use your Herbology skill to gain the confidence of herbologists in the Staglands, as well as create potions that augment your strength, cunning, agility and magical resistance.
+
+Herbology Skill Uses:
+
+@
+
+With an Herb Kit and a brewing pouch, you can create a myriad of potions that boost your speed, physical and arcane defenses, damage potency and accuracy. (Useable inventory item)
+
+@
+
+A curious mortal might find many things around him or her to examine, and some of those things might be better examined with knowledge of Herbology. (In quick skill book, choose Herbology aptitude and with aptitude cursor select the object you wish to examine with skill.)
+
+@
+
+</description>
+</skill>
+
+<skill number="7" spritename="Spar">
+<name>Quick Strike</name>
+<wpntype>Light Weapons</wpntype>
+<description>Training for speed over inflicted pain, your weapon of choice will slash and parry with a swiftness that's nearly blinding.
+	
+@@@@@@@@@@@@@
+	
+	</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+-.15 seconds to Attack Speed
+	
+-1d1 to Physical Damage Skill Mod Roll	
+	
+@@@	
+
+</skill0>
+<skill1>Skill Level 2:
+	
+-.30 seconds to Attack Speed
+	
+-1d1 to Physical Damage Skill Mod Roll 
+	
+@@@
+		
+</skill1>
+<skill2>Skill Level 3:
+	
+-.45 seconds to Attack Speed
+	
+-1d1 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+	</skill2>
+<skill3>Skill Level 4:
+	
+-.60 seconds to Attack Speed
+	
+-2d2 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+	</skill3>
+<skill4>Skill Level 5:
+	
+-.75 seconds to Attack Speed
+	
+-2d2 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+	</skill4>
+<skill5>Skill Level 6:
+	
+-.90 seconds to Attack Speed
+	
+-2d2 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+	</skill5>
+<skill6>Skill Level 7:
+	
+-1.05 seconds to Attack Speed
+	
+-3d3 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+	</skill6>
+<skill7>Skill Level 8:
+	
+-1.20 seconds to Attack Speed
+	
+-3d3 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+	</skill7>
+<skill8>Skill Level 9:
+	
+-1.35 seconds to Attack Speed
+	
+-3d3 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+	</skill8>
+<skill9>Skill Level 10:
+	
+-1.50 seconds to Attack Speed
+	
+-3d3 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+	</skill9>
+<skill10>Skill Level 11:
+	
+-1.65 seconds to Attack Speed
+	
+-4d4 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+	</skill10>
+<skill11>Skill Level 12:
+	
+-1.80 seconds to Attack Speed
+	
+-4d4 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+	</skill11>
+<skill12>Skill Level 13:
+	
+-1.95 seconds to Attack Speed
+	
+-4d4 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+	</skill12>
+<skill13>Skill Level 14:
+	
+-2.10 seconds to Attack Speed
+	
+-5d5 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+	</skill13>
+<skill14>Skill Level 15:
+	
+-2.25 seconds to Attack Speed
+	
+-5d5 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+	</skill14>
+<skill15>Skill Level 15:
+	
+-2.25 seconds to Attack Speed
+	
+-5d5 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+	</skill15>
+<skill16>
+</skill16>
+<synergies></synergies>
+<id>7</id>
+</skill>
+
+<skill number="8" spritename="Bash">
+<name>Bash</name>
+<wpntype>Heavy Weapons</wpntype>
+<description>Muster all your weight behind your swings, ensuring that each hit landed inflicts bone crushing might.
+	
+@@@@@@@@@@@@@	
+	
+	</description>
+<skill-1></skill-1>
+
+
+<skill0>Skill Level 1:
+	
++1d1 to Physical Damage Skill Mod Roll
+	
+-1d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 2:
+	
++1d2 to Physical Damage Skill Mod Roll
+	
+-2d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill1>
+<skill2>Skill Level 3:
+	
++1d3 to Physical Damage Skill Mod Roll
+	
+-3d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill2>
+<skill3>Skill Level 4:
+	
++2d2 to Physical Damage Skill Mod Roll
+	
+-4d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill3>
+<skill4>Skill Level 5:
+	
++2d3 to Physical Damage Skill Mod Roll
+	
+-5d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill4>
+<skill5>Skill Level 6:
+	
++2d4 to Physical Damage Skill Mod Roll
+	
+-6d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill5>
+<skill6>Skill Level 7:
+	
++3d3 to Physical Damage Skill Mod Roll
+	
+-7d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill6>
+<skill7>Skill Level 8:
+	
++3d4 to Physical Damage Skill Mod Roll
+	
+-8d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill7>
+<skill8>Skill Level 9:
+	
++3d5 to Physical Damage Skill Mod Roll
+	
+-9d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill8>
+<skill9>Skill Level 10:
+	
++4d4 to Physical Damage Skill Mod Roll
+	
+-10d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill9>
+<skill10>Skill Level 11:
+	
++4d5 to Physical Damage Skill Mod Roll
+	
+-11d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill10>
+<skill11>Skill Level 12:
+	
++4d6 to Physical Damage Skill Mod Roll
+	
+-12d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill11>
+<skill12>Skill Level 13:
+	
++5d5 to Physical Damage Skill Mod Roll
+	
+-13d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill12>
+<skill13>Skill Level 14:
+	
++5d6 to Physical Damage Skill Mod Roll
+	
+-14d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill13>
+<skill14>Skill Level 15:
+	
++5d7 to Physical Damage Skill Mod Roll
+	
+-15d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill14>
+<skill15>Skill Level 15:
+	
++5d7 to Physical Damage Skill Mod Roll
+	
+-15d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill15>
+<skill16>
+</skill16>
+<synergies></synergies>
+<id>8</id>
+</skill>
+
+
+<skill number="9" spritename="Striker">
+<name>Critical Slash</name>
+<wpntype>Any Melee Weapon</wpntype>
+<description>Hone your sword arm to be able to land attacks on any enemy, ensuring each attack is as deadly and intentional as you need it to be.
+	
+@@@@@@@@@@@@@	
+	
+	</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
++1d1 to Physical Hit Chance Skill Mod Roll
+	
++.08 seconds to Attack Speed 
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 2:
+	
++1d2 to Physical Damage Skill Mod Roll
+	
++.16 seconds to Attack Speed 
+	
+@@@
+	
+</skill1>
+<skill2>Skill Level 3:
+	
++1d3 to Physical Hit Chance Skill Mod Roll
+	
++.24 seconds to Attack Speed 
+	
+@@@
+	
+</skill2>
+<skill3>Skill Level 4:
+	
++2d2 to Physical Hit Chance Skill Mod Roll
+	
++.32 seconds to Attack Speed 
+	
+@@@
+	
+</skill3>
+<skill4>Skill Level 5:
+	
++2d3 to Physical Hit Chance Skill Mod Roll
+	
++.4 seconds to Attack Speed 
+	
+@@@
+	
+</skill4>
+<skill5>Skill Level 6:
+	
++2d4 to Physical Hit Chance Skill Mod Roll
+	
++.48 seconds to Attack Speed 
+	
+@@@
+	
+</skill5>
+<skill6>Skill Level 7:
+	
++3d3 to Physical Hit Chance Skill Mod Roll
+	
++.56 seconds to Attack Speed 
+	
+@@@
+	
+</skill6>
+<skill7>Skill Level 8:
+	
++3d4 to Physical Hit Chance Skill Mod Roll
+	
++.64 seconds to Attack Speed 
+	
+@@@
+	
+</skill7>
+<skill8>Skill Level 9:
+	
++3d5 to Physical Hit Chance Skill Mod Roll
+	
++.72 seconds to Attack Speed 
+	
+@@@
+	
+</skill8>
+<skill9>Skill Level 10:
+	
++4d4 to Physical Hit Chance Skill Mod Roll
+	
++.8 seconds to Attack Speed 
+	
+@@@
+	
+</skill9>
+<skill10>Skill Level 11:
+	
++4d5 to Physical Hit Chance Skill Mod Roll
+	
++.88 seconds to Attack Speed 
+	
+@@@
+	
+</skill10>
+<skill11>Skill Level 12:
+	
++4d6 to Physical Hit Chance Skill Mod Roll
+	
++.96 seconds to Attack Speed 
+	
+@@@
+	
+</skill11>
+<skill12>Skill Level 13:
+	
++5d5 to Physical Hit Chance Skill Mod Roll
+	
++1.04 seconds to Attack Speed 
+	
+@@@
+	
+</skill12>
+<skill13>Skill Level 14:
+	
++5d6 to Physical Hit Chance Skill Mod Roll
+	
++1.12 seconds to Attack Speed 
+	
+@@@
+	
+</skill13>
+<skill14>Skill Level 15:
+	
++5d7 to Physical Hit Chance Skill Mod Roll
+	
++1.2 seconds to Attack Speed 
+	
+@@@
+	
+</skill14>
+<skill15>Skill Level 15:
+	
++5d7 to Physical Hit Chance Skill Mod Roll
+	
++1.2 seconds to Attack Speed 
+	
+@@@
+	
+</skill15>
+<skill16>
+</skill16>
+<synergies></synergies>
+<id>9</id>
+</skill>
+
+<skill number="10" spritename="Shieldless">
+<name>Reckless Offense</name>
+<wpntype>No Shield Equipped, Any Weapon</wpntype>
+<description>Utilize your whole body when fighting, focusing on your agility to dodge and the lack of shield weight to deal increased damage.
+	
+@@@@@@@@@@@@@	
+	
+	</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
++1d1 to Physical Dodge Chance Skill Mod Roll
+	
++1d1 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 2:
+	
++2d1 to Physical Dodge Chance Skill Mod Roll
+	
++1d2 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+</skill1>
+<skill2>Skill Level 3:
+	
++3d1 to Physical Dodge Chance Skill Mod Roll
+	
++1d3 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+</skill2>
+<skill3>Skill Level 4:
+	
++4d1 to Physical Dodge Chance Skill Mod Roll
+	
++2d2 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+</skill3>
+<skill4>Skill Level 5:
+	
++5d1 to Physical Dodge Chance Skill Mod Roll
+	
++2d3 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+</skill4>
+<skill5>Skill Level 6:
+	
++6d1 to Physical Dodge Chance Skill Mod Roll
+	
++2d4 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+</skill5>
+<skill6>Skill Level 7:
+	
++7d1 to Physical Dodge Chance Skill Mod Roll
+	
++3d3 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+</skill6>
+<skill7>Skill Level 8:
+	
++8d1 to Physical Dodge Chance Skill Mod Roll
+	
++3d4 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+</skill7>
+<skill8>Skill Level 9:
+	
++9d1 to Physical Dodge Chance Skill Mod Roll
+	
++3d5 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+</skill8>
+<skill9>Skill Level 10:
+	
++10d1 to Physical Dodge Chance Skill Mod Roll
+	
++4d4 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+</skill9>
+<skill10>Skill Level 11:
+	
++11d1 to Physical Dodge Chance Skill Mod Roll
+	
++3d6 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+</skill10>
+<skill11>Skill Level 12:
+	
++12d1 to Physical Dodge Chance Skill Mod Roll
+	
++4d5 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+</skill11>
+<skill12>Skill Level 13:
+	
++13d1 to Physical Dodge Chance Skill Mod Roll
+	
++4d6 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+</skill12>
+<skill13>Skill Level 14:
+	
++14d1 to Physical Dodge Chance Skill Mod Roll
+	
++5d5 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+</skill13>
+<skill14>Skill Level 15:
+	
++15d1 to Physical Dodge Chance Skill Mod Roll
+	
++5d6 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+</skill14>
+<skill15>Skill Level 15:
+	
++15d1 to Physical Dodge Chance Skill Mod Roll
+	
++5d6 to Physical Damage Skill Mod Roll 
+	
+@@@
+	
+</skill15>
+<skill16>
+</skill16>
+<synergies></synergies>
+<id>10</id>
+</skill>
+
+<skill number="11" spritename="ShieldMastery">
+<name>Shield Mastery</name>
+<wpntype>Shield Equipped</wpntype>
+<description>When fighting in the front lines, a shield is your best defense between an enemy and your vitals. Bolster your armor by mastering better blocking maneuvers with any type of shield equipped in your offhand.
+	
+@@@@@@@@@@@@@	
+	
+	</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
++1d1 to Armor Class Skill Mod Roll
+	
++.08 seconds to Attack Speed 
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 2:
+	
++1d2 to Armor Class Skill Mod Roll
+	
++.16 seconds to Attack Speed 
+	
+@@@
+	
+</skill1>
+<skill2>Skill Level 3:
+	
++1d3 to Armor Class Skill Mod Roll
+	
++.24 seconds to Attack Speed 
+	
+@@@
+	
+</skill2>
+<skill3>Skill Level 4:
+	
++1d4 to Armor Class Skill Mod Roll
+	
++.32 seconds to Attack Speed 
+	
+@@@
+	
+</skill3>
+<skill4>Skill Level 5:
+	
++1d5 to Armor Class Skill Mod Roll
+	
++1d1 to Spell Resistance Skill Mod Roll
+	
++.4 seconds to Attack Speed 
+	
+@@@
+	
+</skill4>
+<skill5>Skill Level 6:
+	
++1d6 to Armor Class Skill Mod Roll
+	
++1d2 to Spell Resistance Skill Mod Roll
+	
++.48 seconds to Attack Speed 
+	
+@@@
+	
+</skill5>
+<skill6>Skill Level 7:
+	
++1d7 to Armor Class Skill Mod Roll
+	
++1d3 to Spell Resistance Skill Mod Roll
+	
++.56 seconds to Attack Speed 
+	
+@@@
+	
+</skill6>
+<skill7>Skill Level 8:
+	
++1d8 to Armor Class Skill Mod Roll
+	
++2d2 to Spell Resistance Skill Mod Roll
+	
++.64 seconds to Attack Speed 
+	
+@@@
+	
+</skill7>
+<skill8>Skill Level 9:
+	
++1d9 to Armor Class Skill Mod Roll
+	
++2d3 to Spell Resistance Skill Mod Roll
+	
++.72 seconds to Attack Speed 
+	
+@@@
+	
+</skill8>
+<skill9>Skill Level 10:
+	
++1d10 to Armor Class Skill Mod Roll
+	
++3d3 to Spell Resistance Skill Mod Roll
+	
++.8 seconds to Attack Speed 
+	
+@@@
+	
+</skill9>
+<skill10>Skill Level 11:
+	
++1d11 to Armor Class Skill Mod Roll
+	
++3d4 to Spell Resistance Skill Mod Roll
+	
++.88 seconds to Attack Speed 
+	
+@@@
+	
+</skill10>
+<skill11>Skill Level 12:
+	
++1d12 to Armor Class Skill Mod Roll
+	
++4d4 to Spell Resistance Skill Mod Roll
+	
++.96 seconds to Attack Speed 
+	
+@@@
+	
+</skill11>
+<skill12>Skill Level 13:
+	
++1d13 to Armor Class Skill Mod Roll
+	
++4d5 to Spell Resistance Skill Mod Roll
+	
++1.04 seconds to Attack Speed 
+	
+@@@
+	
+</skill12>
+<skill13>Skill Level 14:
+	
++1d14 to Armor Class Skill Mod Roll
+	
++5d5 to Spell Resistance Skill Mod Roll
+	
++1.12 seconds to Attack Speed 
+	
+@@@
+	
+</skill13>
+<skill14>Skill Level 15:
+	
++1d15 to Armor Class Skill Mod Roll
+	
++5d6 to Spell Resistance Skill Mod Roll
+	
++1.2 seconds to Attack Speed 
+	
+@@@
+	
+</skill14>
+<skill15>Skill Level 15:
+	
++1d15 to Armor Class Skill Mod Roll
+	
++5d6 to Spell Resistance Skill Mod Roll
+	
++1.2 seconds to Attack Speed 
+	
+@@@
+	
+</skill15>
+<skill16>
+</skill16>
+<synergies></synergies>
+<id>11</id>
+</skill>
+
+<skill number="12" spritename="PreciseAim">
+<name>Critical Flight</name>
+<wpntype>Any Missile Weapons</wpntype>
+<description>Make every missile you fire a deadly countermeasure. Train for precision with your ranged weapons to inflict damage as much as possible.
+	
+@@@@@@@@@@@@@	
+	
+	</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
++1d1 to Physical Hit Chance Skill Mod Roll
+	
++.08 seconds to Attack Speed 
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 2:
+	
++1d2 to Physical Damage Skill Mod Roll
+	
++.16 seconds to Attack Speed 
+	
+@@@
+	
+</skill1>
+<skill2>Skill Level 3:
+	
++1d3 to Physical Hit Chance Skill Mod Roll
+	
++.24 seconds to Attack Speed 
+	
+@@@
+	
+</skill2>
+<skill3>Skill Level 4:
+	
++2d2 to Physical Hit Chance Skill Mod Roll
+	
++.32 seconds to Attack Speed 
+	
+@@@
+	
+</skill3>
+<skill4>Skill Level 5:
+	
++2d3 to Physical Hit Chance Skill Mod Roll
+	
++.4 seconds to Attack Speed 
+	
+@@@
+	
+</skill4>
+<skill5>Skill Level 6:
+	
++2d4 to Physical Hit Chance Skill Mod Roll
+	
++.48 seconds to Attack Speed 
+	
+@@@
+	
+</skill5>
+<skill6>Skill Level 7:
+	
++3d3 to Physical Hit Chance Skill Mod Roll
+	
++.56 seconds to Attack Speed 
+	
+@@@
+	
+</skill6>
+<skill7>Skill Level 8:
+	
++3d4 to Physical Hit Chance Skill Mod Roll
+	
++.64 seconds to Attack Speed 
+	
+@@@
+	
+</skill7>
+<skill8>Skill Level 9:
+	
++3d5 to Physical Hit Chance Skill Mod Roll
+	
++.72 seconds to Attack Speed 
+	
+@@@
+	
+</skill8>
+<skill9>Skill Level 10:
+	
++4d4 to Physical Hit Chance Skill Mod Roll
+	
++.8 seconds to Attack Speed 
+	
+@@@
+	
+</skill9>
+<skill10>Skill Level 11:
+	
++4d5 to Physical Hit Chance Skill Mod Roll
+	
++.88 seconds to Attack Speed 
+	
+@@@
+	
+</skill10>
+<skill11>Skill Level 12:
+	
++4d6 to Physical Hit Chance Skill Mod Roll
+	
++.96 seconds to Attack Speed 
+	
+@@@
+	
+</skill11>
+<skill12>Skill Level 13:
+	
++5d5 to Physical Hit Chance Skill Mod Roll
+	
++1.04 seconds to Attack Speed 
+	
+@@@
+	
+</skill12>
+<skill13>Skill Level 14:
+	
++5d6 to Physical Hit Chance Skill Mod Roll
+	
++1.12 seconds to Attack Speed 
+	
+@@@
+	
+</skill13>
+<skill14>Skill Level 15:
+	
++5d7 to Physical Hit Chance Skill Mod Roll
+	
++1.2 seconds to Attack Speed 
+	
+@@@
+	
+</skill14>
+<skill15>Skill Level 15:
+	
++5d7 to Physical Hit Chance Skill Mod Roll
+	
++1.2 seconds to Attack Speed 
+	
+@@@
+	
+</skill15>
+<skill16>
+</skill16>
+<synergies></synergies>
+<id>12</id>
+</skill>
+
+<skill number="13" spritename="Hummingbird">
+<name>Rapid Draw</name>
+<wpntype>Any Missile Weapons</wpntype>
+<description>Train with your missile weapon to be able to loose arrows and bolts quicker, relying less on precise targeting and more on bombardment. 
+	
+@@@@@@@@@@@@@	
+	
+	</description>																								<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+-.15 seconds to Attack Speed
+	
+-1d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 2:
+	
+-.30 seconds to Attack Speed
+	
+-2d1 to Physical Hit Chance Skill Mod Roll  
+	
+@@@
+	
+</skill1>
+<skill2>Skill Level 3:
+	
+-.45 seconds to Attack Speed
+	
+-3d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill2>
+<skill3>Skill Level 4:
+	
+-.60 seconds to Attack Speed
+	
+-4d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill3>
+<skill4>Skill Level 5:
+	
+-.75 seconds to Attack Speed
+	
+-5d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill4>
+<skill5>Skill Level 6:
+	
+-.90 seconds to Attack Speed
+	
+-6d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill5>
+<skill6>Skill Level 7:
+	
+-1.05 seconds to Attack Speed
+	
+-7d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill6>
+<skill7>Skill Level 8:
+	
+-1.20 seconds to Attack Speed
+	
+-8d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill7>
+<skill8>Skill Level 9:
+	
+-1.35 seconds to Attack Speed
+	
+-9d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill8>
+<skill9>Skill Level 10:
+	
+-1.50 seconds to Attack Speed
+	
+-10d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill9>
+<skill10>Skill Level 11:
+	
+-1.65 seconds to Attack Speed
+	
+-11d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill10>
+<skill11>Skill Level 12:
+	
+-1.80 seconds to Attack Speed
+	
+-12d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill11>
+<skill12>Skill Level 13:
+	
+-1.95 seconds to Attack Speed
+	
+-13d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill12>
+<skill13>Skill Level 14:
+	
+-2.10 seconds to Attack Speed
+	
+-14d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill13>
+<skill14>Skill Level 15:
+	
+-2.25 seconds to Attack Speed
+	
+-15d1 to Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+-2.25 seconds to Attack Speed
+	
+-15d1 to Physical Hit Chance Skill Mod Roll  
+	
+@@@
+	
+</skill15>
+<skill16>
+</skill16>
+<synergies></synergies>
+<id>13</id>
+</skill>
+
+<skill number="14" spritename="ExplosiveTrap">
+<name>Explosive Trap</name>
+<wpntype>Elixirs</wpntype>
+<description>Learn more alchemic knowledge focusing on making your thrown elixers more volatile with the addition of quicklime, creating an unblockable corrosive damage on impact. With increased skill, your explosives can yield a larger area of thermal damage.
+	
+@@@@@@@@@@@@@	
+	
+	</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+1d1 Non-blockable Explosive Damage on top of Physical Damage
+	
+Radius: 2 paces 
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 2:
+	
+1d2 Non-blockable Explosive Damage on top of Physical Damage
+	
+Radius: 2.5 paces 
+	
+@@@
+	
+</skill1>
+<skill2>Skill Level 3:
+	
+1d3 Non-blockable Explosive Damage on top of Physical Damage
+	
+Radius: 3 paces 
+	
+@@@
+	
+</skill2>
+<skill3>Skill Level 4:
+	
+1d4 Non-blockable Explosive Damage on top of Physical Damage
+	
+Radius: 3.5 paces 
+	
+@@@
+	
+</skill3>
+<skill4>Skill Level 5:
+	
+1d5 Non-blockable Explosive Damage on top of Physical Damage
+	
+Radius: 4 paces 
+	
+@@@
+	
+</skill4>
+<skill5>Skill Level 6:
+	
+1d6 Non-blockable Explosive Damage on top of Physical Damage
+	
+Radius: 4.5 paces 
+	
+@@@
+	
+</skill5>
+<skill6>Skill Level 7:
+	
+1d7 Non-blockable Explosive Damage on top of Physical Damage
+	
+Radius: 5 paces 
+	
+@@@
+	
+</skill6>
+<skill7>Skill Level 8:
+	
+1d8 Non-blockable Explosive Damage on top of Physical Damage
+	
+Radius: 5.5 paces 
+	
+@@@
+	
+</skill7>
+<skill8>Skill Level 9:
+	
+1d9 Non-blockable Explosive Damage on top of Physical Damage
+	
+Radius: 6 paces 
+	
+@@@
+	
+</skill8>
+<skill9>Skill Level 10:
+	
+1d10 Non-blockable Explosive Damage on top of Physical Damage
+	
+Radius: 6.5 paces 
+	
+@@@
+	
+</skill9>
+<skill10>Skill Level 11:
+	
+1d11 Non-blockable Explosive Damage on top of Physical Damage
+	
+Radius: 7 paces 
+	
+@@@
+	
+</skill10>
+<skill11>Skill Level 12:
+	
+1d12 Non-blockable Explosive Damage on top of Physical Damage
+	
+Radius: 7.5 paces 
+	
+@@@
+	
+</skill11>
+<skill12>Skill Level 13:
+	
+1d13 Non-blockable Explosive Damage on top of Physical Damage
+	
+Radius: 8 paces 
+	
+@@@
+	
+</skill12>
+<skill13>Skill Level 14:
+	
+1d14 Non-blockable Explosive Damage on top of Physical Damage
+	
+Radius: 8.5 paces 
+	
+@@@
+	
+</skill13>
+<skill14>Skill Level 15:
+	
+1d15 Non-blockable Explosive Damage on top of Physical Damage
+	 
+Radius: 9 paces 
+	
+@@@
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+1d15 Non-blockable Explosive Damage on top of Physical Damage
+	
+Radius: 9.5 paces 
+	
+@@@
+	
+</skill15>
+<skill16>
+</skill16>
+<synergies></synergies>
+<id>14</id>
+</skill>
+
+<skill number="15" spritename="Monster">
+<name>Slayer</name>
+<wpntype>Any Weapon</wpntype>
+<description>Refine your ability to kill the monsters of Vol. With more knowledge on your enemies, you can make more proficient attacks in killing any of the spirits that surfaced and any other monsters (excluding passive creatures).
+	
+@@@@@@@@@@@@@		
+	
+	</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+1d1 additional Physical Damage Roll against monsters 
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 2:
+	
+1d2 additional Physical Damage Roll against monsters 
+	
+@@@
+	
+</skill1>
+<skill2>Skill Level 3:
+	
+1d3 additional Physical Damage Roll against monsters 
+	
+@@@
+	
+</skill2>
+<skill3>Skill Level 4:
+	
+2d2 additional Physical Damage Roll against monsters 
+	
+@@@
+	
+</skill3>
+<skill4>Skill Level 5:
+	
+2d3 additional Physical Damage Roll against monsters 
+	
+@@@
+	
+</skill4>
+<skill5>Skill Level 6:
+	
+2d4 additional Physical Damage Roll against monsters 
+	
+@@@
+	
+</skill5>
+<skill6>Skill Level 7:
+	
+3d3 additional Physical Damage Roll against monsters 
+	
+@@@
+	
+</skill6>
+<skill7>Skill Level 8:
+	
+3d4 additional Physical Damage Roll against monsters 
+	
+@@@
+	
+</skill7>
+<skill8>Skill Level 9:
+	
+3d5 additional Physical Damage Roll against monsters 
+	
+@@@
+	
+</skill8>
+<skill9>Skill Level 10:
+	
+4d4 additional Physical Damage Roll against monsters 
+	
+@@@
+	
+</skill9>
+<skill10>Skill Level 11:
+	
+4d5 additional Physical Damage Roll against monsters 
+	
+@@@
+	
+</skill10>
+<skill11>Skill Level 12:
+	
+4d6 additional Physical Damage Roll against monsters 
+	
+@@@
+	
+</skill11>
+<skill12>Skill Level 13:
+	
+5d5 additional Physical Damage Roll against monsters 
+	
+@@@
+	
+</skill12>
+<skill13>Skill Level 14:
+	
+5d6 additional Physical Damage Roll against monsters 
+	
+@@@
+	
+</skill13>
+<skill14>Skill Level 15:
+	
+5d7 additional Physical Damage Roll against monsters 
+	
+@@@
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+5d7 additional Physical Damage Roll against monsters 
+	
+@@@
+	
+</skill15>
+<skill16>
+</skill16>
+<synergies>Skill Synergies:</synergies>
+<id>15</id>
+</skill>
+
+<skill number="16" spritename="Man">
+<name>Assassin</name>
+<wpntype>Any Weapon</wpntype>
+<description>Refine your ability to kill other Mortals. With more knowledge on your enemies, you can make more proficient attacks in killing any of the common mortals (Ameythevians, Pasaarens, Varuchovs, Lachovinians and Taratoriths)
+	
+@@@@@@@@@@@@@		
+	
+	</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+1d1 additional Physical Damage Roll against humans 
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 2:
+	
+1d2 additional Physical Damage Roll against humans 
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+	
+1d3 additional Physical Damage Roll against humans 
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+	
+2d2 additional Physical Damage Roll against humans 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+	
+2d3 additional Physical Damage Roll against humans 
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+	
+2d4 additional Physical Damage Roll against humans 
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+	
+3d3 additional Physical Damage Roll against humans 
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+	
+3d4 additional Physical Damage Roll against humans 
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+	
+3d5 additional Physical Damage Roll against humans 
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+	
+4d4 additional Physical Damage Roll against humans 
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+	
+4d5 additional Physical Damage Roll against humans 
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+	
+4d6 additional Physical Damage Roll against humans 
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+	
+5d5 additional Physical Damage Roll against humans 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+	
+5d6 additional Physical Damage Roll against humans 
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+	
+5d7 additional Physical Damage Roll against humans 
+	
+@@@
+
+</skill14>
+<skill15>Skill Level 15:
+	
+5d7 additional Physical Damage Roll against humans 
+	
+@@@
+
+</skill15>
+<skill16>
+</skill16>
+<synergies>Synergy 2</synergies>
+<id>16</id>
+</skill>
+
+<skill number="17" spritename="FastOnFeet">
+<name>Agile Fighting</name>
+<wpntype>Any Weapon</wpntype>
+<description> Stand your ground in combat by taking a defensive stance to increase your chance of evading blows completely.
+	
+@@@@@@@@@@@@@		
+	
+	</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
++1d1 to Physical Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill0>
+<skill1>Skill Level 2:
+	
++1d2 to Physical Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+	
++1d3 to Physical Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+	
++2d2 to Physical Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+	
++2d3 to Physical Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+	
++2d4 to Physical Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+	
++3d3 to Physical Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+	
++3d4 to Physical Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+	
++3d5 to Physical Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+	
++4d4 to Physical Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+	
++3d6 to Physical Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+	
++4d5 to Physical Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+	
++4d6 to Physical Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+	
++5d5 to Physical Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+	
++5d6 to Physical Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill14>
+<skill15>Skill Level 15:
+	
++5d6 to Physical Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill15>
+<skill16>
+</skill16>
+<synergies>Skill Synergies:</synergies>
+<id>17</id>
+</skill>
+
+<skill number="18" spritename="Warcry">
+<name>Warcry</name>
+<wpntype>Any Weapon</wpntype>
+<description>Your heralding increases the morale of those around you, invigorating them at the beginning of any battle. 
+
+Warcry begins its effects after your first melee or ranged attack at the beginning of combat.
+		
+@@@@@@@@@@@@@	
+	
+	</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
++1d1 to Physical Damage Skill Mod Roll to each companion and yourself
+	
+Duration: 5 seconds 
+	
+@@@
+
+</skill0>
+<skill1>Skill Level 2:
+	
++1d2 to Physical Damage Skill Mod Roll to each companion and yourself
+	
+Duration: 5.5 seconds 
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+	
++1d3 to Physical Damage Skill Mod Roll to each companion and yourself
+	
+Duration: 6 seconds 
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+	
++2d2 to Physical Damage Skill Mod Roll to each companion and yourself
+	
+Duration: 6.5 seconds 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+	
++2d3 to Physical Damage Skill Mod Roll to each companion and yourself
+	
+Duration: 7 seconds 
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+	
++2d4 to Physical Damage Skill Mod Roll to each companion and yourself
+	
+Duration: 7.5 seconds 
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+	
++3d3 to Physical Damage Skill Mod Roll to each companion and yourself
+	
+Duration: 8 seconds 
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+	
++3d4 to Physical Damage Skill Mod Roll to each companion and yourself
+	
+Duration: 8.5 seconds 
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+	
++3d5 to Physical Damage Skill Mod Roll to each companion and yourself
+	
+Duration: 9 seconds 
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+	
++4d4 to Physical Damage Skill Mod Roll to each companion and yourself
+	
+Duration: 9.5 seconds 
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+	
++3d6 to Physical Damage Skill Mod Roll to each companion and yourself
+	
+Duration: 10 seconds 
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+	
++4d5 to Physical Damage Skill Mod Roll to each companion and yourself
+	
+Duration: 10.5 seconds 
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+	
++4d6 to Physical Damage Skill Mod Roll to each companion and yourself
+	
+Duration: 11 seconds 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+	
++5d5 to Physical Damage Skill Mod Roll to each companion and yourself
+	
+Duration: 11.5 seconds 
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+	
++5d6 to Physical Damage Skill Mod Roll to each companion and yourself
+	
+Duration: 12 seconds 
+	
+@@@
+
+</skill14>
+<skill15>Skill Level 15:
+	
++5d6 to Physical Damage Skill Mod Roll to each companion and yourself
+	
+Duration: 12 seconds 
+	
+@@@
+
+</skill15>
+<skill16>
+</skill16>
+<synergies>Skill Synergies:</synergies>
+<id>18</id>
+</skill>
+
+<skill number="19" spritename="Rally">
+<name>Rally</name>
+<wpntype>Any Weapon</wpntype>
+<description>Rally your party into combat. Your invigorating courage manifests as a physical shield for you and those around you at the start of a battle.
+
+Rally begins its effects after your first melee or ranged attack at the beginning of combat.
+	
+@@@@@@@@@@@@@	
+	
+	</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
++1d1 to Armor Class Skill Mod Roll to each companion and yourself
+	
+Duration: 5 seconds 
+	
+@@@
+
+</skill0>
+<skill1>Skill Level 2:
+	
++1d2 to Armor Class Skill Mod Roll to each companion and yourself
+	
+Duration: 5.5 seconds 
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+	
++1d3 to Armor Class Skill Mod Roll to each companion and yourself
+	
+Duration: 6 seconds 
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+	
++2d2 to Armor Class Skill Mod Roll to each companion and yourself
+	
+Duration: 6.5 seconds 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+	
++2d3 to Armor Class Skill Mod Roll to each companion and yourself
+	
+Duration: 7 seconds 
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+	
++2d4 to Armor Class Skill Mod Roll to each companion and yourself
+	
+Duration: 7.5 seconds 
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+	
++3d3 to Armor Class Skill Mod Roll to each companion and yourself
+	
+Duration: 8 seconds 
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+	
++3d4 to Armor Class Skill Mod Roll to each companion and yourself
+	
+Duration: 8.5 seconds 
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+	
++3d5 to Armor Class Skill Mod Roll to each companion and yourself
+	
+Duration: 9 seconds 
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+	
++4d4 to Armor Class Skill Mod Roll to each companion and yourself
+	
+Duration: 9.5 seconds 
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+	
++3d6 to Armor Class Skill Mod Roll to each companion and yourself
+	
+Duration: 10 seconds 
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+	
++4d5 to Armor Class Skill Mod Roll to each companion and yourself
+	
+Duration: 10.5 seconds 
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+	
++4d6 to Armor Class Skill Mod Roll to each companion and yourself
+	
+Duration: 11 seconds 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+	
++5d5 to Armor Class Skill Mod Roll to each companion and yourself
+	
+Duration: 11.5 seconds 
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+	
++5d6 to Armor Class Skill Mod Roll to each companion and yourself
+	
+Duration: 12 seconds 
+	
+@@@
+
+</skill14>
+<skill15>Skill Level 15:
+	
++5d6 to Armor Class Skill Mod Roll to each companion and yourself
+	
+Duration: 12 seconds 
+	
+@@@
+
+</skill15>
+<skill16>
+</skill16>
+<synergies>Skill Synergies:</synergies>
+<id>19</id>
+</skill>
+
+<skill number="20" spritename="FortifyMind">
+<name>Fortify Mind</name>
+<wpntype>Any Weapon</wpntype>
+<description>Hold your ground against any maelstrom of magical assaults by enhancing your will power to naturally resist spells.
+	
+@@@@@@@@@@@@@	
+	
+	</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
++1d1 to Spell Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill0>
+<skill1>Skill Level 2:
+	
++1d2 to Spell Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+	
++1d3 to Spell Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+	
++2d2 to Spell Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+	
++2d3 to Spell Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+	
++2d4 to Spell Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+	
++3d3 to Spell Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+	
++3d4 to Spell Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+	
++3d5 to Spell Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+	
++4d4 to Spell Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+	
++3d6 to Spell Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+	
++4d5 to Spell Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+	
++4d6 to Spell Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+	
++5d5 to Spell Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+	
++5d6 to Spell Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill14>
+<skill15>Skill Level 15:
+	
++5d6 to Spell Dodge Chance Skill Mod Roll 
+	
+@@@
+
+</skill15>
+<skill16>
+</skill16>
+<synergies></synergies>
+<id>20</id>
+</skill>
+
+<skill number="21" spritename="EndurePolymorphedState">
+<name>Endure Polymorph State</name>
+<wpntype>Any Weapon</wpntype>
+<description>Focus your arcane will when polymorphed to remain in your altered form longer.
+	
+@@@@@@@@@@@@@	
+	
+	</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+Increase polymorph duration by 3 seconds 
+	
+@@@
+
+</skill0>
+<skill1>Skill Level 2:
+	
+Increase polymorph duration by 4 seconds 
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+	
+Increase polymorph duration by 5 seconds 
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+	
+Increase polymorph duration by 6 seconds 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+	
+Increase polymorph duration by 7 seconds 
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+	
+Increase polymorph duration by 8 seconds 
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+	
+Increase polymorph duration by 9 seconds 
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+	
+Increase polymorph duration by 10 seconds 
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+	
+Increase polymorph duration by 11 seconds 
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+	
+Increase polymorph duration by 12 seconds 
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+	
+Increase polymorph duration by 13 seconds 
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+	
+-Increase polymorph duration by 14 seconds 
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+	
+Increase polymorph duration by 15 seconds 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+	
+Increase polymorph duration by 16 seconds 
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+	
+Increase polymorph duration by 17 seconds 
+	
+@@@
+
+</skill14>
+<skill15>Skill Level 15:
+	
+Increase polymorph duration by 17 seconds 
+	
+@@@
+
+</skill15>
+<skill16>
+</skill16>
+<synergies></synergies>
+<id>21</id>
+</skill>
+
+<skill number="22" spritename="Silence">
+<name>Mind Crack</name>
+<wpntype>Whips</wpntype>
+<description>Imbue your lashing weapon with a magical corrosion, tearing the words straight from the mouth a sorcerer, and expelling any trace of magical energies. With additional training a trained whip crack can inflict the magical corrosion in vast area, silencing all those within.
+
+@
+	
+Procs every 3 attacks
+	
+@@@@@@@@@@@@@	
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1: 
+		
+Radius: 2 paces 
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 2:
+	
+Radius: 3 paces 
+	
+@@@
+	
+</skill1>
+<skill2>Skill Level 3:
+	
+Radius: 4 paces 
+	
+@@@
+	
+</skill2>
+<skill3>Skill Level 4:
+	
+Radius: 5 paces 
+	
+@@@
+	
+</skill3>
+<skill4>Skill Level 5:
+	
+Radius: 6 paces 
+	
+@@@
+	
+</skill4>
+<skill5>Skill Level 6:
+	
+Radius: 7 paces 
+	
+@@@
+	
+</skill5>
+<skill6>Skill Level 7:
+	
+Radius: 8 paces 
+	
+@@@
+	
+</skill6>
+<skill7>Skill Level 8:
+	
+Radius: 9 paces 
+	
+@@@
+	
+</skill7>
+<skill8>Skill Level 9:
+	
+Radius: 10 paces 
+	
+@@@
+	
+</skill8>
+<skill9>Skill Level 10:
+	
+Radius: 11 paces 
+	
+@@@
+	
+</skill9>
+<skill10>Skill Level 11:
+	
+Radius: 12 paces 
+	
+@@@
+	
+</skill10>
+<skill11>Skill Level 12:
+	
+Radius: 13 paces 
+	
+@@@
+	
+</skill11>
+<skill12>Skill Level 13:
+	
+Radius: 14 paces 
+	
+@@@
+	
+</skill12>
+<skill13>Skill Level 14:
+	
+Radius: 15 paces 
+	
+@@@
+	
+</skill13>
+<skill14>Skill Level 15:
+	
+Radius: 16 paces 
+	
+@@@
+	
+</skill14>
+<skill15>
+</skill15>
+<skill16>
+</skill16>
+<synergies>
+Synergies
+Torture: Adds 1d(Skill Points) of damage when you crack your whip.</synergies>
+<id>22</id>
+</skill>
+
+<skill number="23" spritename="CrushingBlow">
+<name>Seismic Swing</name>
+<wpntype>Heavy Weapon</wpntype>
+<description>Draw an immense amount of might into your swing, charging it into a seismic force when swinging into a target. The force blasts those in an area, knocking the wind out of them and disengaging their defenses.
+
+@
+	
+Procs every 2 attacks
+	
+@@@@@@@@@@@@@	
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+-1d1 to Target(s) AC Skill Mod Roll
+	
+Radius: 2 paces
+	
+Duration: 7 
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 2:
+	
+-1d2 to Target(s) AC Skill Mod Roll
+	
+Radius: 3 paces
+	
+Duration: 7 
+	
+@@@
+	
+</skill1>
+<skill2>Skill Level 3:
+	
+-1d3 to Target(s) AC Skill Mod Roll
+	
+Radius: 4 paces
+	
+Duration: 7 
+	
+@@@
+	
+</skill2>
+<skill3>Skill Level 4:
+	
+-2d2 to Target(s) AC Skill Mod Roll
+	
+Radius: 5 paces
+	
+Duration: 7 
+	
+@@@
+	
+</skill3>
+<skill4>Skill Level 5:
+	
+-2d3 to Target(s) AC Skill Mod Roll
+	
+Radius: 6 paces
+	
+Duration: 7 
+	
+@@@
+	
+</skill4>
+<skill5>Skill Level 6:
+	
+-2d4 to Target(s) AC Skill Mod Roll
+	
+Radius: 7 paces
+	
+Duration: 7 
+	
+@@@
+	
+</skill5>
+<skill6>Skill Level 7:
+	
+-3d3 to Target(s) AC Skill Mod Roll
+	
+Radius: 8 paces
+	
+Duration: 7 
+	
+@@@
+	
+</skill6>
+<skill7>Skill Level 8:
+	
+-3d4 to Target(s) AC Skill Mod Roll
+	
+Radius: 9 paces
+	
+Duration: 7 
+	
+@@@
+	
+</skill7>
+<skill8>Skill Level 9:
+	
+-3d5 to Target(s) AC Skill Mod Roll
+	
+Radius: 10 paces
+	
+Duration: 7 
+	
+@@@
+	
+</skill8>
+<skill9>Skill Level 10:
+	
+-4d4 to Target(s) AC Skill Mod Roll
+	
+Radius: 11 paces
+	
+Duration: 7 
+	
+@@@
+	
+</skill9>
+<skill10>Skill Level 11:
+	
+-3d6 to Target(s) AC Skill Mod Roll
+	
+Radius: 12 paces
+	
+Duration: 7 
+	
+@@@
+	
+</skill10>
+<skill11>Skill Level 12:
+	
+-4d5 to Target(s) AC Skill Mod Roll
+	
+Radius: 13 paces
+	
+Duration: 7 
+	
+@@@
+	
+</skill11>
+<skill12>Skill Level 13:
+	
+-4d6 to Target(s) AC Skill Mod Roll
+	
+Radius: 14 paces
+	
+Duration: 7 
+	
+@@@
+	
+</skill12>
+<skill13>Skill Level 14:
+	
+-5d5 to Target(s) AC Skill Mod Roll
+	
+Radius: 15 paces
+	
+Duration: 7 
+	
+@@@
+	
+</skill13>
+<skill14>Skill Level 15:
+	
+-5d6 to Target(s) AC Skill Mod Roll
+	
+Radius: 16 paces
+	
+Duration: 7 
+	
+@@@
+	
+</skill14>
+<skill15>
+</skill15>
+<skill16>
+</skill16>
+<synergies></synergies>
+<id>23</id>
+</skill>
+
+<skill number="24" spritename="StaggeringSlash">
+<name>Staggering Thrust</name>
+<wpntype>Any Weapon</wpntype>
+<description>With trained knowledge on where and how to inflict a crippling attack onto your enemy, you can thrust your weapon into your target's vitals, staggering their balance and ability to attack.
+	
+@@@@@@@@@@@@@		
+	
+	</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+-1d1 to Target Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 2:
+	
+-2d1 to Target Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill1>
+<skill2>Skill Level 3:
+	
+-3d1 to Target Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill2>
+<skill3>Skill Level 4:
+	
+-4d1 to Target Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill3>
+<skill4>Skill Level 5:
+	
+-3d2 to Target Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill4>
+<skill5>Skill Level 6:
+	
+-4d2 to Target Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill5>
+<skill6>Skill Level 7:
+	
+-5d2 to Target Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill6>
+<skill7>Skill Level 8:
+	
+-6d2 to Target Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill7>
+<skill8>Skill Level 9:
+	
+-7d2 to Target Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill8>
+<skill9>Skill Level 10:
+	
+-6d3 to Target Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill9>
+<skill10>Skill Level 11:
+	
+-7d3 to Target Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill10>
+<skill11>Skill Level 12:
+	
+-8d3 to Target Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill11>
+<skill12>Skill Level 13:
+	
+-9d3 to Target Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill12>
+<skill13>Skill Level 14:
+	
+-10d3 to Target Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill13>
+<skill14>Skill Level 15:
+	
+-11d3 to Target Physical Hit Chance Skill Mod Roll 
+	
+@@@
+	
+</skill14>
+<skill15>
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>24</id>
+</skill>
+
+<skill number="25" spritename="Fury">
+<name>Hydra</name>
+<wpntype>Any weapon</wpntype>
+<description>With skilled resilience, you remain calm and calculated after getting attacked, using the increased adrenaline for better agility and precision against your enemies.
+
+@	
+	
+Procs on hit
+	
+@@@@@@@@@@@@@	
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+1d1 to Physical Hit Chance Skill Mod Roll
+	
+-.25 seconds to Attack Speed
+	
+Duration:  3 seconds 
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 2:
+	
+1d2 to Physical Hit Chance Skill Mod Roll
+	
+-.35 seconds to Attack Speed
+	
+Duration:  3 seconds 
+	
+@@@
+	
+</skill1>
+<skill2>Skill Level 3:
+	
+1d3 to Physical Hit Chance Skill Mod Roll
+	
+-.45 seconds to Attack Speed
+	
+Duration:  3 seconds 
+	
+@@@
+	
+</skill2>
+<skill3>Skill Level 4:
+	
+2d2 to Physical Hit Chance Skill Mod Roll
+	
+-.55 seconds to Attack Speed
+	
+Duration:  3 seconds 
+	
+@@@
+	
+</skill3>
+<skill4>Skill Level 5:
+	
+2d3 to Physical Hit Chance Skill Mod Roll
+	
+-.65 seconds to Attack Speed
+	
+Duration:  3 seconds 
+	
+@@@
+	
+</skill4>
+<skill5>Skill Level 6:
+	
+2d4 to Physical Hit Chance Skill Mod Roll
+	
+-.75 seconds to Attack Speed
+	
+Duration:  3 seconds 
+	
+@@@
+	
+</skill5>
+<skill6>Skill Level 7:
+	
+3d3 to Physical Hit Chance Skill Mod Roll
+	
+-.85 seconds to Attack Speed
+	
+Duration:  3 seconds 
+	
+@@@
+	
+</skill6>
+<skill7>Skill Level 8:
+	
+3d4 to Physical Hit Chance Skill Mod Roll
+	
+-.95 seconds to Attack Speed
+	
+Duration:  3 seconds 
+	
+@@@
+	
+</skill7>
+<skill8>Skill Level 9:
+	
+3d5 to Physical Hit Chance Skill Mod Roll
+	
+-1.05 seconds to Attack Speed
+	
+Duration:  3 seconds 
+	
+@@@
+	
+</skill8>
+<skill9>Skill Level 10:
+	
+4d4 to Physical Hit Chance Skill Mod Roll
+	
+-1.15 seconds to Attack Speed
+	
+Duration:  3 seconds 
+	
+@@@
+	
+</skill9>
+<skill10>Skill Level 11:
+	
+4d5 to Physical Hit Chance Skill Mod Roll
+	
+-1.25 seconds to Attack Speed
+	
+Duration:  3 seconds 
+	
+@@@
+	
+</skill10>
+<skill11>Skill Level 12:
+	
+4d6 to Physical Hit Chance Skill Mod Roll
+	
+-1.35 seconds to Attack Speed
+	
+Duration:  3 seconds 
+	
+@@@
+	
+</skill11>
+<skill12>Skill Level 13:
+	
+5d5 to Physical Hit Chance Skill Mod Roll
+	
+-1.45 seconds to Attack Speed
+	
+Duration:  3 seconds 
+	
+@@@
+	
+</skill12>
+<skill13>Skill Level 14:
+	
+5d6 to Physical Hit Chance Skill Mod Roll
+	
+-1.55 seconds to Attack Speed
+	
+Duration:  3 seconds 
+	
+@@@
+	
+</skill13>
+<skill14>Skill Level 15:
+	
+5d7 to Physical Hit Chance Skill Mod Roll
+	
+-1.65 seconds to Attack Speed
+	
+Duration:  3 seconds 
+	
+@@@
+	
+</skill14>
+<skill15>
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>25</id>
+</skill>
+
+<skill number="26" spritename="Parry">
+<name>Fortitude</name>
+<wpntype>Any Weapon</wpntype>
+<description>With reckless rage, the pain you feel enrages your warrior prowess. You return attacks with increased damage.
+	
+@
+	
+Procs on hit
+	
+@@@@@@@@@@@@@	
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+1d1 to Physical Damage Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 2:
+	
+2d1 to Physical Damage Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+	
+3d1 to Physical Damage Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+	
+4d1 to Physical Damage Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+	
+5d1 to Physical Damage Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+	
+6d1 to Physical Damage Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+	
+7d1 to Physical Damage Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+	
+8d1 to Physical Damage Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+	
+9d1 to Physical Damage Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+	
+10d1 to Physical Damage Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+	
+11d1 to Physical Damage Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+	
+12d1 to Physical Damage Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+	
+13d1 to Physical Damage Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+	
+14d1 to Physical Damage Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+	
+15d1 to Physical Damage Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill14>
+<skill15>
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>26</id>
+</skill>
+
+<skill number="27" spritename="PinShot">
+<name>Pin Shot</name>
+<wpntype>Missile Weapons</wpntype>
+<description>Precise training and hits will allow you to render your targets slowed and crippled. Your projectiles will bring an enemy to a crawl, and with increased skill make them less able to evade attacks.
+	
+@	
+	
+Procs every 2 attacks
+	
+@@@@@@@@@@@@@	
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+-2d2 to Target Physical Dodge Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill0>
+<skill1>Skill Level 2:
+	
+-2d3 to Target Physical Dodge Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+	
+-2d4 to Target Physical Dodge Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+	
+-3d3 to Target Physical Dodge Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+	
+-3d4 to Target Physical Dodge Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+	
+-4d4 to Target Physical Dodge Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+	
+-3d5 to Target Physical Dodge Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+	
+-4d5 to Target Physical Dodge Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+	
+-5d5 to Target Physical Dodge Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+	
+-4d6 to Target Physical Dodge Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+	
+-4d7 to Target Physical Dodge Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+	
+-5d6 to Target Physical Dodge Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+	
+-6d6 to Target Physical Dodge Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+	
+-6d7 to Target Physical Dodge Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+	
+-6d8 to Target Physical Dodge Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill14>
+<skill15>
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>27</id>
+</skill>
+
+<skill number="28" spritename="SplitArrow">
+<name>Split Missile</name>
+<wpntype>Missile Weapons</wpntype>
+<description>Usually considered a magical boon, a highly skilled archer or crossbowman can notch their weapons to shatter upon impact. The missile splinters into hundreds of pieces, carving deadly lacerations into everyone in the proximity.
+	
+@	
+	
+Procs every 3 attacks
+	
+@@@@@@@@@@@@@	
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+1d1 Undodgeable splinter Damage
+	
+Radius:  2 paces 
+	
+@@@
+
+</skill0>
+<skill1>Skill Level 2:
+	
+2d1 Undodgeable splinter Damage
+	
+Radius:  2.5 paces 
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+	
+3d1 Undodgeable splinter Damage
+	
+Radius:  3 paces 
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+	
+4d1 Undodgeable splinter Damage
+	
+Radius:  3.5 paces 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+	
+5d1 Undodgeable splinter Damage
+	
+Radius:  4 paces 
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+	
+6d1 Undodgeable splinter Damage
+	
+Radius:  4.5 paces 
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+	
+7d1 Undodgeable splinter Damage
+	
+Radius:  5 paces 
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+	
+8d1 Undodgeable splinter Damage
+	
+Radius:  5.5 paces 
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+	
+9d1 Undodgeable splinter Damage
+	
+Radius:  6 paces 
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+	
+10d1 Undodgeable splinter Damage
+	
+Radius:  6.5 paces 
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+	
+11d1 Undodgeable splinter Damage
+	
+Radius:  7 paces 
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+	
+12d1 Undodgeable splinter Damage
+	
+Radius:  7.5 paces 
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+	
+13d1 Undodgeable splinter Damage
+	
+Radius:  8 paces 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+	
+14d1 Undodgeable splinter Damage
+	
+Radius:  8.5 paces 
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+	
+15d1 Undodgeable splinter Damage
+	
+Radius:  9 paces 
+	
+@@@
+
+</skill14>
+<skill15>
+</skill15>
+<synergies>
+Synergies
+Hummingbird: Every two points in hummingbird increases the radius of those hit by 1.</synergies>
+<id>28</id>
+</skill>
+
+<skill number="29" spritename="BlindingShield">
+<name>Blinding Shield</name>
+<wpntype>Any Weapon, Shield Equipped</wpntype>
+<description>By directing your shield's boss into the sun or moonlight, you're able to skillfully draw the reflection toward your opponents while charging into battle. The light staggers your opponents, and ruins their chance for precise attacks.
+	
+@
+	
+Procs every 4 attacks
+	
+@@@@@@@@@@@@@	
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+-1d1 to Target Hit Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill0>
+<skill1>Skill Level 2:
+	
+-1d2 to Target Hit Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+	
+-1d2 to Target Hit Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+	
+-2d2 to Target Hit Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+	
+-2d3 to Target Hit Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+	
+-2d4 to Target Hit Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+	
+-3d3 to Target Hit Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+	
+-3d4 to Target Hit Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+	
+-3d5 to Target Hit Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+	
+-4d4 to Target Hit Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+	
+-3d6 to Target Hit Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+	
+-4d5 to Target Hit Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+	
+-4d6 to Target Hit Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+	
+-5d5 to Target Hit Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+	
+-5d6 to Target Hit Chance Skill Mod Roll
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill14>
+<skill15>
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>29</id>
+</skill>
+
+<skill number="30" spritename="ShieldBash">
+<name>Shield Bash</name>
+<wpntype>Any Weapon, Shield Equipped</wpntype>
+<description>Use your shield offensively by drawing it back and slamming it into your enemy. The larger the shield (AC) the damage can be pummeled into your target. If hit, target is knocked to the ground.
+	
+@
+	
+Procs every 4 attacks
+	
+@@@@@@@@@@@@@	
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+Shield AC + 1d1 Physical Damage to Target
+	
+Knockdown Duration:  2 seconds 
+	
+@@@
+
+</skill0>
+<skill1>Skill Level 2:
+	
+Shield AC + 1d2 Physical Damage to Target
+	
+Knockdown Duration:  2 seconds 
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+	
+Shield AC + 1d3 Physical Damage to Target
+	
+Knockdown Duration:  2 seconds 
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+	
+Shield AC + 2d2 Physical Damage to Target
+	
+Knockdown Duration:  2 seconds 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+	
+Shield AC + 2d3 Physical Damage to Target
+	
+Knockdown Duration:  2 seconds 
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+	
+Shield AC + 2d4 Physical Damage to Target
+	
+Knockdown Duration:  2 seconds 
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+	
+Shield AC + 3d3 Physical Damage to Target
+	
+Knockdown Duration:  2 seconds 
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+	
+Shield AC + 3d4 Physical Damage to Target
+	
+Knockdown Duration:  2 seconds 
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+	
+Shield AC + 3d5 Physical Damage to Target
+	
+Knockdown Duration:  2 seconds 
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+	
+Shield AC + 4d4 Physical Damage to Target
+	
+Knockdown Duration:  2 seconds 
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+	
+Shield AC + 3d6 Physical Damage to Target
+	
+Knockdown Duration:  2 seconds 
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+	
+Shield AC + 4d5 Physical Damage to Target
+	
+Knockdown Duration:  2 seconds 
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+	
+Shield AC + 4d6 Physical Damage to Target
+	
+Knockdown Duration:  2 seconds 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+	
+Shield AC + 5d5 Physical Damage to Target
+	
+Knockdown Duration:  2 seconds 
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+	
+Shield AC + 5d6 Physical Damage to Target
+	
+Knockdown Duration:  2 seconds 
+	
+@@@
+
+</skill14>
+<skill15>
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>30</id>
+</skill>
+
+<skill number="31" spritename="VisionTrapBoost">
+<name>Fuming Unguent</name>
+<wpntype>Elixers</wpntype>
+<description>When battle begins, shatter a volatile, fumigating unguent around you and your companions, which enhances their adrenaline with additional muscle focus and control. This will allow them to attack and cast spells with haste as the enemy closes in.
+	
+@
+	
+Fuming Unguent begins its effects after your first melee or ranged attack at the beginning of combat.
+	
+@@@@@@@@@@@@@
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+-.6 seconds for Attack Speed to party
+	
+-.6 seconds for Cast Speed to party
+	
+Duration:  4.4 seconds 
+	
+@@@
+
+</skill0>
+<skill1>Skill Level 2:
+	
+-.7 seconds for Attack Speed to party
+	
+-.7 seconds for Cast Speed to party
+	
+Duration:  4.8 seconds 
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+	
+-.8 seconds for Attack Speed to party
+	
+-.8 seconds for Cast Speed to party
+	
+Duration:  5.2 seconds 
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+	
+-.9 seconds for Attack Speed to party
+	
+-.9 seconds for Cast Speed to party
+	
+Duration:  5.6 seconds 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+	
+-1 seconds for Attack Speed to party
+	
+-1 seconds for Cast Speed to party
+	
+Duration:  6 seconds 
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+	
+-1.1 seconds for Attack Speed to party
+	
+-1.1 seconds for Cast Speed to party
+	
+Duration:  6.4 seconds 
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+	
+-1.2 seconds for Attack Speed to party
+	
+-1.2 seconds for Cast Speed to party
+	
+Duration:  6.8 seconds 
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+	
+-1.3 seconds for Attack Speed to party
+	
+-1.3 seconds for Cast Speed to party
+	
+Duration:  7.2 seconds 
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+	
+-1.4 seconds for Attack Speed to party
+	
+-1.4 seconds for Cast Speed to party
+	
+Duration:  7.6 seconds 
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+	
+-1.5 seconds for Attack Speed to party
+	
+-1.5 seconds for Cast Speed to party
+	
+Duration:  8 seconds 
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+	
+-1.6 seconds for Attack Speed to party
+	
+-1.6 seconds for Cast Speed to party
+	
+Duration:  8.4 seconds 
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+	
+-1.7 seconds for Attack Speed to party
+	
+-1.7 seconds for Cast Speed to party
+	
+Duration:  8.8 seconds 
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+	
+-1.8 seconds for Attack Speed to party
+	
+-1.8 seconds for Cast Speed to party
+	
+Duration:  9.2 seconds 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+	
+-1.9 seconds for Attack Speed to party
+	
+-1.9 seconds for Cast Speed to party
+	
+Duration:  9.6 seconds 
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+	
+-2 seconds for Attack Speed to party
+	
+-2 seconds for Cast Speed to party
+	
+Duration:  10 seconds 
+	
+@@@
+
+</skill14>
+<skill15>
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>31</id>
+</skill>
+
+<skill number="32" spritename="TarTrap">
+<name>Crippling Ooze</name>
+<wpntype>Elixers</wpntype>
+<description>By drawing upon some rare components, and masterfully mixing them with the already volatile elixirs, you can create an ooze that explodes into a target, dousing them with a sticky slime, severing their combat movement.
+	
+@
+	
+Procs every 3 attacks	
+	
+@@@@@@@@@@@@@	
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+Slows Target(s)
+	
+Radius:  2 paces
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill0>
+<skill1>Skill Level 2:
+	
+Slows Target(s)
+	
+Radius:  3 paces
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+	
+Slows Target(s)
+	
+Radius:  4 paces
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+	
+Slows Target(s)
+	
+Radius:  5 paces
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+	
+Slows Target(s)
+	
+Radius:  6 paces
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+	
+Slows Target(s)
+	
+Radius:  7 paces
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+	
+Slows Target(s)
+	
+Radius:  8 paces
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+	
+Slows Target(s)
+	
+Radius:  9 paces
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+	
+Slows Target(s)
+	
+Radius:  10 paces
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+	
+Slows Target(s)
+	
+Radius:  11 paces
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+	
+Slows Target(s)
+	
+Radius:  12 paces
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+	
+Slows Target(s)
+	
+Radius:  13 paces
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+	
+Slows Target(s)
+	
+Radius:  14 paces
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+	
+Slows Target(s)
+	
+Radius:  15 paces
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+	
+Slows Target(s)
+	
+Radius:  16 paces
+	
+Duration:  5 seconds 
+	
+@@@
+
+</skill14>
+<skill15>
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>32</id>
+</skill>
+
+<skill number="33" spritename="WolfClaws">
+<name>Wolf Claws</name>
+<wpntype>Polymorphed: Wolf</wpntype>
+<description>While polymorphed into a deadly wolf, hone your magically imbued claws to tear at flesh, tendon and bone.
+	
+@@@@@@@@@@@@@	
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+1d1 to Physical Damage Skill Mod Roll
+	
+-.6 seconds to Attack Speed 
+	
+@@@
+
+</skill0>
+<skill1>Skill Level 2:
+	
+1d2 to Physical Damage Skill Mod Roll
+	
+-.7 seconds to Attack Speed 
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+	
+1d3 to Physical Damage Skill Mod Roll
+	
+-.8 seconds to Attack Speed 
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+	
+2d2 to Physical Damage Skill Mod Roll
+	
+-.9 seconds to Attack Speed 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+	
+2d3 to Physical Damage Skill Mod Roll
+	
+-1.0 seconds to Attack Speed 
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+	
+2d4 to Physical Damage Skill Mod Roll
+	
+-1.1 seconds to Attack Speed 
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+	
+3d3 to Physical Damage Skill Mod Roll
+	
+-1.2 seconds to Attack Speed 
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+	
+3d4 to Physical Damage Skill Mod Roll
+	
+-1.3 seconds to Attack Speed 
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+	
+3d5 to Physical Damage Skill Mod Roll
+	
+-1.4 seconds to Attack Speed 
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+	
+4d4 to Physical Damage Skill Mod Roll
+	
+-1.5 seconds to Attack Speed 
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+	
+3d6 to Physical Damage Skill Mod Roll
+	
+-1.6 seconds to Attack Speed 
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+	
+4d5 to Physical Damage Skill Mod Roll
+	
+-1.7 seconds to Attack Speed 
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+	
+4d6 to Physical Damage Skill Mod Roll
+	
+-1.8 seconds to Attack Speed 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+	
+5d5 to Physical Damage Skill Mod Roll
+	
+-1.9 seconds to Attack Speed 
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+	
+5d6 to Physical Damage Skill Mod Roll
+	
+-2.0 seconds to Attack Speed 
+	
+@@@
+
+</skill14>
+<skill15>
+</skill15>
+<synergies>
+</synergies>
+<id>33</id>
+</skill>
+
+<skill number="34" spritename="Bless">
+<name>Protective Prayer</name>
+<wpntype>Any Weapon</wpntype>
+<description>Herald a magical protection for your party, praying to the Pasaaran's matriarchal archgod Quaniteva, a monstrously powerful and old god who feeds on magical energies. The more skilled and humble the prayer, the more protection and length of shield is given to the caster and their companions.
+	
+@
+	
+Protective Prayer begins its effects after your first melee or ranged attack at the beginning of combat.
+	
+@@@@@@@@@@@@@
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+1d1 to Spell Dodge Chance Skill Mod Roll for party
+	
+Duration:  4.4 seconds 
+	
+@@@
+
+</skill0>
+<skill1>Skill Level 2:
+	
+1d2 to Spell Dodge Chance Skill Mod Roll for party
+	
+Duration:  4.8 seconds 
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+	
+1d3 to Spell Dodge Chance Skill Mod Roll for party
+	
+Duration:  5.2 seconds 
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+	
+2d2 to Spell Dodge Chance Skill Mod Roll for party
+	
+Duration:  5.6 seconds 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+	
+2d3 to Spell Dodge Chance Skill Mod Roll for party
+	
+Duration:  6 seconds 
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+	
+2d4 to Spell Dodge Chance Skill Mod Roll for party
+	
+Duration:  6.4 seconds 
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+	
+3d3 to Spell Dodge Chance Skill Mod Roll for party
+	
+Duration:  6.8 seconds 
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+	
+3d4 to Spell Dodge Chance Skill Mod Roll for party
+	
+Duration:  7.2 seconds 
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+	
+3d5 to Spell Dodge Chance Skill Mod Roll for party
+	
+Duration:  7.6 seconds 
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+	
+4d4 to Spell Dodge Chance Skill Mod Roll for party
+	
+Duration:  8 seconds 
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+	
+4d5 to Spell Dodge Chance Skill Mod Roll for party
+	
+Duration:  8.4 seconds 
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+	
+4d6 to Spell Dodge Chance Skill Mod Roll for party
+	
+Duration:  8.8 seconds 
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+	
+5d5 to Spell Dodge Chance Skill Mod Roll for party
+	
+Duration:  9.2 seconds 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+	
+5d6 to Spell Dodge Chance Skill Mod Roll for party
+	
+Duration:  9.6 seconds 
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+	
+5d7 to Spell Dodge Chance Skill Mod Roll for party
+	
+Duration:  10 seconds 
+	
+@@@
+
+</skill14>
+<skill15>
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>34</id>
+</skill>
+
+<skill number="35" spritename="ChargeIntoFray">
+<name>Spearhead</name>
+<wpntype>Any Weapon</wpntype>
+<description>Gain the initiative when combat starts by launching yourself to your immediate enemy and instantly attack them. This brazen assault also draws the interest of any enemy within the area.
+
+@	
+	
+Procs on Combat Initiating
+	
+@@@@@@@@@@@@@	
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+Draws Attention of nearby targets
+	
+1d1 Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill0>
+<skill1>Skill Level 2:
+	
+Draws Attention of nearby targets
+	
+1d2 Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+	
+Draws Attention of nearby targets
+	
+1d3 Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+	
+Draws Attention of nearby targets
+	
+2d2 Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+	
+Draws Attention of nearby targets
+	
+2d3 Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+	
+Draws Attention of nearby targets
+	
+2d4 Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+	
+Draws Attention of nearby targets
+	
+3d3 Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+	
+Draws Attention of nearby targets
+	
+3d4 Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+	
+Draws Attention of nearby targets
+	
+3d5 Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+	
+Draws Attention of nearby targets
+	
+4d4 Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+	
+Draws Attention of nearby targets
+	
+3d6 Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+	
+Draws Attention of nearby targets
+	
+4d5 Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+	
+Draws Attention of nearby targets
+	
+4d6 Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+	
+Draws Attention of nearby targets
+	
+5d5 Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+	
+Draws Attention of nearby targets
+	
+5d6 Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill14>
+<skill15>
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>35</id>
+</skill>
+
+<skill number="36" spritename="Whirl">
+<name>Whirl</name>
+<wpntype>Light Weapons</wpntype>
+<description>Master the art of a fluid follow through and surprise your enemy with a second swing immediately after an attack, dealing more than double the usual damage every 5 swings.
+	
+@@@@@@@@@@@@@
+	
+	</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
++2 Flat Physical Dmg to second swing
+	
+@@@	
+
+</skill0>
+<skill1>Skill Level 2:
+	
++4 Flat Physical Dmg to second swing
+	
+@@@
+		
+</skill1>
+<skill2>Skill Level 3:
+	
++6 Flat Physical Dmg to second swing
+	
+@@@
+	
+	</skill2>
+<skill3>Skill Level 4:
+	
++8 Flat Physical Dmg to second swing
+	
+@@@
+	
+	</skill3>
+<skill4>Skill Level 5:
+
++8 Flat Physical Dmg to second swing
+	
+@@@
+	
+	</skill4>
+<skill5>Skill Level 6:
+	
++10 Flat Physical Dmg to second swing
+	
+@@@
+	
+	</skill5>
+<skill6>Skill Level 7:
+	
++12 Flat Physical Dmg to second swing
+	
+@@@
+	
+	</skill6>
+<skill7>Skill Level 8:
+	
++14 Flat Physical Dmg to second swing
+	
+@@@
+	
+	</skill7>
+<skill8>Skill Level 9:
+	
++16 Flat Physical Dmg to second swing
+	
+@@@
+	
+	</skill8>
+<skill9>Skill Level 10:
+	
++18 Flat Physical Dmg to second swing
+	
+@@@
+	
+	</skill9>
+<skill10>Skill Level 11:
+	
++20 Flat Physical Dmg to second swing
+	
+@@@
+	
+	</skill10>
+<skill11>Skill Level 12:
+	
++22 Flat Physical Dmg to second swing
+	
+@@@
+	
+	</skill11>
+<skill12>Skill Level 13:
+	
++24 Flat Physical Dmg to second swing
+	
+@@@
+	
+	</skill12>
+<skill13>Skill Level 14:
+	
++26 Flat Physical Dmg to second swing
+	
+@@@
+	
+	</skill13>
+<skill14>Skill Level 15:
+	
++28 Flat Physical Dmg to second swing
+	
+@@@
+	
+	</skill14>
+<skill15>Skill Level 15:
+	
++30 Flat Physical Dmg to second swing
+	
+@@@
+	
+	</skill15>
+<skill16>
+</skill16>
+<synergies></synergies>
+
+<id>36</id>
+</skill>
+
+<skill number="37" spritename="CircleSwing">
+<name>Circle Swing</name>
+<wpntype>Any Weapon</wpntype>
+<description></description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+</skill0>
+<skill1>Skill Level 2:
+
+</skill1>
+<skill2>Skill Level 3:
+
+</skill2>
+<skill3>Skill Level 4:
+
+</skill3>
+<skill4>Skill Level 5:
+
+</skill4>
+<skill5>Skill Level 6:
+
+</skill5>
+<skill6>Skill Level 7:
+
+</skill6>
+<skill7>Skill Level 8:
+
+</skill7>
+<skill8>Skill Level 9:
+
+</skill8>
+<skill9>Skill Level 10:
+
+</skill9>
+<skill10>Skill Level 11:
+
+</skill10>
+<skill11>Skill Level 12:
+
+</skill11>
+<skill12>Skill Level 13:
+
+</skill12>
+<skill13>Skill Level 14:
+
+</skill13>
+<skill14>Skill Level 15:
+
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>37</id>
+</skill>
+
+<skill number="38" spritename="TigerStrike">
+<name>Tiger Strike</name>
+<wpntype>Any Weapon</wpntype>
+<description></description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+</skill0>
+<skill1>Skill Level 2:
+
+</skill1>
+<skill2>Skill Level 3:
+
+</skill2>
+<skill3>Skill Level 4:
+
+</skill3>
+<skill4>Skill Level 5:
+
+</skill4>
+<skill5>Skill Level 6:
+
+</skill5>
+<skill6>Skill Level 7:
+
+</skill6>
+<skill7>Skill Level 8:
+
+</skill7>
+<skill8>Skill Level 9:
+
+</skill8>
+<skill9>Skill Level 10:
+
+</skill9>
+<skill10>Skill Level 11:
+
+</skill10>
+<skill11>Skill Level 12:
+
+</skill11>
+<skill12>Skill Level 13:
+
+</skill12>
+<skill13>Skill Level 14:
+
+</skill13>
+<skill14>Skill Level 15:
+
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>38</id>
+</skill>
+
+<skill number="39" spritename="Torture">
+<name>Torture</name>
+<wpntype>Any Weapon</wpntype>
+<description></description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+</skill0>
+<skill1>Skill Level 2:
+
+</skill1>
+<skill2>Skill Level 3:
+
+</skill2>
+<skill3>Skill Level 4:
+
+</skill3>
+<skill4>Skill Level 5:
+
+</skill4>
+<skill5>Skill Level 6:
+
+</skill5>
+<skill6>Skill Level 7:
+
+</skill6>
+<skill7>Skill Level 8:
+
+</skill7>
+<skill8>Skill Level 9:
+
+</skill8>
+<skill9>Skill Level 10:
+
+</skill9>
+<skill10>Skill Level 11:
+
+</skill10>
+<skill11>Skill Level 12:
+
+</skill11>
+<skill12>Skill Level 13:
+
+</skill12>
+<skill13>Skill Level 14:
+
+</skill13>
+<skill14>Skill Level 15:
+
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>39</id>
+
+</skill>
+
+<skill number="40" spritename="Concentration">
+<name>Concentration</name>
+<wpntype>Any Weapon</wpntype>
+<description>Every time you land a hit on the same enemy, add a stackable ailment to that target's armor class.
+		
+@@@@@@@@@@@@@
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+Armor Class Ailment of 1d(1 + Number of Unbroken Successful Hits)
+	
+@@@
+
+
+</skill0>
+<skill1>Skill Level 2:
+
+Armor Class Ailment of 1d(2 + Number of Unbroken Successful Hits)
+	
+@@@
+
+
+</skill1>
+<skill2>Skill Level 3:
+
+Armor Class Ailment of 1d(3 + Number of Unbroken Successful Hits)
+	
+@@@
+
+
+</skill2>
+<skill3>Skill Level 4:
+
+Armor Class Ailment of 1d(4 + Number of Unbroken Successful Hits)
+	
+@@@
+
+
+</skill3>
+<skill4>Skill Level 5:
+
+Armor Class Ailment of 1d(5 + Number of Unbroken Successful Hits)
+	
+@@@
+
+
+</skill4>
+<skill5>Skill Level 6:
+
+Armor Class Ailment of 1d(6 + Number of Unbroken Successful Hits)
+	
+@@@
+
+
+</skill5>
+<skill6>Skill Level 7:
+
+Armor Class Ailment of 1d(7 + Number of Unbroken Successful Hits)
+	
+@@@
+
+
+</skill6>
+<skill7>Skill Level 8:
+
+Armor Class Ailment of 1d(8 + Number of Unbroken Successful Hits)
+	
+@@@
+
+
+</skill7>
+<skill8>Skill Level 9:
+
+Armor Class Ailment of 1d(9 + Number of Unbroken Successful Hits)
+	
+@@@
+
+
+</skill8>
+<skill9>Skill Level 10:
+
+Armor Class Ailment of 1d(10 + Number of Unbroken Successful Hits)
+	
+@@@
+
+
+</skill9>
+<skill10>Skill Level 11:
+
+Armor Class Ailment of 1d(11 + Number of Unbroken Successful Hits)
+	
+@@@
+
+
+</skill10>
+<skill11>Skill Level 12:
+
+Armor Class Ailment of 1d(12 + Number of Unbroken Successful Hits)
+	
+@@@
+
+
+</skill11>
+<skill12>Skill Level 13:
+
+Armor Class Ailment of 1d(13 + Number of Unbroken Successful Hits)
+	
+@@@
+
+
+</skill12>
+<skill13>Skill Level 14:
+
+Armor Class Ailment of 1d(14 + Number of Unbroken Successful Hits)
+	
+@@@
+
+
+</skill13>
+<skill14>Skill Level 15:
+
+Armor Class Ailment of 1d(15 + Number of Unbroken Successful Hits)
+	
+@@@
+
+
+</skill14>
+<skill15>
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>40</id>
+</skill>
+
+<skill number="41" spritename="Strafe">
+<name>Strafe</name>
+<wpntype>Any Missile Weapon</wpntype>
+<description>Immediately following your attack, turn to fire a missile at several targets nearby. Procs every 3 attacks.
+			
+@@@@@@@@@@@@@
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1: 
+		
+Radius: 2 paces 
+
+Can strafe: 1 target
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 2:
+	
+Radius: 3 paces 
+
+Can strafe: 2 targets
+	
+@@@
+	
+</skill1>
+<skill2>Skill Level 3:
+	
+Radius: 4 paces 
+
+Can strafe: 3 targets
+	
+@@@
+	
+</skill2>
+<skill3>Skill Level 4:
+	
+Radius: 5 paces 
+
+Can strafe: 4 targets
+	
+@@@
+	
+</skill3>
+<skill4>Skill Level 5:
+	
+Radius: 6 paces 
+
+Can strafe: 5 targets
+	
+@@@
+	
+</skill4>
+<skill5>Skill Level 6:
+	
+Radius: 7 paces 
+
+Can strafe: 6 targets
+	
+@@@
+	
+</skill5>
+<skill6>Skill Level 7:
+	
+Radius: 8 paces 
+
+Can strafe: 7 targets
+	
+@@@
+	
+</skill6>
+<skill7>Skill Level 8:
+	
+Radius: 9 paces 
+
+Can strafe: 8 targets
+	
+@@@
+	
+</skill7>
+<skill8>Skill Level 9:
+	
+Radius: 10 paces 
+	
+Can strafe: 11 targets
+	
+@@@
+	
+</skill8>
+<skill9>Skill Level 10:
+	
+Radius: 11 paces 
+
+Can strafe: 12 targets
+	
+@@@
+	
+</skill9>
+<skill10>Skill Level 11:
+	
+Radius: 12 paces 
+
+Can strafe: 13 targets
+	
+@@@
+	
+</skill10>
+<skill11>Skill Level 12:
+	
+Radius: 13 paces 
+
+Can strafe: 14 targets
+	
+@@@
+	
+</skill11>
+<skill12>Skill Level 13:
+	
+Radius: 14 paces 
+
+Can strafe: 15 targets
+	
+@@@
+	
+</skill12>
+<skill13>Skill Level 14:
+	
+Radius: 15 paces 
+
+Can strafe: 16 targets
+	
+@@@
+	
+</skill13>
+<skill14>Skill Level 15:
+	
+Radius: 16 paces 
+	
+@@@
+	
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>41</id>
+</skill>
+
+<skill number="42" spritename="GiantsPull">
+<name>Giant's Pull</name>
+<wpntype>Any Missile Weapon</wpntype>
+<description>Pull back your weapon with a monumental force, with no repercussions to speed or ability to hit or dodge your enemies.
+			
+@@@@@@@@@@@@@
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+		
++1d1 to Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill0>
+<skill1>Skill Level 2:
+	
+Draws Attention of nearby targets
+	
++1d2 to Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+		
++1d3 to Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+		
++2d2 to Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+		
++2d3 to Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+		
++2d4 to Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+		
++3d3 to Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+		
++3d4 to Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+		
++3d5 to Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+		
++4d4 to Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+		
++3d6 to Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+		
++4d5 to Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+		
++4d6 to Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+		
++5d5 to Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+		
++5d6 to Physical Damage Skill Mod Roll 
+	
+@@@
+
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>42</id>
+</skill>
+
+<skill number="43" spritename="Engineering">
+<name>Engineering</name>
+<wpntype>Any Weapon</wpntype>
+<description></description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+</skill0>
+<skill1>Skill Level 2:
+
+</skill1>
+<skill2>Skill Level 3:
+
+</skill2>
+<skill3>Skill Level 4:
+
+</skill3>
+<skill4>Skill Level 5:
+
+</skill4>
+<skill5>Skill Level 6:
+
+</skill5>
+<skill6>Skill Level 7:
+
+</skill6>
+<skill7>Skill Level 8:
+
+</skill7>
+<skill8>Skill Level 9:
+
+</skill8>
+<skill9>Skill Level 10:
+
+</skill9>
+<skill10>Skill Level 11:
+
+</skill10>
+<skill11>Skill Level 12:
+
+</skill11>
+<skill12>Skill Level 13:
+
+</skill12>
+<skill13>Skill Level 14:
+
+</skill13>
+<skill14>Skill Level 15:
+
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>43</id>
+</skill>
+
+<skill number="44" spritename="StinkTrap">
+<name>Stink Trap</name>
+<wpntype>Elixirs</wpntype>
+<description>Fill your vials full of a nauseating gas that will down your enemy for a short period of time, as well as lower their defenses.
+
+@
+	
+Procs every 4 attacks
+	
+@@@@@@@@@@@@@	
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+	
+-1d1 to Target's AC Skill Mod Roll
+		
+Duration of Unconsciousness: 5 sec.
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 2:
+
+-1d2 to Target's AC Skill Mod Roll
+		
+Duration of Unconsciousness: 5 sec.
+	
+@@@
+	
+</skill1>
+<skill2>Skill Level 3:
+	
+-1d3 to Target's AC Skill Mod Roll
+	
+Duration of Unconsciousness: 5 sec.
+	
+@@@
+	
+</skill2>
+<skill3>Skill Level 4:
+	
+-2d2 to Target's AC Skill Mod Roll
+
+Duration of Unconsciousness: 5 sec.
+	
+@@@
+	
+</skill3>
+<skill4>Skill Level 5:
+	
+-2d3 to Target's AC Skill Mod Roll
+	
+Duration of Unconsciousness: 5 sec.
+	
+@@@
+	
+</skill4>
+<skill5>Skill Level 6:
+	
+-2d4 to Target's AC Skill Mod Roll
+	
+Duration of Unconsciousness: 5 sec.
+	
+@@@
+	
+</skill5>
+<skill6>Skill Level 7:
+	
+-3d3 to Target's AC Skill Mod Roll
+	
+Duration of Unconsciousness: 5 sec.
+	
+@@@
+	
+</skill6>
+<skill7>Skill Level 8:
+	
+-3d4 to Target's AC Skill Mod Roll
+	
+Duration of Unconsciousness: 5 sec.
+	
+@@@
+	
+</skill7>
+<skill8>Skill Level 9:
+	
+-3d5 to Target's AC Skill Mod Roll
+	
+Duration of Unconsciousness: 5 sec.
+	
+@@@
+	
+</skill8>
+<skill9>Skill Level 10:
+	
+-4d4 to Target's AC Skill Mod Roll
+	
+Duration of Unconsciousness: 5 sec.
+	
+@@@
+	
+</skill9>
+<skill10>Skill Level 11:
+	
+-3d6 to Target's AC Skill Mod Roll
+	
+Duration of Unconsciousness: 5 sec.
+	
+@@@
+	
+</skill10>
+<skill11>Skill Level 12:
+	
+-4d5 to Target's AC Skill Mod Roll
+	
+Duration of Unconsciousness: 5 sec.
+	
+@@@
+	
+</skill11>
+<skill12>Skill Level 13:
+	
+-4d6 to Target's AC Skill Mod Roll
+	
+Duration of Unconsciousness: 5 sec.
+	
+@@@
+	
+</skill12>
+<skill13>Skill Level 14:
+	
+-5d5 to Target's AC Skill Mod Roll
+
+Duration of Unconsciousness: 5 sec.
+	
+@@@
+	
+</skill13>
+<skill14>Skill Level 15:
+	
+-5d6 to Target's AC Skill Mod Roll
+	
+Duration of Unconsciousness: 5 sec.
+	
+@@@
+	
+</skill14><skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>44</id>
+</skill>
+
+<skill number="45" spritename="Adrenaline">
+<name>Adrenaline</name>
+<wpntype>Any Weapon</wpntype>
+<description>Every time you land a hit on the same enemy, gain a stackable boost to your spell resistance.
+		
+@@@@@@@@@@@@@
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+Spell Resistance Buff of 1d(1 + Number of Unbroken Successful Hits)
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 2:
+
+Spell Resistance Buff of 1d(2 + Number of Unbroken Successful Hits)
+	
+@@@
+	
+</skill1>
+<skill2>Skill Level 3:
+
+Spell Resistance Buff of 1d(3 + Number of Unbroken Successful Hits)
+	
+@@@
+	
+</skill2>
+<skill3>Skill Level 4:
+
+Spell Resistance Buff of 1d(4 + Number of Unbroken Successful Hits)
+	
+@@@
+	
+</skill3>
+<skill4>Skill Level 5:
+
+Spell Resistance Buff of 1d(5 + Number of Unbroken Successful Hits)
+	
+@@@
+	
+</skill4>
+<skill5>Skill Level 6:
+	
+@@@
+	
+Spell Resistance Buff of 1d(6 + Number of Unbroken Successful Hits)
+
+</skill5>
+<skill6>Skill Level 7:
+
+Spell Resistance Buff of 1d(7 + Number of Unbroken Successful Hits)
+	
+@@@
+	
+</skill6>
+<skill7>Skill Level 8:
+
+Spell Resistance Buff of 1d(8 + Number of Unbroken Successful Hits)
+	
+@@@
+	
+</skill7>
+<skill8>Skill Level 9:
+
+Spell Resistance Buff of 1d(9 + Number of Unbroken Successful Hits)
+	
+@@@
+	
+</skill8>
+<skill9>Skill Level 10:
+
+Spell Resistance Buff of 1d(10 + Number of Unbroken Successful Hits)
+	
+@@@
+	
+</skill9>
+<skill10>Skill Level 11:
+
+Spell Resistance Buff of 1d(11 + Number of Unbroken Successful Hits)
+	
+@@@
+	
+</skill10>
+<skill11>Skill Level 12:
+
+Spell Resistance Buff of 1d(12 + Number of Unbroken Successful Hits)
+	
+@@@
+	
+</skill11>
+<skill12>Skill Level 13:
+
+Spell Resistance Buff of 1d(13 + Number of Unbroken Successful Hits)
+	
+@@@
+	
+</skill12>
+<skill13>Skill Level 14:
+
+Spell Resistance Buff of 1d(14 + Number of Unbroken Successful Hits)
+	
+@@@
+	
+</skill13>
+<skill14>Skill Level 15:
+
+Spell Resistance Buff of 1d(15 + Number of Unbroken Successful Hits)
+	
+@@@
+	
+</skill14>
+<skill15>
+
+</skill15><skill16></skill16>
+<synergies></synergies><id>45</id>
+</skill>
+
+<skill number="46" spritename="Desperation">
+<name>Desperation</name>
+<wpntype>Any Weapon</wpntype>
+<description></description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+</skill0>
+<skill1>Skill Level 2:
+
+</skill1>
+<skill2>Skill Level 3:
+
+</skill2>
+<skill3>Skill Level 4:
+
+</skill3>
+<skill4>Skill Level 5:
+
+</skill4>
+<skill5>Skill Level 6:
+
+</skill5>
+<skill6>Skill Level 7:
+
+</skill6>
+<skill7>Skill Level 8:
+
+</skill7>
+<skill8>Skill Level 9:
+
+</skill8>
+<skill9>Skill Level 10:
+
+</skill9>
+<skill10>Skill Level 11:
+
+</skill10>
+<skill11>Skill Level 12:
+
+</skill11>
+<skill12>Skill Level 13:
+
+</skill12>
+<skill13>Skill Level 14:
+
+</skill13>
+<skill14>Skill Level 15:
+
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>46</id>
+</skill>
+
+<skill number="47" spritename="BurstOfLife">
+<name>Burst of Life</name>
+<wpntype>Any Weapon</wpntype>
+<description>With every hit you land, gain a portion of it back in health.
+		
+@@@@@@@@@@@@@	
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+Gain health on hit: 1d(Raw Phys Dmg Output + 1)
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 2:
+
+Gain health on hit: 1d(Raw Phys Dmg Output + 2)
+	
+@@@
+	
+</skill1>
+<skill2>Skill Level 3:
+
+Gain health on hit: 1d(Raw Phys Dmg Output + 3)
+	
+@@@
+	
+</skill2>
+<skill3>Skill Level 4:
+
+Gain health on hit: 1d(Raw Phys Dmg Output + 4)
+	
+@@@
+	
+</skill3>
+<skill4>Skill Level 5:
+
+Gain health on hit: 1d(Raw Phys Dmg Output + 5)
+	
+@@@
+	
+</skill4>
+<skill5>Skill Level 6:
+	
+@@@
+	
+Gain health on hit: 1d(Raw Phys Dmg Output + 6)
+
+</skill5>
+<skill6>Skill Level 7:
+
+Gain health on hit: 1d(Raw Phys Dmg Output + 7)
+	
+@@@
+	
+</skill6>
+<skill7>Skill Level 8:
+
+Gain health on hit: 1d(Raw Phys Dmg Output + 8)
+	
+@@@
+	
+</skill7>
+<skill8>Skill Level 9:
+
+Gain health on hit: 1d(Raw Phys Dmg Output + 9)
+	
+@@@
+	
+</skill8>
+<skill9>Skill Level 10:
+
+Gain health on hit: 1d(Raw Phys Dmg Output + 10)
+	
+@@@
+	
+</skill9>
+<skill10>Skill Level 11:
+
+Gain health on hit: 1d(Raw Phys Dmg Output + 11)
+	
+@@@
+	
+</skill10>
+<skill11>Skill Level 12:
+
+Gain health on hit: 1d(Raw Phys Dmg Output + 12)
+	
+@@@
+	
+</skill11>
+<skill12>Skill Level 13:
+
+Gain health on hit: 1d(Raw Phys Dmg Output + 13)
+	
+@@@
+	
+</skill12>
+<skill13>Skill Level 14:
+
+Gain health on hit: 1d(Raw Phys Dmg Output + 14)
+	
+@@@
+	
+</skill13>
+<skill14>Skill Level 15:
+
+Gain health on hit: 1d(Raw Phys Dmg Output + 15)
+	
+@@@
+	
+</skill14><skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>47</id>
+</skill>
+
+<skill number="48" spritename="FightThroughPain">
+<name>Fight Through Pain</name>
+<wpntype>Any Weapon</wpntype>
+<description></description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+</skill0>
+<skill1>Skill Level 2:
+
+</skill1>
+<skill2>Skill Level 3:
+
+</skill2>
+<skill3>Skill Level 4:
+
+</skill3>
+<skill4>Skill Level 5:
+
+</skill4>
+<skill5>Skill Level 6:
+
+</skill5>
+<skill6>Skill Level 7:
+
+</skill6>
+<skill7>Skill Level 8:
+
+</skill7>
+<skill8>Skill Level 9:
+
+</skill8>
+<skill9>Skill Level 10:
+
+</skill9>
+<skill10>Skill Level 11:
+
+</skill10>
+<skill11>Skill Level 12:
+
+</skill11>
+<skill12>Skill Level 13:
+
+</skill12>
+<skill13>Skill Level 14:
+
+</skill13>
+<skill14>Skill Level 15:
+
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>48</id>
+</skill>
+
+<skill number="49" spritename="MarkForFear">
+<name>Mark for Fear</name>
+<wpntype>Any Weapon</wpntype>
+<description></description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+</skill0>
+<skill1>Skill Level 2:
+
+</skill1>
+<skill2>Skill Level 3:
+
+</skill2>
+<skill3>Skill Level 4:
+
+</skill3>
+<skill4>Skill Level 5:
+
+</skill4>
+<skill5>Skill Level 6:
+
+</skill5>
+<skill6>Skill Level 7:
+
+</skill6>
+<skill7>Skill Level 8:
+
+</skill7>
+<skill8>Skill Level 9:
+
+</skill8>
+<skill9>Skill Level 10:
+
+</skill9>
+<skill10>Skill Level 11:
+
+</skill10>
+<skill11>Skill Level 12:
+
+</skill11>
+<skill12>Skill Level 13:
+
+</skill12>
+<skill13>Skill Level 14:
+
+</skill13>
+<skill14>Skill Level 15:
+
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>49</id>
+</skill>
+
+<skill number="50" spritename="Bleed">
+<name>Bleed</name>
+<wpntype>Any Weapon</wpntype>
+<description></description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+</skill0>
+<skill1>Skill Level 2:
+
+</skill1>
+<skill2>Skill Level 3:
+
+</skill2>
+<skill3>Skill Level 4:
+
+</skill3>
+<skill4>Skill Level 5:
+
+</skill4>
+<skill5>Skill Level 6:
+
+</skill5>
+<skill6>Skill Level 7:
+
+</skill6>
+<skill7>Skill Level 8:
+
+</skill7>
+<skill8>Skill Level 9:
+
+</skill8>
+<skill9>Skill Level 10:
+
+</skill9>
+<skill10>Skill Level 11:
+
+</skill10>
+<skill11>Skill Level 12:
+
+</skill11>
+<skill12>Skill Level 13:
+
+</skill12>
+<skill13>Skill Level 14:
+
+</skill13>
+<skill14>Skill Level 15:
+
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>50</id>
+</skill>
+
+<skill number="51" spritename="CrippleHit">
+<name>Cripple Hit</name>
+<wpntype>Any Weapon</wpntype>
+<description></description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+</skill0>
+<skill1>Skill Level 2:
+
+</skill1>
+<skill2>Skill Level 3:
+
+</skill2>
+<skill3>Skill Level 4:
+
+</skill3>
+<skill4>Skill Level 5:
+
+</skill4>
+<skill5>Skill Level 6:
+
+</skill5>
+<skill6>Skill Level 7:
+
+</skill6>
+<skill7>Skill Level 8:
+
+</skill7>
+<skill8>Skill Level 9:
+
+</skill8>
+<skill9>Skill Level 10:
+
+</skill9>
+<skill10>Skill Level 11:
+
+</skill10>
+<skill11>Skill Level 12:
+
+</skill11>
+<skill12>Skill Level 13:
+
+</skill12>
+<skill13>Skill Level 14:
+
+</skill13>
+<skill14>Skill Level 15:
+
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<spritename number="51">CrippleHit</spritename>
+</skill>
+
+<skill number="52" spritename="Overpower">
+<name>Overpower</name>
+<wpntype>Any Weapon</wpntype>
+<description></description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+</skill0>
+<skill1>Skill Level 2:
+
+</skill1>
+<skill2>Skill Level 3:
+
+</skill2>
+<skill3>Skill Level 4:
+
+</skill3>
+<skill4>Skill Level 5:
+
+</skill4>
+<skill5>Skill Level 6:
+
+</skill5>
+<skill6>Skill Level 7:
+
+</skill6>
+<skill7>Skill Level 8:
+
+</skill7>
+<skill8>Skill Level 9:
+
+</skill8>
+<skill9>Skill Level 10:
+
+</skill9>
+<skill10>Skill Level 11:
+
+</skill10>
+<skill11>Skill Level 12:
+
+</skill11>
+<skill12>Skill Level 13:
+
+</skill12>
+<skill13>Skill Level 14:
+
+</skill13>
+<skill14>Skill Level 15:
+
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<spritename number="52">Overpower</spritename>
+</skill>
+
+<skill number="53" spritename="PreppedStart">
+<name>Prepped Start</name>
+<wpntype>Any Weapon</wpntype>
+<description></description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+</skill0>
+<skill1>Skill Level 2:
+
+</skill1>
+<skill2>Skill Level 3:
+
+</skill2>
+<skill3>Skill Level 4:
+
+</skill3>
+<skill4>Skill Level 5:
+
+</skill4>
+<skill5>Skill Level 6:
+
+</skill5>
+<skill6>Skill Level 7:
+
+</skill6>
+<skill7>Skill Level 8:
+
+</skill7>
+<skill8>Skill Level 9:
+
+</skill8>
+<skill9>Skill Level 10:
+
+</skill9>
+<skill10>Skill Level 11:
+
+</skill10>
+<skill11>Skill Level 12:
+
+</skill11>
+<skill12>Skill Level 13:
+
+</skill12>
+<skill13>Skill Level 14:
+
+</skill13>
+<skill14>Skill Level 15:
+
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<spritename number="53">PreppedStart</spritename>
+</skill>
+
+<skill number="54" spritename="PoisonWeapon">
+<name>Poison Weapon</name>
+<wpntype>Any Weapon</wpntype>
+<description>Soak your weapon in poison to add corruptive damage that cannot be blocked by physical or arcane means to your attack. Your attack must land for the poison damage to reach your target.
+	
+Every attack
+
+@@@@@@@@@@@@@
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+		
+1d1 + (Herbology Aptitude) Poison Damage
+	
+@@@
+
+</skill0>
+<skill1>Skill Level 2:
+	
+1d2 + (Herbology Aptitude) Poison Damage
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+		
+1d3 + (Herbology Aptitude) Poison Damage
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+		
+1d4 + (Herbology Aptitude) Poison Damage 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+		
+1d5 + (Herbology Aptitude) Poison Damage 
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+		
+1d6 + (Herbology Aptitude) Poison Damage
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+		
+1d7 + (Herbology Aptitude) Poison Damage
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+		
+1d8 + (Herbology Aptitude) Poison Damage 
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+		
+1d9 + (Herbology Aptitude) Poison Damage
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+		
+1d10 + (Herbology Aptitude) Poison Damage
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+		
+1d11 + (Herbology Aptitude) Poison Damage
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+		
+1d12 + (Herbology Aptitude) Poison Damage
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+		
+1d13 + (Herbology Aptitude) Poison Damage 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+		
+1d14 + (Herbology Aptitude) Poison Damage
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+		
+1d15 + (Herbology Aptitude) Poison Damage
+	
+@@@
+
+</skill14><skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<spritename number="54">PoisonWeapon</spritename>
+</skill>
+
+<skill number="55" spritename="MolotovTrap">
+<name>Molotov Trap</name>
+<wpntype>Any Weapon</wpntype>
+<description></description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+</skill0>
+<skill1>Skill Level 2:
+
+</skill1>
+<skill2>Skill Level 3:
+
+</skill2>
+<skill3>Skill Level 4:
+
+</skill3>
+<skill4>Skill Level 5:
+
+</skill4>
+<skill5>Skill Level 6:
+
+</skill5>
+<skill6>Skill Level 7:
+
+</skill6>
+<skill7>Skill Level 8:
+
+</skill7>
+<skill8>Skill Level 9:
+
+</skill8>
+<skill9>Skill Level 10:
+
+</skill9>
+<skill10>Skill Level 11:
+
+</skill10>
+<skill11>Skill Level 12:
+
+</skill11>
+<skill12>Skill Level 13:
+
+</skill12>
+<skill13>Skill Level 14:
+
+</skill13>
+<skill14>Skill Level 15:
+
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>55</id>
+</skill>
+
+<skill number="56" spritename="TrapBody">
+<name>Trap Body</name>
+<wpntype>Any Weapon</wpntype>
+<description></description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+</skill0>
+<skill1>Skill Level 2:
+
+</skill1>
+<skill2>Skill Level 3:
+
+</skill2>
+<skill3>Skill Level 4:
+
+</skill3>
+<skill4>Skill Level 5:
+
+</skill4>
+<skill5>Skill Level 6:
+
+</skill5>
+<skill6>Skill Level 7:
+
+</skill6>
+<skill7>Skill Level 8:
+
+</skill7>
+<skill8>Skill Level 9:
+
+</skill8>
+<skill9>Skill Level 10:
+
+</skill9>
+<skill10>Skill Level 11:
+
+</skill10>
+<skill11>Skill Level 12:
+
+</skill11>
+<skill12>Skill Level 13:
+
+</skill12>
+<skill13>Skill Level 14:
+
+</skill13>
+<skill14>Skill Level 15:
+
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>56</id>
+</skill>
+
+<skill number="57" spritename="ShieldRecoil">
+<name>Shield Recoil</name>
+<wpntype>Any Weapon</wpntype>
+<description></description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+</skill0>
+<skill1>Skill Level 2:
+
+</skill1>
+<skill2>Skill Level 3:
+
+</skill2>
+<skill3>Skill Level 4:
+
+</skill3>
+<skill4>Skill Level 5:
+
+</skill4>
+<skill5>Skill Level 6:
+
+</skill5>
+<skill6>Skill Level 7:
+
+</skill6>
+<skill7>Skill Level 8:
+
+</skill7>
+<skill8>Skill Level 9:
+
+</skill8>
+<skill9>Skill Level 10:
+
+</skill9>
+<skill10>Skill Level 11:
+
+</skill10>
+<skill11>Skill Level 12:
+
+</skill11>
+<skill12>Skill Level 13:
+
+</skill12>
+<skill13>Skill Level 14:
+
+</skill13>
+<skill14>Skill Level 15:
+
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>57</id>
+</skill>
+
+<skill number="58" spritename="RepelMagic">
+<name>Repel Magic</name>
+<wpntype>Any Weapon</wpntype>
+<description></description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+</skill0>
+<skill1>Skill Level 2:
+
+</skill1>
+<skill2>Skill Level 3:
+
+</skill2>
+<skill3>Skill Level 4:
+
+</skill3>
+<skill4>Skill Level 5:
+
+</skill4>
+<skill5>Skill Level 6:
+
+</skill5>
+<skill6>Skill Level 7:
+
+</skill6>
+<skill7>Skill Level 8:
+
+</skill7>
+<skill8>Skill Level 9:
+
+</skill8>
+<skill9>Skill Level 10:
+
+</skill9>
+<skill10>Skill Level 11:
+
+</skill10>
+<skill11>Skill Level 12:
+
+</skill11>
+<skill12>Skill Level 13:
+
+</skill12>
+<skill13>Skill Level 14:
+
+</skill13>
+<skill14>Skill Level 15:
+
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>58</id>
+</skill>
+
+<skill number="59" spritename="ReverseAilment">
+<name>Reverse Ailment</name>
+<wpntype>Any Weapon</wpntype>
+<description></description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+</skill0>
+<skill1>Skill Level 2:
+
+</skill1>
+<skill2>Skill Level 3:
+
+</skill2>
+<skill3>Skill Level 4:
+
+</skill3>
+<skill4>Skill Level 5:
+
+</skill4>
+<skill5>Skill Level 6:
+
+</skill5>
+<skill6>Skill Level 7:
+
+</skill6>
+<skill7>Skill Level 8:
+
+</skill7>
+<skill8>Skill Level 9:
+
+</skill8>
+<skill9>Skill Level 10:
+
+</skill9>
+<skill10>Skill Level 11:
+
+</skill10>
+<skill11>Skill Level 12:
+
+</skill11>
+<skill12>Skill Level 13:
+
+</skill12>
+<skill13>Skill Level 14:
+
+</skill13>
+<skill14>Skill Level 15:
+
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>59</id>
+</skill>
+
+<skill number="60" spritename="Mangle">
+<name>Mangle</name>
+<wpntype>Polymorphed: Wolf</wpntype>
+<description>Knock your enemies to the ground when you've morphed into a wolf form and take advantage of their fallen state, interrupting their attack and shredding their flesh from their body.
+
+Every 3 attacks
+
+@@@@@@@@@@@@@
+	
+</description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+		
+2d2 Wolf Damage
+
+Target down: 2 sec.
+	
+@@@
+
+</skill0>
+<skill1>Skill Level 2:
+	
+2d3 Wolf Damage
+
+Target down: 2 sec.
+	
+@@@
+
+</skill1>
+<skill2>Skill Level 3:
+		
+2d4 Wolf Damage
+
+Target down: 2 sec.
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 4:
+		
+3d3 Wolf Damage
+
+Target down: 2 sec.
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 5:
+		
+3d4 Wolf Damage
+
+Target down: 2 sec.
+	
+@@@
+
+</skill4>
+<skill5>Skill Level 6:
+		
+3d5 Wolf Damage
+
+Target down: 2 sec.
+	
+@@@
+
+</skill5>
+<skill6>Skill Level 7:
+		
+4d5 Wolf Damage
+
+Target down: 2 sec.
+	
+@@@
+
+</skill6>
+<skill7>Skill Level 8:
+		
+5d5 Wolf Damage
+
+Target down: 2 sec.
+	
+@@@
+
+</skill7>
+<skill8>Skill Level 9:
+		
+6d5 Wolf Damage
+
+Target down: 2 sec.
+	
+@@@
+
+</skill8>
+<skill9>Skill Level 10:
+		
+6d6 Wolf Damage
+
+Target down: 2 sec.
+	
+@@@
+
+</skill9>
+<skill10>Skill Level 11:
+		
+7d6 Wolf Damage
+
+Target down: 2 sec.
+	
+@@@
+
+</skill10>
+<skill11>Skill Level 12:
+		
+9d5 Wolf Damage
+
+Target down: 2 sec.
+	
+@@@
+
+</skill11>
+<skill12>Skill Level 13:
+		
+8d6 Wolf Damage
+
+Target down: 2 sec. 
+	
+@@@
+
+</skill12>
+<skill13>Skill Level 14:
+		
+10d5 Wolf Damage
+
+Target down: 2 sec.
+	
+@@@
+
+</skill13>
+<skill14>Skill Level 15:
+		
+10d6 Wolf Damage
+
+Target down: 2 sec.
+	
+@@@
+
+</skill14><skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>60</id>
+</skill>
+
+<skill number="61" spritename="FlyYouFools">
+<name>Fly You Fools</name>
+<wpntype>Any Weapon</wpntype>
+<description></description>
+<skill-1></skill-1>
+
+<skill0>Skill Level 1:
+
+</skill0>
+<skill1>Skill Level 2:
+
+</skill1>
+<skill2>Skill Level 3:
+
+</skill2>
+<skill3>Skill Level 4:
+
+</skill3>
+<skill4>Skill Level 5:
+
+</skill4>
+<skill5>Skill Level 6:
+
+</skill5>
+<skill6>Skill Level 7:
+
+</skill6>
+<skill7>Skill Level 8:
+
+</skill7>
+<skill8>Skill Level 9:
+
+</skill8>
+<skill9>Skill Level 10:
+
+</skill9>
+<skill10>Skill Level 11:
+
+</skill10>
+<skill11>Skill Level 12:
+
+</skill11>
+<skill12>Skill Level 13:
+
+</skill12>
+<skill13>Skill Level 14:
+
+</skill13>
+<skill14>Skill Level 15:
+
+</skill14>
+<skill15>Skill Level 15:
+
+</skill15><skill16></skill16>
+<synergies></synergies>
+<id>61</id>
+</skill>
+
+<skill number="62">
+<name>Foul Creep</name>
+<description>@Herbology School@
+Throttle your enemies with a creeping corruption. While you hold the spell, it will continue to work its foul magic, causing both magic damage, and reducing your target's vitals.
+
+Cast on enemy
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@
+	
+</description>
+<skill0>Skill Level 0:
+	
+Magic Damage: 1d0 + 1d(FullInt/2)
+	
+Target's Stat Afflicted: Str
+	
+Stat Affliction (stackable per proc): 1
+	
+Seconds to Proc: 8 
+	
+@@@
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Magic Damage: 1d1 + 1d(FullInt/2)
+	
+Target's Stat Afflicted: Str
+	
+Stat Affliction (stackable per proc): 1
+	
+Seconds to Proc: 8 
+	
+@@@
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Magic Damage: 1d2 + 1d(FullInt/2)
+	
+Target's Stat Afflicted: Str
+	
+Stat Affliction (stackable per proc): 1
+	
+Seconds to Proc: 8 
+	
+@@@
+
+</skill2>
+<skill3>Skill Level 3:
+	
+Magic Damage: 1d3 + 1d(FullInt/2)
+	
+Target's Stat Afflicted: Str, Dex
+	
+Stat Affliction (stackable per proc): 1
+	
+Seconds to Proc: 8 
+	
+@@@
+
+</skill3>
+<skill4>Skill Level 4:
+	
+Magic Damage: 1d4 + 1d(FullInt/2)
+	
+Target's Stat Afflicted: Str, Dex
+	
+Stat Affliction (stackable per proc): 1
+	
+Seconds to Proc: 8 
+	
+@@@
+	
+</skill4>
+<skill5>Skill Level 5:
+	
+Magic Damage: 1d5 + 1d(FullInt/2)
+	
+Target's Stat Afflicted: Str, Dex
+	
+Stat Affliction (stackable per proc): 1
+	
+Seconds to Proc: 8 
+	
+@@@
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Magic Damage: 1d6 + 1d(FullInt/2)
+	
+Target's Stat Afflicted: Str, Dex
+	
+Stat Affliction (stackable per proc): 1
+	
+Seconds to Proc: 8 
+	
+@@@
+	
+</skill6>
+<skill7>Skill Level 7:
+	
+Magic Damage: 1d7 + 1d(FullInt/2)
+	
+Target's Stat Afflicted: Str, Dex, Per
+	
+Stat Affliction (stackable per proc): 1
+	
+Seconds to Proc: 8
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Magic Damage: 1d8 + 1d(FullInt/2)
+	
+Target's Stat Afflicted: Str, Dex, Per
+	
+Stat Affliction (stackable per proc): 1
+	
+Seconds to Proc: 8 
+</skill8>
+<skill9>Skill Level 9:
+	
+Magic Damage: 1d9 + 1d(FullInt/2)
+	
+Target's Stat Afflicted: Str, Dex, Per
+	
+Stat Affliction (stackable per proc): 1
+	
+Seconds to Proc: 8 
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Magic Damage: 1d10 + 1d(FullInt/2)
+	
+Target's Stat Afflicted: Str, Dex, Per
+	
+Stat Affliction (stackable per proc): 1
+	
+Seconds to Proc: 8 
+</skill10>
+<skill11>Skill Level 11:
+	
+Magic Damage: 1d11 + 1d(FullInt/2)
+	
+Target's Stat Afflicted: Str, Dex, Per, Int
+	
+Stat Affliction (stackable per proc): 1
+	
+Seconds to Proc: 8 
+	
+@@@	
+	
+</skill11>
+<skill12>Skill Level 12:
+	
+Magic Damage: 1d12 + 1d(FullInt/2)
+	
+Target's Stat Afflicted: Str, Dex, Per, Int
+	
+Stat Affliction (stackable per proc): 1
+	
+Seconds to Proc: 8 
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Magic Damage: 1d13 + 1d(FullInt/2)
+	
+Target's Stat Afflicted: Str, Dex, Per, Int
+	
+Stat Affliction (stackable per proc): 1
+	
+Seconds to Proc: 8 
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Magic Damage: 1d14 + 1d(FullInt/2)
+	
+Target's Stat Afflicted: Str, Dex, Per, Int, Occ
+	
+Stat Affliction (stackable per proc): 1
+	
+Seconds to Proc: 8 
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Magic Damage: 1d15 + 1d(FullInt/2)
+	
+Target's Stat Afflicted: Str, Dex, Per, Int, Occ
+	
+Stat Affliction (stackable per proc): 1
+	
+Seconds to Proc: 8
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+
+</skill>
+
+<skill number="63">
+<name>Blood Cocoon</name>
+<description>@Herbology School@
+Hatch a Cocoon of purifying blood to be sprayed at a target, quickly healing wounds. A sorcerer may continuously hatch cocoons over a target if they hold the spell on them, and increase the frequency at which they spawn.
+
+(OccMod = Occult # > 10)
+
+Cast on self or party member
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@	
+
+	</description>
+
+<skill0>Skill Level 0:
+	
+Blood Healing: 1d(6 + OccMod)
+	
+Seconds to Proc: 10	
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Blood Healing: 1d(6 + OccMod)
+	
+Seconds to Proc: 8
+	
+@@@	
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Blood Healing: 1d(6 + OccMod)
+	
+Seconds to Proc: 7
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Blood Healing: 1d(6 + OccMod)
+	
+Seconds to Proc: 6.5
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Blood Healing: 1d(6 + OccMod)
+	
+Seconds to Proc: 6
+	
+@@@	
+	
+</skill4>
+<skill5>Skill Level 5:
+	
+Blood Healing: 1d(6 + OccMod)
+	
+Seconds to Proc: 5.5
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Blood Healing: 1d(6 + OccMod)
+	
+Seconds to Proc: 5
+	
+@@@	
+	
+</skill6>
+<skill7>Skill Level 7:
+	
+Blood Healing: 1d(6 + OccMod)
+	
+Seconds to Proc: 4.5
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Blood Healing: 1d(6 + OccMod)
+	
+Seconds to Proc: 4
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Blood Healing: 1d(6 + OccMod)
+	
+Seconds to Proc: 3.5
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Blood Healing: 1d(6 + OccMod)
+	
+Seconds to Proc: 3.25
+	
+@@@	
+	
+</skill10>
+<skill11>Skill Level 11:
+	
+Blood Healing: 1d(6 + OccMod)
+	
+Seconds to Proc: 3
+	
+@@@	
+	
+</skill11>
+<skill12>Skill Level 12:
+	
+Blood Healing: 1d(6 + OccMod)
+	
+Seconds to Proc: 2.75
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Blood Healing: 1d(6 + OccMod)
+	
+Seconds to Proc: 2.5
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Blood Healing: 1d(6 + OccMod)
+	
+Seconds to Proc: 2.25
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Blood Healing: 1d(6 + OccMod)
+	
+Seconds to Proc: 2
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+</skill>
+
+<skill number="64">
+<name>Festering Ooze</name>
+<description>@Herbology School@
+Create a murky, molding sludge on the ground to trip up both your enemies and friends and leave them incapacitated for a period of time. With more skill, your sludge will become so vile it will leave a festering damage to all that fall prey.
+
+Cast on ground
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@		
+	
+	</description>
+
+<skill0>Skill Level 0:
+	
+Radius (in paces): 2
+	
+Seconds Target Afflicted: 2
+	
+Festering Damage: 0
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Radius (in paces): 3
+	
+Seconds Target Afflicted: 2.4
+	
+Festering Damage: 0
+	
+@@@
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Radius (in paces): 4
+	
+Seconds Target Afflicted: 2.8
+	
+Festering Damage: 0
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Radius (in paces): 5
+	
+Seconds Target Afflicted: 3.2
+	
+Festering Damage: 0
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Radius (in paces): 6
+	
+Seconds Target Afflicted: 3.6
+	
+Festering Damage: 0
+	
+@@@	
+	
+</skill4>
+<skill5>Skill Level 5:
+	
+Radius (in paces): 7
+	
+Seconds Target Afflicted: 4
+	
+Festering Damage: 1d(FullInt)
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Radius (in paces): 8
+	
+Seconds Target Afflicted: 4.4
+	
+Festering Damage: 01d(FullInt)
+	
+@@@	
+	
+</skill6>
+<skill7>Skill Level 7:
+	
+Radius (in paces): 9
+	
+Seconds Target Afflicted: 4.8
+	
+Festering Damage: 1d(FullInt)
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Radius (in paces): 10
+	
+Seconds Target Afflicted: 5.2
+	
+Festering Damage: 1d(FullInt)
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Radius (in paces): 11
+	
+Seconds Target Afflicted: 2
+	
+Festering Damage: 1d(FullInt)
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Radius (in paces): 12
+	
+Seconds Target Afflicted: 5.6
+	
+Festering Damage: 1d(FullInt)
+	
+@@@	
+	
+</skill10>
+<skill11>Skill Level 11:
+	
+Radius (in paces): 13
+	
+Seconds Target Afflicted: 6.4
+	
+Festering Damage: 1d(FullInt)
+</skill11>
+<skill12>Skill Level 11:
+	
+Radius (in paces): 14
+	
+Seconds Target Afflicted: 6.8
+	
+Festering Damage: 1d(FullInt)
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Radius (in paces): 15
+	
+Seconds Target Afflicted: 7.2
+	
+Festering Damage: 1d(FullInt)
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Radius (in paces): 16
+	
+Seconds Target Afflicted: 7.6
+	
+Festering Damage: 1d(FullInt)
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Radius (in paces): 17
+	
+Seconds Target Afflicted: 8
+	
+Festering Damage: 1d(FullInt)
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+</skill>
+
+<skill number="65">
+<name>Heat Metal</name>
+<description>@Forging School@
+Cast a smoldering beam of heat to a single target's weapon, ailing their ability to hold the weapon while you hold the beam. After 5 skill levels you begin searing the flesh holding the weapon, doing unblockable burn damage.
+
+(IntMod = Intelligence # > 10) 
+	
+Cast on enemy
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@	
+	
+</description>
+	
+<skill0>Skill Level 0:
+	
+Physical Hit Chance Skill Mod Roll: -1d(FullInt)
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Physical Hit Chance Skill Mod Roll: -1d(FullInt)
+	
+@@@	
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Physical Hit Chance Skill Mod Roll: -1d(FullInt)
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Physical Hit Chance Skill Mod Roll: -1d(FullInt)
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Physical Hit Chance Skill Mod Roll: -1d(FullInt)
+	
+@@@	
+	
+</skill4>
+<skill5>Skill Level 5:
+	
+Physical Hit Chance Skill Mod Roll: -1d(FullInt)
+	
+Burn Damage: 1d(5+IntMod)
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Physical Hit Chance Skill Mod Roll: -1d(FullInt)
+	
+Burn Damage: 1d(6+IntMod)
+	
+@@@	
+	
+</skill6>
+<skill7>Skill Level 7:
+	
+Physical Hit Chance Skill Mod Roll: -1d(FullInt)
+	
+Burn Damage: 1d(7+IntMod)
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Physical Hit Chance Skill Mod Roll: -1d(FullInt)
+	
+Burn Damage: 1d(8+IntMod)
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Physical Hit Chance Skill Mod Roll: -1d(FullInt)
+	
+Burn Damage: 1d(9+IntMod)
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Physical Hit Chance Skill Mod Roll: -1d(FullInt)
+	
+Burn Damage: 1d(10+IntMod)
+	
+@@@	
+	
+</skill10>
+<skill11>Skill Level 11:
+	
+Physical Hit Chance Skill Mod Roll: -1d(FullInt)
+	
+Burn Damage: 1d(11+IntMod)
+	
+@@@	
+	
+</skill11>
+<skill12>Skill Level 12:
+	
+Physical Hit Chance Skill Mod Roll: -1d(FullInt)
+	
+Burn Damage: 1d(12+IntMod)
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Physical Hit Chance Skill Mod Roll: -1d(FullInt)
+	
+Burn Damage: 1d(13+IntMod)
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Physical Hit Chance Skill Mod Roll: -1d(FullInt)
+	
+Burn Damage: 1d(14+IntMod)
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Physical Hit Chance Skill Mod Roll: -1d(FullInt)
+	
+Burn Damage: 1d(15+IntMod)
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+</skill>
+
+<skill number="66">
+<name>Radiant Stave</name>
+<description>@Forging School@
+Erect a stave of pure blindingly hot metal out of the ground to blind enemies who gaze into its splendorous light, ailing their ability to evade and land attacks. This Spell can be emitted from a location upon cast without needing to be mentally held.
+
+(IntMod = Intelligence # > 10) 
+	
+Cast on ground
+
+*If already cast, a sorcerer cannot stack another Radiant Stave, but can re-cast it in a new location and reset the time it exists in a new location.
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@		
+	
+	</description>
+
+<skill0>Skill Level 0:
+	
+Physical Hit Chance Skill Mod Roll: +1d(0+IntMod)
+	
+Physical Dodge Chance Skill Mod Roll: +1d(0+IntMod)
+	
+Duration: 5+IntMod
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Physical Hit Chance Skill Mod Roll: +1d(1+IntMod)
+	
+Physical Dodge Chance Skill Mod Roll: +1d(1+IntMod)
+	
+Duration: 5+IntMod
+	
+@@@	
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Physical Hit Chance Skill Mod Roll: +1d(2+IntMod)
+	
+Physical Dodge Chance Skill Mod Roll: +1d(2+IntMod)
+	
+Duration: 5+IntMod
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Physical Hit Chance Skill Mod Roll: +1d(3+IntMod)
+	
+Physical Dodge Chance Skill Mod Roll: +1d(3+IntMod)
+	
+Duration: 5+IntMod
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Physical Hit Chance Skill Mod Roll: +1d(4+IntMod)
+	
+Physical Dodge Chance Skill Mod Roll: +1d(4+IntMod)
+	
+Duration: 5+IntMod
+	
+@@@	
+	
+</skill4>
+<skill5>Skill Level 5:
+	
+Physical Hit Chance Skill Mod Roll: +1d(5+IntMod)
+	
+Physical Dodge Chance Skill Mod Roll: +1d(5+IntMod)
+	
+Duration: 5+IntMod
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Physical Hit Chance Skill Mod Roll: +1d(6+IntMod)
+	
+Physical Dodge Chance Skill Mod Roll: +1d(6+IntMod)
+	
+Duration: 5+IntMod
+</skill6>
+<skill7>Skill Level 7:
+	
+Physical Hit Chance Skill Mod Roll: +1d(7+IntMod)
+	
+Physical Dodge Chance Skill Mod Roll: +1d(7+IntMod)
+	
+Duration: 5+IntMod
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Physical Hit Chance Skill Mod Roll: +1d(8+IntMod)
+	
+Physical Dodge Chance Skill Mod Roll: +1d(8+IntMod)
+	
+Duration: 5+IntMod
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Physical Hit Chance Skill Mod Roll: +1d(9+IntMod)
+	
+Physical Dodge Chance Skill Mod Roll: +1d(9+IntMod)
+	
+Duration: 5+IntMod
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Physical Hit Chance Skill Mod Roll: +1d(10+IntMod)
+	
+Physical Dodge Chance Skill Mod Roll: +1d(10+IntMod)
+	
+Duration: 5+IntMod
+	
+@@@	
+	
+</skill10>
+<skill11>Skill Level 11:
+	
+Physical Hit Chance Skill Mod Roll: +1d(11+IntMod)
+	
+Physical Dodge Chance Skill Mod Roll: +1d(11+IntMod)
+	
+Duration: 5+IntMod
+	
+@@@	
+	
+</skill11>
+<skill12>Skill Level 12:
+	
+Physical Hit Chance Skill Mod Roll: +1d(12+IntMod)
+	
+Physical Dodge Chance Skill Mod Roll: +1d(12+IntMod)
+	
+Duration: 5+IntMod
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Physical Hit Chance Skill Mod Roll: +1d(13+IntMod)
+	
+Physical Dodge Chance Skill Mod Roll: +1d(13+IntMod)
+	
+Duration: 5+IntMod
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Physical Hit Chance Skill Mod Roll: +1d(14+IntMod)
+	
+Physical Dodge Chance Skill Mod Roll: +1d(14+IntMod)
+	
+Duration: 5+IntMod
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Physical Hit Chance Skill Mod Roll: +1d(15+IntMod)
+	
+Physical Dodge Chance Skill Mod Roll: +1d(15+IntMod)
+	
+Duration: 5+IntMod
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+</skill>
+
+<skill number="67">
+<name>Fearful Light</name>
+<description>@Illumination School@
+Cast a ray of cosmic moonlight which can shock enemies around it into fleeing. The moonlight can continuously radiate a fearful glow for as long as it is held by the sorcerer. Sorcerers can invest more power into the spell to increase the radiating light's effectiveness and area of influence.
+
+Cast on ground
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@	
+	
+	</description>
+
+<skill0>Skill Level 0:
+	
+Area Light Illuminates (in paces): 2
+	
+Increase Spell Hit Chance: 1d0
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Area Light Illuminates (in paces): 3
+	
+Increase Spell Hit Chance: 1d1
+	
+@@@	
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Area Light Illuminates (in paces): 4
+	
+Increase Spell Hit Chance: 1d2
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Area Light Illuminates (in paces): 5
+	
+Increase Spell Hit Chance: 1d3
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Area Light Illuminates (in paces): 6
+	
+Increase Spell Hit Chance: 1d4
+	
+@@@	
+	
+</skill4>
+<skill5>Skill Level 5:
+	
+Area Light Illuminates (in paces): 7
+	
+Increase Spell Hit Chance: 1d5
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Area Light Illuminates (in paces): 8
+	
+Increase Spell Hit Chance: 1d6
+	
+@@@	
+	
+</skill6>
+<skill7>Skill Level 7:
+	
+Area Light Illuminates (in paces): 9
+	
+Increase Spell Hit Chance: 1d7
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Area Light Illuminates (in paces): 10
+	
+Increase Spell Hit Chance: 1d8
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Area Light Illuminates (in paces): 11
+	
+Increase Spell Hit Chance: 1d9
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Area Light Illuminates (in paces): 12
+	
+Increase Spell Hit Chance: 1d10
+	
+@@@	
+	
+</skill10>
+<skill11>Skill Level 11:
+	
+Area Light Illuminates (in paces): 13
+	
+Increase Spell Hit Chance: 1d11
+	
+@@@
+	
+</skill11>
+<skill12>Skill Level 12:
+	
+Area Light Illuminates (in paces): 14
+	
+Increase Spell Hit Chance: 1d12
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Area Light Illuminates (in paces): 15
+	
+Increase Spell Hit Chance: 1d13
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Area Light Illuminates (in paces): 16
+	
+Increase Spell Hit Chance: 1d14
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Area Light Illuminates (in paces): 17
+	
+Increase Spell Hit Chance: 1d15
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+</skill>
+
+<skill number="68">
+<name>Feverish Haze</name>
+<description>@Flesh School@
+Condemn a single target's body to ruin by sending it plundering into a feverish wreck, weakening their ability to quickly act and even manage to hold their weapon. The longer the duration a sorcerer invokes this spell on a target, the more intense the affliction and chances the target will drop their held weapon.
+
+Cast on enemy
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@	
+	
+</description>
+
+<skill0>Skill Level 0:
+	
+Attack Speed Skill Mod per proc (in seconds): +.1
+	
+Seconds to Proc: 10
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Attack Speed Skill Mod per proc (in seconds): +.1
+	
+Seconds to Proc: 8	
+	
+@@@	
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Attack Speed Skill Mod per proc (in seconds): +.1
+	
+Seconds to Proc: 7	
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Attack Speed Skill Mod per proc (in seconds): +.1
+	
+Seconds to Proc: 6.5	
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Attack Speed Skill Mod per proc (in seconds): +.1
+	
+Seconds to Proc: 6	
+	
+@@@	
+	
+</skill4>
+<skill5>Skill Level 5:
+	
+Attack Speed Skill Mod per proc (in seconds): +.1
+	
+Seconds to Proc: 5.5	
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Attack Speed Skill Mod per proc (in seconds): +.1
+	
+Seconds to Proc: 5	
+	
+@@@	
+	
+</skill6>
+<skill7>Skill Level 7:
+	
+Attack Speed Skill Mod per proc (in seconds): +.1
+	
+Seconds to Proc: 4.5	
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Attack Speed Skill Mod per proc (in seconds): +.1
+	
+Seconds to Proc: 4	
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Attack Speed Skill Mod per proc (in seconds): +.1
+	
+Seconds to Proc: 3.5	
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Attack Speed Skill Mod per proc (in seconds): +.1
+	
+Seconds to Proc: 3.25	
+	
+@@@	
+	
+</skill10>
+<skill11>Skill Level 11:
+	
+Attack Speed Skill Mod per proc (in seconds): +.1
+	
+Seconds to Proc: 3	
+	
+@@@	
+	
+</skill11>
+<skill12>Skill Level 12:
+	
+Attack Speed Skill Mod per proc (in seconds): +.1
+	
+Seconds to Proc: 2.75	
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Attack Speed Skill Mod per proc (in seconds): +.1
+	
+Seconds to Proc: 2.5	
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Attack Speed Skill Mod per proc (in seconds): +.1
+	
+Seconds to Proc: 2.25	
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Attack Speed Skill Mod per proc (in seconds): +.1
+	
+Seconds to Proc: 2	
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+</skill>
+
+<skill number="69">
+<name>Morph Into Cat</name>
+<description>@Morphing School@
+Polymorph your body into that of a mainland feline, the fox eared Shraazen. As a nimble cat, the sorcerer can be astonishingly evasive while in and out of combat, increasing dodge chance and movement speed. This spell is a favorite for scouts and spies looking for a quick getaway, entrance, or to toy with their opponents. Sorcerers are said to be able to even evade magical assaults with the more knowledge invested.
+
+(FullOcc = Occult #) 
+	
+Cast on self
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@	
+	
+	</description>
+<skill0>Skill Level 0:
+	
+Physical Dodge Chance Skill Mod: +1d(FullOcc)
+	
+Duration: FullOcc + (Buff from Endure Polymorph if Active)	
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Physical Dodge Chance Skill Mod: +1d(FullOcc)
+	
+Duration: FullOcc + (Buff from Endure Polymorph if Active)	
+	
+@@@	
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Physical Dodge Chance Skill Mod: +1d(FullOcc)
+	
+Duration: FullOcc + (Buff from Endure Polymorph if Active)	
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Physical Dodge Chance Skill Mod: +4d(FullOcc)
+	
+Spell Dodge Chance Skill Mod: +4d(FullOcc)
+	
+Duration: FullOcc + (Buff from Endure Polymorph if Active)	
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Physical Dodge Chance Skill Mod: +5d(FullOcc)
+	
+Spell Dodge Chance Skill Mod: +5d(FullOcc)
+	
+Duration: FullOcc + (Buff from Endure Polymorph if Active)	
+	
+@@@	
+	
+</skill4>
+<skill5>Skill Level 5:
+	
+Physical Dodge Chance Skill Mod: +6d(FullOcc)
+	
+Spell Dodge Chance Skill Mod: +6d(FullOcc)
+	
+Duration: FullOcc + (Buff from Endure Polymorph if Active)	
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Physical Dodge Chance Skill Mod: +7d(FullOcc)
+	
+Spell Dodge Chance Skill Mod: +7d(FullOcc)
+	
+Duration: FullOcc + (Buff from Endure Polymorph if Active)	
+	
+@@@	
+	
+</skill6>
+<skill7>Skill Level 7:
+	
+Physical Dodge Chance Skill Mod: +8d(FullOcc)
+	
+Spell Dodge Chance Skill Mod: +8d(FullOcc)
+	
+Duration: FullOcc + (Buff from Endure Polymorph if Active)	
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Physical Dodge Chance Skill Mod: +9d(FullOcc)
+	
+Spell Dodge Chance Skill Mod: +9d(FullOcc)
+	
+Duration: FullOcc + (Buff from Endure Polymorph if Active)	
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Physical Dodge Chance Skill Mod: +10d(FullOcc)
+	
+Spell Dodge Chance Skill Mod: +10d(FullOcc)
+	
+Duration: FullOcc + (Buff from Endure Polymorph if Active)	
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Physical Dodge Chance Skill Mod: +11d(FullOcc)
+	
+Spell Dodge Chance Skill Mod: +11d(FullOcc)
+	
+Duration: FullOcc + (Buff from Endure Polymorph if Active)	
+	
+@@@	
+	
+</skill10>
+<skill11>Skill Level 11:
+	
+Physical Dodge Chance Skill Mod: +12d(FullOcc)
+	
+Spell Dodge Chance Skill Mod: +12d(FullOcc)
+	
+Duration: FullOcc + (Buff from Endure Polymorph if Active)	
+	
+@@@	
+	
+</skill11>
+<skill12>Skill Level 12:
+	
+Physical Dodge Chance Skill Mod: +13d(FullOcc)
+	
+Spell Dodge Chance Skill Mod: +13d(FullOcc)
+	
+Duration: FullOcc + (Buff from Endure Polymorph if Active)	
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Physical Dodge Chance Skill Mod: +14d(FullOcc)
+	
+Spell Dodge Chance Skill Mod: +14d(FullOcc)
+	
+Duration: FullOcc + (Buff from Endure Polymorph if Active)	
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Physical Dodge Chance Skill Mod: +15d(FullOcc)
+	
+Spell Dodge Chance Skill Mod: +15d(FullOcc)
+	
+Duration: FullOcc + (Buff from Endure Polymorph if Active)	
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Physical Dodge Chance Skill Mod: +16d(FullOcc)
+	
+Spell Dodge Chance Skill Mod: +16d(FullOcc)
+	
+Duration: FullOcc + (Buff from Endure Polymorph if Active)	
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+</skill>
+
+<skill number="70">
+<name>Detect Man</name>
+<description></description>
+</skill>
+
+<skill number="71">
+<name>Arcane Shield</name>
+<description>@Linking School@
+Conjure an arcane shield to scatter incoming spells, increasing Spell Resistances of the sorcerer and allies. Arcane Shield will radiate out of whomever is targeted and shield any allies within their vicinity.
+
+(FullOcc = Occult #) 
+	
+Cast on ground
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@	
+	
+</description>
+<skill0>Skill Level 0:
+	
+Radius (in paces): 4
+	
+Spell Resistance Skill Mod Roll: +1d(FullOcc + 0)
+	
+Duration of Shield: 8	
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Radius (in paces): 4.5
+	
+Spell Resistance Skill Mod Roll: +1d(FullOcc + 1)
+	
+Duration of Shield: 8	
+	
+@@@	
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Radius (in paces): 5
+	
+Spell Resistance Skill Mod Roll: +1d(FullOcc + 2)
+	
+Duration of Shield: 8	
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Radius (in paces): 5.5
+	
+Spell Resistance Skill Mod Roll: +1d(FullOcc + 3)
+	
+Duration of Shield: 8	
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Radius (in paces): 6
+	
+Spell Resistance Skill Mod Roll: +1d(FullOcc + 4)
+	
+Duration of Shield: 8	
+	
+@@@	
+	
+</skill4>
+<skill5>Skill Level 5:
+	
+Radius (in paces): 6.5
+	
+Spell Resistance Skill Mod Roll: +1d(FullOcc + 5)
+	
+Duration of Shield: 8	
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Radius (in paces): 7
+	
+Spell Resistance Skill Mod Roll: +1d(FullOcc + 6)
+	
+Duration of Shield: 8	
+	
+@@@	
+	
+</skill6>
+<skill7>Skill Level 7:
+	
+Radius (in paces): 7.5
+	
+Spell Resistance Skill Mod Roll: +1d(FullOcc + 7)
+	
+Duration of Shield: 8	
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Radius (in paces): 8
+	
+Spell Resistance Skill Mod Roll: +1d(FullOcc + 8)
+	
+Duration of Shield: 8	
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Radius (in paces): 8.5
+	
+Spell Resistance Skill Mod Roll: +1d(FullOcc + 9)
+	
+Duration of Shield: 8	
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Radius (in paces): 9
+	
+Spell Resistance Skill Mod Roll: +1d(FullOcc + 10)
+	
+Duration of Shield: 8	
+	
+@@@	
+	
+</skill10>
+<skill11>Skill Level 11:
+	
+Radius (in paces): 9.5
+	
+Spell Resistance Skill Mod Roll: +1d(FullOcc + 11)
+	
+Duration of Shield: 8	
+	
+@@@	
+	
+</skill11>
+<skill12>Skill Level 12:
+	
+Radius (in paces): 10
+	
+Spell Resistance Skill Mod Roll: +1d(FullOcc + 12)
+	
+Duration of Shield: 8	
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Radius (in paces): 10.5
+	
+Spell Resistance Skill Mod Roll: +1d(FullOcc + 13)
+	
+Duration of Shield: 8	
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Radius (in paces): 11
+	
+Spell Resistance Skill Mod Roll: +1d(FullOcc + 14)
+	
+Duration of Shield: 8	
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Radius (in paces): 12
+	
+Spell Resistance Skill Mod Roll: +1d(FullOcc + 15)
+	
+Duration of Shield: 8	
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+</skill>
+
+<skill number="72">
+<name>Arcane Attack</name>
+<description>@Forging School@
+Imbue your weapon with an arcane aura that disperses magical damage when attacking, allowing you to do physical and magical damage. A sorcerer can cast this augmentation once and it will last on its own energies for a duration of time.
+	
+Cast on self
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@		
+	
+	</description>
+<skill0>Skill Level 0:
+	
+Magic Damage: 1d(0+Full Int)
+	
+Duration: 1xFullInt	
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Magic Damage: 1d(1+Full Int)
+	
+Duration: 1xFullInt	
+	
+@@@	
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Magic Damage: 1d(2+Full Int)
+	
+Duration: 1xFullInt	
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Magic Damage: 1d(3+Full Int)
+	
+Duration: 1xFullInt	
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Magic Damage: 1d(4+Full Int)
+	
+Duration: 1xFullInt	
+	
+@@@	
+	
+</skill4>
+<skill5>Skill Level 5:
+	
+Magic Damage: 1d(5+Full Int)
+	
+Duration: 1xFullInt	
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Magic Damage: 1d(6+Full Int)
+	
+Duration: 1xFullInt	
+	
+@@@	
+	
+</skill6>
+<skill7>Skill Level 7:
+	
+Magic Damage: 1d(7+Full Int)
+	
+Duration: 1xFullInt	
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Magic Damage: 1d(8+Full Int)
+	
+Duration: 1xFullInt	
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Magic Damage: 1d(9+Full Int)
+	
+Duration: 1xFullInt	
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Magic Damage: 1d(10+Full Int)
+	
+Duration: 1xFullInt	
+	
+@@@	
+	
+</skill10>
+<skill11>Skill Level 11:
+	
+Magic Damage: 1d(11+Full Int)
+	
+Duration: 1xFullInt	
+	
+@@@	
+	
+</skill11>
+<skill12>Skill Level 12:
+	
+Magic Damage: 1d(12+Full Int)
+	
+Duration: 1xFullInt	
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Magic Damage: 1d(13+Full Int)
+	
+Duration: 1xFullInt	
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Magic Damage: 1d(14+Full Int)
+	
+Duration: 1xFullInt	
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Magic Damage: 1d(15+Full Int)
+	
+Duration: 1xFullInt	
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+</skill>
+
+<skill number="73">
+<name>Polymorph Into Wolf</name>
+<description>@Morphing School@
+Polymorph your body into a ferocious western-lands wolf, with blackish red fur and brutally sharp claws. Found commonly in the winter forests, the nocturnal beast is outfitted for hunting large prey that stray in its territory, and are rarely seen outside the thickest of forests. The magical conjuring of its skin and mind can be amplified with increased combat prowess and agility.
+
+(OccMod = Occult # > 10) 
+	
+Cast on self
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@
+	
+	</description>
+<skill0>Skill Level 0:
+	
+Phys Dmg Buff: 1d1
+	
+Phys Hit Chance Buff: 1d1
+	
+Phys Dodge Chance Buff: OccMod/2
+	
+Duration (in sec.): 10	
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Phys Dmg Buff: 2d2
+	
+Phys Hit Chance Buff: 1d1
+	
+Phys Dodge Chance Buff: OccMod/2
+	
+Duration (in sec.): 12	
+	
+@@@	
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Phys Dmg Buff: 2d3
+	
+Phys Hit Chance Buff: 1d2
+	
+Phys Dodge Chance Buff: OccMod/2
+	
+Duration (in sec.): 14	
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Phys Dmg Buff: 2d4
+	
+Phys Hit Chance Buff: 1d3
+	
+Phys Dodge Chance Buff: OccMod/2
+	
+Duration (in sec.): 16	
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Phys Dmg Buff: 3d3
+	
+Phys Hit Chance Buff: 2d2
+	
+Phys Dodge Chance Buff: OccMod/2
+	
+Duration (in sec.): 18
+</skill4>
+
+<skill5>Skill Level 5:
+	
+Phys Dmg Buff: 3d4
+	
+Phys Hit Chance Buff: 2d3
+	
+Phys Dodge Chance Buff: OccMod/2
+	
+Duration (in sec.): 20	
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Phys Dmg Buff: 3d5
+	
+Phys Hit Chance Buff: 2d4
+	
+Phys Dodge Chance Buff: OccMod/2
+	
+Duration (in sec.): 22	
+	
+@@@	
+	
+</skill6>
+<skill7>Skill Level 7:
+	
+Phys Dmg Buff: 4d5
+	
+Phys Hit Chance Buff: 3d3
+	
+Phys Dodge Chance Buff: OccMod/2
+	
+Duration (in sec.): 24	
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Phys Dmg Buff: 5d5
+	
+Phys Hit Chance Buff: 3d4
+	
+Phys Dodge Chance Buff: OccMod/2
+	
+Duration (in sec.): 26	
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Phys Dmg Buff: 6d5
+	
+Phys Hit Chance Buff: 3d5
+	
+Phys Dodge Chance Buff: OccMod/2
+	
+Duration (in sec.): 28	
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Phys Dmg Buff: 6d6
+	
+Phys Hit Chance Buff: 4d4
+	
+Phys Dodge Chance Buff: OccMod/2
+	
+Duration (in sec.): 30	
+	
+@@@	
+	
+</skill10>
+<skill11>Skill Level 11:
+	
+Phys Dmg Buff: 7d6
+	
+Phys Hit Chance Buff: 3d6
+	
+Phys Dodge Chance Buff: OccMod/2
+	
+Duration (in sec.): 32
+</skill11>
+<skill12>Skill Level 12:
+	
+Phys Dmg Buff: 9d5
+	
+Phys Hit Chance Buff: 4d5
+	
+Phys Dodge Chance Buff: OccMod/2
+	
+Duration (in sec.): 34	
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Phys Dmg Buff: 8d6
+	
+Phys Hit Chance Buff: 4d6
+	
+Phys Dodge Chance Buff: OccMod/2
+	
+Duration (in sec.): 36	
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Phys Dmg Buff: 10d5
+	
+Phys Hit Chance Buff: 5d5
+	
+Phys Dodge Chance Buff: OccMod/2
+	
+Duration (in sec.): 38	
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Phys Dmg Buff: 10d6
+	
+Phys Hit Chance Buff: 5d6
+	
+Phys Dodge Chance Buff: OccMod/2
+	
+Duration (in sec.): 40	
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+</skill>
+
+<skill number="74">
+<name>Hallucinogen</name>
+<description>@Herbology School@
+Conjure an abomination inside a target's mind. While the abomination writhes and tears within their mind and memories, horrors lash out from the corners of their mind's eye, creating dreadful images of past mistakes, horrifically killed loved ones, and anguish beyond reason. The target flees in terror and rends at their body to try to remove the hallucinogenic corruption. The more concentrated the caster's spell, the more compelled to kill oneself while under the magical hallucinogen.
+	
+Cast on enemy
+
+(IntMod = Intelligence # > 10) 
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@
+	
+	</description>
+
+<skill0>Skill Level 0:
+	
+Magic Dmg: 1d(IntMod)
+	
+Seconds to Proc: 8	
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Magic Dmg: 1d(IntMod + 1)
+	
+Seconds to Proc: 8	
+	
+@@@	
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Magic Dmg: 1d(IntMod + 2)
+	
+Seconds to Proc: 8	
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Magic Dmg: 1d(IntMod + 3)
+	
+Seconds to Proc: 8	
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Magic Dmg: 1d(IntMod + 4)
+	
+Seconds to Proc: 8	
+	
+@@@	
+	
+</skill4>
+<skill5>Skill Level 5:
+	
+Magic Dmg: 1d(IntMod + 5)
+	
+Seconds to Proc: 8	
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Magic Dmg: 1d(IntMod + 6)
+	
+Seconds to Proc: 8	
+	
+@@@	
+	
+</skill6>
+<skill7>Skill Level 7:
+	
+Magic Dmg: 1d(IntMod + 7)
+	
+Seconds to Proc: 8	
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Magic Dmg: 1d(IntMod + 8)
+	
+Seconds to Proc: 8	
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Magic Dmg: 1d(IntMod + 9)
+	
+Seconds to Proc: 8	
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Magic Dmg: 1d(IntMod + 10)
+	
+Seconds to Proc: 8	
+	
+@@@	
+	
+</skill10>
+<skill11>Skill Level 11:
+	
+Magic Dmg: 1d(IntMod + 11)
+	
+Seconds to Proc: 8	
+	
+@@@	
+	
+</skill11>
+<skill12>Skill Level 12:
+	
+Magic Dmg: 1d(IntMod + 12)
+	
+Seconds to Proc: 8	
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Magic Dmg: 1d(IntMod + 13)
+	
+Seconds to Proc: 8	
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Magic Dmg: 1d(IntMod + 14)
+	
+Seconds to Proc: 8	
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Magic Dmg: 1d(IntMod + 15)
+	
+Seconds to Proc: 8	
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+
+
+</skill>
+
+<skill number="75">
+<name>Nauseate</name>
+<description>@Flesh School@
+Issuing a magical infestation to degrade the immunities of a target, a caster can cause an immense sickness. Through this sickness a usually simple ailment created within can cause immense pain and internal bleeding, while also lowering the target's strength through frequent throws of the body trying to remove said ailment. A potent casting can cause greater damage, and the longer the casting is in effect the weaker the target will become.
+
+(IntMod = Intelligence # > 10) 
+	
+Cast on enemy
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@	
+	
+	</description>
+
+
+<skill0>Skill Level 0:
+	
+Magic Dmg: 1d2
+	
+Seconds to Proc: 10
+	
+Phys Dmg Ailment to Target Increase on Proc: 1d1	
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Magic Dmg: 2d2
+	
+Seconds to Proc: 8
+	
+Phys Dmg Ailment to Target Increase on Proc: 1d1	
+	
+@@@	
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Magic Dmg: 3d2
+	
+Seconds to Proc: 7
+	
+Phys Dmg Ailment to Target Increase on Proc: 1d1	
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Magic Dmg: 4d2
+	
+Seconds to Proc: 6.5
+	
+Phys Dmg Ailment to Target Increase on Proc: 1d1	
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Magic Dmg: 5d2
+	
+Seconds to Proc: 6
+	
+Phys Dmg Ailment to Target Increase on Proc: 1d1	
+	
+@@@	
+	
+</skill4>
+<skill5>Skill Level 5:
+	
+Magic Dmg: 6d2
+	
+Seconds to Proc: 5.5
+	
+Phys Dmg Ailment to Target Increase on Proc: 1d1	
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Magic Dmg: 7d2
+	
+Seconds to Proc: 5
+	
+Phys Dmg Ailment to Target Increase on Proc: 1d1	
+	
+@@@	
+	
+</skill6>
+<skill7>Skill Level 7:
+	
+Magic Dmg: 8d2
+	
+Seconds to Proc: 4.5
+	
+Phys Dmg Ailment to Target Increase on Proc: 1d1	
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Magic Dmg: 9d2
+	
+Seconds to Proc: 4
+	
+Phys Dmg Ailment to Target Increase on Proc: 1d1	
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Magic Dmg: 10d2
+	
+Seconds to Proc: 3.5
+	
+Phys Dmg Ailment to Target Increase on Proc: 1d1	
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Magic Dmg: 11d2
+	
+Seconds to Proc: 3.25
+	
+Phys Dmg Ailment to Target Increase on Proc: 1d1	
+	
+@@@	
+	
+</skill10>
+<skill11>Skill Level 11:
+	
+Magic Dmg: 12d2
+	
+Seconds to Proc: 3
+	
+Phys Dmg Ailment to Target Increase on Proc: 1d1	
+	
+@@@	
+	
+</skill11>
+<skill12>Skill Level 12:
+	
+Magic Dmg: 13d2
+	
+Seconds to Proc: 2.75
+	
+Phys Dmg Ailment to Target Increase on Proc: 1d1	
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Magic Dmg: 14d2
+	
+Seconds to Proc: 2.5
+	
+Phys Dmg Ailment to Target Increase on Proc: 1d1	
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Magic Dmg: 15d2
+	
+Seconds to Proc: 2.25
+	
+Phys Dmg Ailment to Target Increase on Proc: 1d1	
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Magic Dmg: 16d2
+	
+Seconds to Proc: 2
+	
+Phys Dmg Ailment to Target Increase on Proc: 1d1	
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+
+
+</skill>
+
+<skill number="76">
+<name>Strangling Vines</name>
+<description>@Herbology School@
+Hatch a quick growing seedling that magically erupts and grows to massive sizes below the surface of your targeted ground. The seed has a parasitic mind of its own, and latches onto creatures above ground. It lashes out at targets with barbed branches, grinding at armor and flesh, and wrangles what limbs it can to slow targets down and ail their agility.Â Â The more potent the spell, the higher the chance the seedling can entangle those above it, though it could embrace both friend and foe.
+
+(IntMod = Intelligence # > 10) 
+	
+Cast on ground
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@	
+	
+</description>
+
+<skill0>Skill Level 0:
+	
+Magic Dmg: 1d(IntMod)
+	
+Physical Dodge Change Ailment to Target: 0
+	
+Full Int to Hit Chance Roll
+	
+Movement Speed Reduced	
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Magic Dmg: 1d(IntMod+1)
+	
+Physical Dodge Change Ailment to Target: 1d1
+	
+Full Int to Hit Chance Roll
+	
+Movement Speed Reduced	
+	
+@@@	
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Magic Dmg: 1d(IntMod+2)
+	
+Physical Dodge Change Ailment to Target: 1d2
+	
+Full Int to Hit Chance Roll
+	
+Movement Speed Reduced	
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Magic Dmg: 1d(IntMod+3)
+	
+Physical Dodge Change Ailment to Target: 1d3
+	
+Full Int to Hit Chance Roll
+	
+Movement Speed Reduced	
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Magic Dmg: 1d(IntMod+4)
+	
+Physical Dodge Change Ailment to Target: 2d2
+	
+Full Int to Hit Chance Roll
+	
+Movement Speed Reduced	
+	
+@@@	
+	
+</skill4>
+<skill5>Skill Level 5:
+	
+Magic Dmg: 1d(IntMod+5)
+	
+Physical Dodge Change Ailment to Target: 2d3
+	
+Full Int to Hit Chance Roll
+	
+Movement Speed Reduced	
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Magic Dmg: 1d(IntMod+6)
+	
+Physical Dodge Change Ailment to Target: 2d4
+	
+Full Int to Hit Chance Roll
+	
+Movement Speed Reduced	
+	
+@@@	
+	
+</skill6>
+<skill7>Skill Level 7:
+	
+Magic Dmg: 1d(IntMod+7)
+	
+Physical Dodge Change Ailment to Target: 3d3
+	
+Full Int to Hit Chance Roll
+	
+Movement Speed Reduced	
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Magic Dmg: 1d(IntMod+8)
+	
+Physical Dodge Change Ailment to Target: 3d4
+	
+Full Int to Hit Chance Roll
+	
+Movement Speed Reduced	
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Magic Dmg: 1d(IntMod+9)
+	
+Physical Dodge Change Ailment to Target: 3d5
+	
+Full Int to Hit Chance Roll
+	
+Movement Speed Reduced
+</skill9>
+<skill10>Skill Level 10:
+Magic Dmg: 1d(IntMod+10)
+Physical Dodge Change Ailment to Target: 4d4
+Full Int to Hit Chance Roll
+Movement Speed Reduced
+</skill10>
+<skill11>Skill Level 11:
+	
+Magic Dmg: 1d(IntMod+11)
+	
+Physical Dodge Change Ailment to Target: 3d6
+	
+Full Int to Hit Chance Roll
+	
+Movement Speed Reduced	
+	
+@@@	
+	
+</skill11>
+<skill12>Skill Level 12:
+	
+Magic Dmg: 1d(IntMod+12)
+	
+Physical Dodge Change Ailment to Target: 4d5
+	
+Full Int to Hit Chance Roll
+	
+Movement Speed Reduced	
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Magic Dmg: 1d(IntMod+13)
+	
+Physical Dodge Change Ailment to Target: 4d6
+	
+Full Int to Hit Chance Roll
+	
+Movement Speed Reduced	
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Magic Dmg: 1d(IntMod+14)
+	
+Physical Dodge Change Ailment to Target: 5d5
+	
+Full Int to Hit Chance Roll
+	
+Movement Speed Reduced	
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Magic Dmg: 1d(IntMod+15)
+	
+Physical Dodge Change Ailment to Target: 5d6
+	
+Full Int to Hit Chance Roll
+	
+Movement Speed Reduced	
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+
+
+</skill>
+
+<skill number="77">
+<name>Shimmering Scales</name>
+<description>@Forging School@
+Imbue a target's skin with dense, shimmering scales. The metallic exoskeleton grants additional protection to both physical weapons and deflection to magical assaults.
+
+Cast on party member
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@		
+	
+	</description>
+
+<skill0>Skill Level 0:
+	
+Armor Class and Spell Resistance Buff to Target: 1d2	
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Armor Class and Spell Resistance Buff to Target: 1d3	
+	
+@@@	
+
+</skill1>
+<skill2>Skill Level 2:
+	
+Armor Class and Spell Resistance Buff to Target: 1d4	
+	
+@@@	
+
+</skill2>
+<skill3>Skill Level 3:
+	
+Armor Class and Spell Resistance Buff to Target: 1d5	
+	
+@@@	
+
+</skill3>
+<skill4>Skill Level 4:
+	
+Armor Class and Spell Resistance Buff to Target: 1d6	
+	
+@@@	
+
+</skill4>
+<skill5>Skill Level 5:
+	
+Armor Class and Spell Resistance Buff to Target: 2d7	
+	
+@@@	
+
+</skill5>
+<skill6>Skill Level 6:
+	
+Armor Class and Spell Resistance Buff to Target: 2d8	
+	
+@@@	
+
+</skill6>
+<skill7>Skill Level 7:
+	
+Armor Class and Spell Resistance Buff to Target: 2d9	
+	
+@@@	
+
+</skill7>
+<skill8>Skill Level 8:
+	
+Armor Class and Spell Resistance Buff to Target: 2d10	
+	
+@@@	
+
+</skill8>
+<skill9>Skill Level 9:
+	
+Armor Class and Spell Resistance Buff to Target: 2d11	
+	
+@@@	
+
+</skill9>
+<skill10>Skill Level 10:
+	
+Armor Class and Spell Resistance Buff to Target: 3d12	
+	
+@@@	
+
+</skill10>
+<skill11>Skill Level 11:
+	
+Armor Class and Spell Resistance Buff to Target: 3d13	
+	
+@@@	
+
+</skill11>
+<skill12>Skill Level 12:
+	
+Armor Class and Spell Resistance Buff to Target: 3d14	
+	
+@@@	
+
+</skill12>
+<skill13>Skill Level 13:
+	
+Armor Class and Spell Resistance Buff to Target: 3d15	
+	
+@@@	
+
+</skill13>
+<skill14>Skill Level 14:
+	
+Armor Class and Spell Resistance Buff to Target: 3d16	
+	
+@@@	
+
+</skill14>
+<skill15>Skill Level 15:
+	
+Armor Class and Spell Resistance Buff to Target: 3d17	
+	
+@@@	
+
+</skill15>
+<skill16>
+</skill16>
+
+</skill>
+
+<skill number="78">
+<name>Physical Shield</name>
+<description>@Forging School@
+Summon a crystalized orb of magical energy around a target location, which is able to absorb and disintegrate incoming projectiles while allowing you to still fire from within. The more potent the spell, the more health the projected shield has before dissipating.
+
+(OccMod = Occult # > 10) 
+	
+Cast on ground
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@	
+	
+	</description>
+
+<skill0>Skill Level 0:
+	
+Shield Health: OccMod + 4
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill0>
+<skill1>Skill Level 1:
+	
+Shield Health: OccMod + 5
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill1>
+<skill2>Skill Level 2:
+	
+Shield Health: OccMod + 6
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill2>
+<skill3>Skill Level 3:
+	
+Shield Health: OccMod + 7
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill3>
+<skill4>Skill Level 4:
+	
+Shield Health: OccMod + 8
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill4>
+<skill5>Skill Level 5:
+	
+Shield Health: OccMod + 9
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill5>
+<skill6>Skill Level 6:
+	
+Shield Health: OccMod + 10
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill6>
+<skill7>Skill Level 7:
+	
+Shield Health: OccMod + 11
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill7>
+<skill8>Skill Level 8:
+	
+Shield Health: OccMod + 12
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill8>
+<skill9>Skill Level 9:
+	
+Shield Health: OccMod + 13
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill9>
+<skill10>Skill Level 10:
+	
+Shield Health: OccMod + 14
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill10>
+<skill11>Skill Level 11:
+	
+Shield Health: OccMod + 15
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill11>
+<skill12>Skill Level 12:
+	
+Shield Health: OccMod + 16
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill12>
+<skill13>Skill Level 13:
+	
+Shield Health: OccMod + 17
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill13>
+<skill14>Skill Level 14:
+	
+Shield Health: OccMod + 18
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill14>
+<skill15>Skill Level 15:
+	
+Shield Health: OccMod + 19
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill15>
+<skill16>
+</skill16>
+
+</skill>
+
+<skill number="79">
+<name>Ethereal Weapon</name>
+<description>@Forging School@
+After summoning the necessary magical energies to safely keep the blade intact, a sorcerer can emit a long ethereal blade to wield. While with the snap of his fingers the blade can appear, it will also be removed from Vol when the energy to contain it wanes. The more powerful the casting, the more potent and devastating the blade.
+
+(IntMod = Intelligence # > 10; FullInt = Intelligence #) 
+	
+Cast on self
+
+*If already cast, a sorcerer cannot stack another Ethereal Weapon, but can re-cast it on self and restart duration.
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@	
+	
+	</description>
+
+<skill0>Skill Level 0:
+	
+Physical Dmg Buff: 1d1
+	
+Physical Hit Chance Buff: 1d(1dIntMod)
+	
+Duration (in sec.): 5+IntMod	
+	
+@@@	
+
+</skill0>
+<skill1>Skill Level 1:
+	
+Physical Dmg Buff: 2d2
+	
+Physical Hit Chance Buff: 1d(1dIntMod)
+	
+Duration (in sec.): 5+IntMod	
+	
+@@@	
+
+</skill1>
+<skill2>Skill Level 2:
+	
+Physical Dmg Buff: 2d3
+	
+Physical Hit Chance Buff: 1d(1dIntMod)
+	
+Duration (in sec.): 5+IntMod	
+	
+@@@	
+
+</skill2>
+<skill3>Skill Level 3:
+	
+Physical Dmg Buff: 2d4
+	
+Physical Hit Chance Buff: 1d(1dIntMod)
+	
+Duration (in sec.): 5+IntMod	
+	
+@@@	
+
+</skill3>
+<skill4>Skill Level 4:
+	
+Physical Dmg Buff: 3d3
+	
+Physical Hit Chance Buff: 1d(1dIntMod)
+	
+Duration (in sec.): 5+IntMod	
+	
+@@@	
+
+</skill4>
+<skill5>Skill Level 5:
+	
+Physical Dmg Buff: 3d4
+	
+Physical Hit Chance Buff: 2d(1dIntMod)
+	
+Duration (in sec.): 5+IntMod	
+	
+@@@	
+
+</skill5>
+<skill6>Skill Level 6:
+	
+Physical Dmg Buff: 4d4
+	
+Physical Hit Chance Buff: 2d(1dIntMod)
+	
+Duration (in sec.): 5+IntMod	
+	
+@@@	
+
+</skill6>
+<skill7>Skill Level 7:
+	
+Physical Dmg Buff: 3d5
+	
+Physical Hit Chance Buff: 2d(1dIntMod)
+	
+Duration (in sec.): 5+IntMod	
+	
+@@@	
+
+</skill7>
+<skill8>Skill Level 8:
+	
+Physical Dmg Buff: 4d5
+	
+Physical Hit Chance Buff: 2d(1dIntMod)
+	
+Duration (in sec.): 5+IntMod	
+	
+@@@	
+
+</skill8>
+<skill9>Skill Level 9:
+	
+Physical Dmg Buff: 5d5
+	
+Physical Hit Chance Buff: 2d(1dIntMod)
+	
+Duration (in sec.): 5+IntMod	
+	
+@@@	
+
+</skill9>
+<skill10>Skill Level 10:
+	
+Physical Dmg Buff: 4d6
+	
+Physical Hit Chance Buff: 2d(1dIntMod)
+	
+Duration (in sec.): 5+IntMod
+</skill10>
+<skill11>Skill Level 11:
+	
+Physical Dmg Buff: 4d7
+	
+Physical Hit Chance Buff: 3d(1dIntMod)
+	
+Duration (in sec.): 5+IntMod	
+	
+@@@	
+
+</skill11>
+<skill12>Skill Level 12:
+	
+Physical Dmg Buff: 5d6
+	
+Physical Hit Chance Buff: 3d(1dIntMod)
+	
+Duration (in sec.): 5+IntMod
+</skill12>
+<skill13>Skill Level 13:
+	
+Physical Dmg Buff: 6d6
+	
+Physical Hit Chance Buff: 3d(1dIntMod)
+	
+Duration (in sec.): 5+IntMod	
+	
+@@@	
+
+</skill13>
+<skill14>Skill Level 14:
+	
+Physical Dmg Buff: 6d7
+	
+Physical Hit Chance Buff: 3d(1dIntMod)
+	
+Duration (in sec.): 5+IntMod	
+	
+@@@	
+
+</skill14>
+<skill15>Skill Level 15:
+	
+Physical Dmg Buff: 6d8
+	
+Physical Hit Chance Buff: 3d(1dIntMod)
+	
+Duration (in sec.): 5+IntMod	
+	
+@@@	
+
+</skill15>
+<skill16>
+</skill16>
+</skill>
+
+<skill number="80">
+<name>Eclipse</name>
+<description>@Illumination School@
+Illuminating a target with the moon's unyielding light, you can magically mirror their destruction by transmuting it into a healing beam that is reflected back at any companions. The more destruction your target does, the more healing is reflected back to your party. The more powerful the casting, the more augmented the reflection.
+
+(OccMod = Occult # > 10) 
+	
+Cast on party member
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@		
+	
+	</description>
+
+
+<skill0>Skill Level 0:
+	
+Health Restored to Each Party Member: 1d(Dmg Output+OccMod)	/ Number in Party
+	
+@@@	
+
+</skill0>
+<skill1>Skill Level 1:
+	
+Health Restored to Each Party Member: 1d(Dmg Output+OccMod+1) / Number in Party	
+	
+@@@	
+
+</skill1>
+<skill2>Skill Level 2:
+	
+Health Restored to Each Party Member: 1d(Dmg Output+OccMod+2) / Number in Party	
+	
+@@@	
+
+</skill2>
+<skill3>Skill Level 3:
+	
+Health Restored to Each Party Member: 1d(Dmg Output+OccMod+3) / Number in Party	
+	
+@@@	
+
+</skill3>
+<skill4>Skill Level 4:
+	
+Health Restored to Each Party Member: 1d(Dmg Output+OccMod+4) / Number in Party	
+	
+@@@	
+
+</skill4>
+<skill5>Skill Level 5:
+	
+Health Restored to Each Party Member: 1d(Dmg Output+OccMod+5) / Number in Party
+	
+@@@	
+
+</skill5>
+<skill6>Skill Level 6:
+	
+Health Restored to Each Party Member: 1d(Dmg Output+OccMod+6) / Number in Party	
+	
+@@@	
+
+</skill6>
+<skill7>Skill Level 7:
+	
+Health Restored to Each Party Member: 1d(Dmg Output+OccMod+7) / Number in Party	
+	
+@@@	
+
+</skill7>
+<skill8>Skill Level 8:
+	
+Health Restored to Each Party Member: 1d(Dmg Output+OccMod+8) / Number in Party	
+	
+@@@	
+
+</skill8>
+<skill9>Skill Level 9:
+	
+Health Restored to Each Party Member: 1d(Dmg Output+OccMod+9) / Number in Party	
+	
+@@@	
+
+</skill9>
+<skill10>Skill Level 10:
+	
+Health Restored to Each Party Member: 1d(Dmg Output+OccMod+10) / Number in Party	
+	
+@@@	
+
+</skill10>
+<skill11>Skill Level 11:
+	
+Health Restored to Each Party Member: 1d(Dmg Output+OccMod+11) / Number in Party	
+	
+@@@	
+
+</skill11>
+<skill12>Skill Level 12:
+	
+Health Restored to Each Party Member: 1d(Dmg Output+OccMod+12) / Number in Party	
+	
+@@@	
+
+</skill12>
+<skill13>Skill Level 13:
+	
+Health Restored to Each Party Member: 1d(Dmg Output+OccMod+13) / Number in Party	
+	
+@@@	
+
+</skill13>
+<skill14>Skill Level 14:
+	
+Health Restored to Each Party Member: 1d(Dmg Output+OccMod+14) / Number in Party	
+	
+@@@	
+
+</skill14>
+<skill15>Skill Level 15:
+	
+Health Restored to Each Party Member: 1d(Dmg Output+OccMod+15) / Number in Party	
+	
+@@@	
+
+</skill15>
+<skill16>
+</skill16>
+
+
+</skill>
+
+<skill number="81">
+<name>Crippling Ray</name>
+<description>@Flesh School@
+Cripple your target by casting a withering ray at them, debilitating their body to that of an elder. Your ray will seize every one of their vitals, so no matter how strong or willed they are, they will break before you.
+
+(OccMod = Occult # > 10) 
+	
+Cast on enemy
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@		
+	
+	</description>
+
+<skill0>Skill Level 0:
+	
+Target's Stat Decrease: 1d(OccMod)
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+
+</skill0>
+<skill1>Skill Level 1:
+	
+Target's Stat Decrease: 1d(OccMod+1)
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+
+</skill1>
+<skill2>Skill Level 2:
+	
+Target's Stat Decrease: 1d(OccMod+2)
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+
+</skill2>
+<skill3>Skill Level 3:
+	
+Target's Stat Decrease: 1d(OccMod+3)
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+
+</skill3>
+<skill4>Skill Level 4:
+	
+Target's Stat Decrease: 1d(OccMod+4)
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+
+</skill4>
+<skill5>Skill Level 5:
+	
+Target's Stat Decrease: 1d(OccMod+5)
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+
+</skill5>
+<skill6>Skill Level 6:
+	
+Target's Stat Decrease: 1d(OccMod+6)
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+
+</skill6>
+<skill7>Skill Level 7:
+	
+Target's Stat Decrease: 1d(OccMod+7)
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+
+</skill7>
+<skill8>Skill Level 8:
+	
+Target's Stat Decrease: 1d(OccMod+8)
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+
+</skill8>
+<skill9>Skill Level 9:
+	
+Target's Stat Decrease: 1d(OccMod+9)
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+
+</skill9>
+<skill10>Skill Level 10:
+	
+Target's Stat Decrease: 1d(OccMod+10)
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+
+</skill10>
+<skill11>Skill Level 11:
+	
+Target's Stat Decrease: 1d(OccMod+11)
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+
+</skill11>
+<skill12>Skill Level 12:
+	
+Target's Stat Decrease: 1d(OccMod+12)
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+
+</skill12>
+<skill13>Skill Level 13:
+	
+Target's Stat Decrease: 1d(OccMod+13)
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+
+</skill13>
+<skill14>Skill Level 14:
+	
+Target's Stat Decrease: 1d(OccMod+14)
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+
+</skill14>
+<skill15>Skill Level 15:
+	
+Target's Stat Decrease: 1d(OccMod+15)
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+
+</skill15>
+<skill16>
+</skill16>
+
+</skill>
+
+<skill number="82">
+<name>Morph Into Fiend</name>
+<description>@Morphing School@
+Polymorph a target into a fiend, transmuting its physical appearance to those around it so much that they are compelled to squelch it from their sight. Even their allies can be frenzied with the need to kill them in their new skin. Upon death, the fiend absorbs the hatred around it and explodes onto its allies, wounding them both physically and emotionally. The more potent the illusion of the fiend by the caster, the more hatred it can absorb and in turn inflict back at allies.
+
+(IntMod = Intelligence # > 10; FullInt = Intelligence #) 
+	
+Cast on enemy
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@	
+	
+	</description>
+
+<skill0>Skill Level 0:
+	
+Magic Dmg on Target's Death: 1d(IntMod)
+	
+Duration: 5	
+	
+@@@	
+
+</skill0>
+<skill1>Skill Level 1:
+	
+Magic Dmg on Target's Death: 1d(1+IntMod)
+	
+Duration: 6
+</skill1>
+<skill2>Skill Level 2:
+	
+Magic Dmg on Target's Death: 1d(2+IntMod)
+	
+Duration: 7	
+	
+@@@	
+
+</skill2>
+<skill3>Skill Level 3:
+	
+Magic Dmg on Target's Death: 1d(3+IntMod)
+	
+Duration: 8	
+	
+@@@	
+
+</skill3>
+<skill4>Skill Level 4:
+	
+Magic Dmg on Target's Death: 1d(4+IntMod)
+	
+Duration: 9	
+	
+@@@	
+
+</skill4>
+<skill5>Skill Level 5:
+	
+Magic Dmg on Target's Death: 1d(5+IntMod)
+	
+Duration: 10	
+	
+@@@	
+
+</skill5>
+<skill6>Skill Level 6:
+	
+Magic Dmg on Target's Death: 1d(6+IntMod)
+	
+Duration: 11	
+	
+@@@	
+
+</skill6>
+<skill7>Skill Level 7:
+	
+Magic Dmg on Target's Death: 1d(7+IntMod)
+	
+Duration: 12	
+	
+@@@	
+
+</skill7>
+<skill8>Skill Level 8:
+	
+Magic Dmg on Target's Death: 1d(8+IntMod)
+	
+Duration: 13	
+	
+@@@	
+
+</skill8>
+<skill9>Skill Level 9:
+	
+Magic Dmg on Target's Death: 1d(9+IntMod)
+	
+Duration: 14	
+	
+@@@	
+
+</skill9>
+<skill10>Skill Level 10:
+	
+Magic Dmg on Target's Death: 1d(10+IntMod)
+	
+Duration: 15	
+	
+@@@	
+
+</skill10>
+<skill11>Skill Level 11:
+	
+Magic Dmg on Target's Death: 1d(11+IntMod)
+	
+Duration: 16	
+	
+@@@	
+
+</skill11>
+<skill12>Skill Level 12:
+	
+Magic Dmg on Target's Death: 1d(12+IntMod)
+	
+Duration: 17	
+	
+@@@	
+
+</skill12>
+<skill13>Skill Level 13:
+	
+Magic Dmg on Target's Death: 1d(13+IntMod)
+	
+Duration: 18	
+	
+@@@	
+
+</skill13>
+<skill14>Skill Level 14:
+	
+Magic Dmg on Target's Death: 1d(14+IntMod)
+	
+Duration: 19	
+	
+@@@	
+
+</skill14>
+<skill15>Skill Level 15:
+	
+Magic Dmg on Target's Death: 1d(15+IntMod)
+	
+Duration: 20	
+	
+@@@	
+
+</skill15>
+<skill16>
+</skill16>
+
+</skill>
+
+<skill number="83">
+<name>Morph Into Bats</name>
+<description>@Morphing School@
+Polymorph you and your companions into a gang of large winged bats, with unparalleled speed. Bats can traverse and scout faster than other winged creatures, and are the morphing spell of choice for both engaging and disengaging battles. Their height and small size can also allow entrance into difficult to reach places for regular mortals.
+
+(IntMod = Intelligence # > 10; FullInt = Intelligence #) 
+	
+Cast on ground
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@	
+	
+	</description>
+
+<skill0>Skill Level 0:
+	
+Movement Speed: IntMod
+	
+Duration: 10	
+	
+@@@	
+
+</skill0>
+<skill1>Skill Level 1:
+	
+Movement Speed: IntMod+1
+	
+Duration: 11	
+	
+@@@	
+
+</skill1>
+<skill2>Skill Level 2:
+	
+Movement Speed: IntMod+2
+	
+Duration: 12	
+	
+@@@	
+
+</skill2>
+<skill3>Skill Level 3:
+	
+Movement Speed: IntMod+3
+	
+Duration: 13	
+	
+@@@	
+
+</skill3>
+<skill4>Skill Level 4:
+	
+Movement Speed: IntMod+4
+	
+Duration: 14	
+	
+@@@	
+
+</skill4>
+<skill5>Skill Level 5:
+	
+Movement Speed: IntMod+5
+	
+Duration: 15	
+	
+@@@	
+
+</skill5>
+<skill6>Skill Level 6:
+	
+Movement Speed: IntMod+6
+	
+Duration: 16	
+	
+@@@	
+
+</skill6>
+<skill7>Skill Level 7:
+	
+Movement Speed: IntMod+7
+	
+Duration: 17	
+	
+@@@	
+
+</skill7>
+<skill8>Skill Level 8:
+	
+Movement Speed: IntMod+8
+	
+Duration: 18	
+	
+@@@	
+
+</skill8>
+<skill9>Skill Level 9:
+	
+Movement Speed: IntMod+9
+	
+Duration: 19	
+	
+@@@	
+
+</skill9>
+<skill10>Skill Level 10:
+	
+Movement Speed: IntMod+10
+	
+Duration: 20	
+	
+@@@	
+
+</skill10>
+<skill11>Skill Level 11:
+	
+Movement Speed: IntMod+11
+	
+Duration: 21	
+	
+@@@	
+
+</skill11>
+<skill12>Skill Level 12:
+	
+Movement Speed: IntMod+12
+	
+Duration: 22	
+	
+@@@	
+
+</skill12>
+<skill13>Skill Level 13:
+	
+Movement Speed: IntMod+13
+	
+Duration: 23	
+	
+@@@	
+
+</skill13>
+<skill14>Skill Level 14:
+	
+Movement Speed: IntMod+14
+	
+Duration: 24	
+	
+@@@	
+
+</skill14>
+<skill15>Skill Level 15:
+	
+Movement Speed: IntMod+15
+	
+Duration: 25	
+	
+@@@	
+
+</skill15>
+<skill16>
+</skill16>
+
+
+</skill>
+
+<skill number="84">
+<name>Parasitic Orb</name>
+<description>@Linking School@
+Cast a magical orb at a target location which syphons a target's willpower and any trace of their innate magical barriers. The parasitic orb, with a high enough skill, can shatter even the most powerful magical barriers.
+
+(IntMod = Intelligence # > 10) 
+	
+Cast on ground
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@	
+	
+	</description>
+<skill0>Skill Level 0:
+	
+Spell Resistance Ailment To Target: 2d(1d(IntMod))
+	
+Duration: 5+IntMod	
+	
+@@@	
+
+</skill0>
+<skill1>Skill Level 1:
+	
+Spell Resistance Ailment To Target: 2d(1d(IntMod+1))
+	
+Duration: 5+IntMod	
+	
+@@@	
+
+</skill1>
+<skill2>Skill Level 2:
+	
+Spell Resistance Ailment To Target: 2d(1d(IntMod+2))
+	
+Duration: 5+IntMod	
+	
+@@@	
+
+</skill2>
+<skill3>Skill Level 3:
+	
+Spell Resistance Ailment To Target: 2d(1d(IntMod+3))
+	
+Duration: 5+IntMod	
+	
+@@@	
+
+</skill3>
+<skill4>Skill Level 4:
+	
+Spell Resistance Ailment To Target: 2d(1d(IntMod+4))
+	
+Duration: 5+IntMod	
+	
+@@@	
+
+</skill4>
+<skill5>Skill Level 5:
+	
+Spell Resistance Ailment To Target: 2d(1d(IntMod+5))
+	
+Duration: 5+IntMod	
+	
+@@@	
+
+</skill5>
+<skill6>Skill Level 6:
+	
+Spell Resistance Ailment To Target: 2d(1d(IntMod+6))
+	
+Duration: 5+IntMod	
+	
+@@@	
+
+</skill6>
+<skill7>Skill Level 7:
+	
+Spell Resistance Ailment To Target: 2d(1d(IntMod+7))
+	
+Duration: 5+IntMod	
+	
+@@@	
+
+</skill7>
+<skill8>Skill Level 8:
+	
+Spell Resistance Ailment To Target: 2d(1d(IntMod+8))
+	
+Duration: 5+IntMod
+</skill8>
+<skill9>Skill Level 9:
+	
+Spell Resistance Ailment To Target: 2d(1d(IntMod+9))
+	
+Duration: 5+IntMod	
+	
+@@@	
+
+</skill9>
+<skill10>Skill Level 10:
+	
+Spell Resistance Ailment To Target: 2d(1d(IntMod+10))
+	
+Duration: 5+IntMod	
+	
+@@@	
+
+</skill10>
+<skill11>Skill Level 11:
+	
+Spell Resistance Ailment To Target: 2d(1d(IntMod+11))
+	
+Duration: 5+IntMod	
+	
+@@@	
+
+</skill11>
+<skill12>Skill Level 12:
+	
+Spell Resistance Ailment To Target: 2d(1d(IntMod+12))
+	
+Duration: 5+IntMod	
+	
+@@@	
+
+</skill12>
+<skill13>Skill Level 13:
+	
+Spell Resistance Ailment To Target: 2d(1d(IntMod+13))
+	
+Duration: 5+IntMod	
+	
+@@@	
+
+</skill13>
+<skill14>Skill Level 14:
+	
+Spell Resistance Ailment To Target: 2d(1d(IntMod+14))
+	
+Duration: 5+IntMod	
+	
+@@@	
+
+</skill14>
+<skill15>Skill Level 15:
+	
+Spell Resistance Ailment To Target: 2d(1d(IntMod+15))
+	
+Duration: 5+IntMod	
+	
+@@@	
+
+</skill15>
+<skill16>
+</skill16>
+
+</skill>
+
+<skill number="85">
+<name></name>
+<description></description>
+</skill>
+
+<skill number="86">
+<name>Siphon Poisons</name>
+<description>
+@Herbology School@
+There are many poisons that can decay even the most hardy of adventurer's organs within seconds. Even more dangerous are what those who dwell in the Spirit Realm are armed with, an ethereal corrosive that tortures the bodies of mortals. Sorcerers have devised a healing beam by summoning fairies from the air, transmuting them into a fine crystal, and concentrating a beam of it into a target. The more potent and trained the spell, the faster the caster can summon these fairies for transmuting. The beam, upon contact with the target, can instantly heal them of any poisons or ethereal damage.
+
+(IntMod = Intelligence # > 10; FullInt = Intelligence #) 
+	
+Cast on party member or self
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@
+	
+</description>
+
+<skill0>Skill Level 0:
+	
+Seconds to Proc: 10	
+	
+@@@	
+
+</skill0>
+<skill1>Skill Level 1:
+	
+Seconds to Proc: 8	
+	
+@@@	
+
+</skill1>
+<skill2>Skill Level 2:
+	
+Seconds to Proc: 7	
+	
+@@@	
+
+</skill2>
+<skill3>Skill Level 3:
+	
+Seconds to Proc: 6.5	
+	
+@@@	
+
+</skill3>
+<skill4>Skill Level 4:
+	
+Seconds to Proc: 6	
+	
+@@@	
+
+</skill4>
+<skill5>Skill Level 5:
+	
+Seconds to Proc: 5.5	
+	
+@@@	
+
+</skill5>
+<skill6>Skill Level 6:
+	
+Seconds to Proc: 5	
+	
+@@@	
+
+</skill6>
+<skill7>Skill Level 7:
+	
+Seconds to Proc: 4.5	
+	
+@@@	
+
+</skill7>
+<skill8>Skill Level 8:
+	
+Seconds to Proc: 4	
+	
+@@@	
+
+</skill8>
+<skill9>Skill Level 9:
+	
+Seconds to Proc: 3.5	
+	
+@@@	
+
+</skill9>
+<skill10>Skill Level 10:
+	
+Seconds to Proc: 3.25	
+	
+@@@	
+
+</skill10>
+<skill11>Skill Level 11:
+	
+Seconds to Proc: 3	
+	
+@@@	
+
+</skill11>
+<skill12>Skill Level 12:
+	
+Seconds to Proc: 2.75	
+	
+@@@	
+
+</skill12>
+<skill13>Skill Level 13:
+	
+Seconds to Proc: 2.5	
+	
+@@@	
+
+</skill13>
+<skill14>Skill Level 14:
+	
+Seconds to Proc: 2.25	
+	
+@@@	
+
+</skill14>
+<skill15>Skill Level 15:
+	
+Seconds to Proc: 2	
+	
+@@@	
+
+</skill15>
+<skill16>
+</skill16>
+
+
+
+</skill>
+
+<skill number="87">
+<name><!--Banish Spirit--></name>
+<description></description>
+</skill>
+
+<skill number="88">
+<name><!--Poison Air--></name>
+<description></description>
+</skill>
+
+<skill number="89">
+<name>Greater Blood Cocoon</name>
+<description>@Herbology School@
+Hatch a Cocoon of purifying blood to be sprayed at your party, quickly healing wounds. This spell only heals once, and must be recast to heal again.
+
+Cast on self or party member
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@	
+
+	</description>
+
+<skill0>Skill Level 0:
+	
+Blood Healing: 1d(Occ)
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Blood Healing: 1d(1 + Occ)
+	
+@@@	
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Blood Healing: 1d(2 + Occ)
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Blood Healing: 1d(3 + Occ)
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Blood Healing: 1d(4 + Occ)
+	
+@@@	
+		
+</skill4>
+<skill5>Skill Level 5:
+	
+Blood Healing: 1d(5 + Occ)
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Blood Healing: 1d(6 + Occ)
+	
+@@@	
+	
+</skill6>
+<skill7>Skill Level 7:
+	
+Blood Healing: 1d(7 + Occ)
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Blood Healing: 1d(8 + Occ)
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Blood Healing: 1d(9 + Occ)
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Blood Healing: 1d(10 + Occ)
+	
+@@@	
+	
+</skill10>
+<skill11>Skill Level 11:
+	
+Blood Healing: 1d(11 + Occ)
+	
+@@@	
+	
+</skill11>
+<skill12>Skill Level 12:
+	
+Blood Healing: 1d(12 + Occ)
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Blood Healing: 1d(13 + Occ)
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Blood Healing: 1d(14 + Occ)
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Blood Healing: 1d(15 + Occ)
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+</skill>
+
+
+<skill number="90">
+<name><!--Clear Mind--></name>
+<description></description>
+</skill>
+
+<skill number="91">
+<name><!--Decoy--></name>
+<description></description>
+</skill>
+
+<skill number="92">
+<name><!--Obliterate Shield--></name>
+<description></description>
+</skill>
+
+<skill number="93">
+<name><!--Summon Wrap--></name>
+<description></description>
+</skill>
+
+<skill number="94">
+<name>Turn To Stone</name>
+<description>@Forging School@
+Turn your enemies to stone, effectively halting their movement, interrupting their attack, and making them an easy target for yourself and your party. If your target takes a hit while you are locking them into their static state, they will roll against crumbling instantly to dust.
+	
+Cast on enemy
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@
+	
+	</description>
+<skill0>Skill Level 0:
+	
+Target's Movement Speed: 0
+		
+Phys Dodge Chance Ail: OccMod/2
+	
+Proc Time (in sec.): 8		
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Target's Movement Speed: 0
+		
+Phys Dodge Chance Ail: OccMod/2
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Target's Movement Speed: 0
+		
+Phys Dodge Chance Ail: OccMod/2
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Target's Movement Speed: 0
+		
+Phys Dodge Chance Ail: OccMod/2
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Target's Movement Speed: 0
+		
+Phys Dodge Chance Ail: OccMod/2
+	
+Proc Time (in sec.): 8	
+
+@@@
+
+</skill4>
+<skill5>Skill Level 5:
+
+Target's Movement Speed: 0
+		
+Phys Dodge Chance Ail: OccMod/2
+	
+Proc Time (in sec.): 8		
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Target's Movement Speed: 0
+		
+Phys Dodge Chance Ail: OccMod/2
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+	
+</skill6>
+<skill7>Skill Level 7:
+	
+Target's Movement Speed: 0
+		
+Phys Dodge Chance Ail: OccMod/2
+	
+Proc Time (in sec.): 8		
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Target's Movement Speed: 0
+		
+Phys Dodge Chance Ail: OccMod/2
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Target's Movement Speed: 0
+		
+Phys Dodge Chance Ail: OccMod/2
+	
+Proc Time (in sec.): 8		
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Target's Movement Speed: 0
+		
+Phys Dodge Chance Ail: OccMod/2
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+	
+</skill10>
+<skill11>Skill Level 11:
+	
+Target's Movement Speed: 0
+		
+Phys Dodge Chance Ail: OccMod/2
+	
+Proc Time (in sec.): 8	
+
+@@@
+
+</skill11>
+<skill12>Skill Level 12:
+	
+Target's Movement Speed: 0
+		
+Phys Dodge Chance Ail: OccMod/2
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Target's Movement Speed: 0
+		
+Phys Dodge Chance Ail: OccMod/2
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Target's Movement Speed: 0
+		
+Phys Dodge Chance Ail: OccMod/2
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Target's Movement Speed: 0
+		
+Phys Dodge Chance Ail: OccMod/2
+	
+Proc Time (in sec.): 8	
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+</skill>
+
+
+<skill number="95">
+<name><!--Enhanced Vision--></name>
+<description></description>
+</skill>
+
+<skill number="96">
+<name><!--LockJaw--></name>
+<description></description>
+</skill>
+
+<skill number="97">
+<name><!--Remove Bones--></name>
+<description></description>
+</skill>
+
+<skill number="98">
+<name><!--Morph Enemy Into Friend--></name>
+<description></description>
+</skill>
+
+<skill number="99">
+<name><!--Summon Familiar--></name>
+<description></description>
+</skill>
+
+<skill number="100">
+<name><!--Source Gift--></name>
+<description></description>
+</skill>
+
+<skill number="101">
+<name><!--Sap PER--></name>
+<description></description>
+</skill>
+
+<skill number="102">
+<name><!--Disease Contagion--></name>
+<description></description>
+</skill>
+
+<skill number="103">
+<name>Amplify</name>
+<description>@Linking School@
+Pick an ally and and boost their attack speed and casts speed as well as the stats of any companion near to them. The effects of this spell will remain for as long as you are casting it.
+
+(FullOcc = Occult #) 
+	
+Cast on party or self
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@	
+	
+</description>
+<skill0>Skill Level 0:
+	
+Radius (in paces): 4
+	
+Attack and Cast Speed Buff: .5 sec.
+	
+Duration of Spell: 8	
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Radius (in paces): 4.5
+	
+Attack and Cast Speed Buff: .6 sec.
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Radius (in paces): 5
+	
+Attack and Cast Speed Buff: .7 sec.
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Radius (in paces): 5.5
+	
+Attack and Cast Speed Buff: .8 sec.
+	
+Duration of Spell: 8	
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Radius (in paces): 6
+	
+Attack and Cast Speed Buff: .9 sec.
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill4>
+<skill5>Skill Level 5:
+	
+Radius (in paces): 6.5
+	
+Attack and Cast Speed Buff: 1 sec.
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Radius (in paces): 7
+	
+Attack and Cast Speed Buff: 1.1 sec.
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill6>
+<skill7>Skill Level 7:
+	
+Radius (in paces): 7.5
+	
+Attack and Cast Speed Buff: 1.2 sec.
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Radius (in paces): 8
+	
+Attack and Cast Speed Buff: 1.3 sec.
+	
+Duration of Spell: 8	
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Radius (in paces): 8.5
+	
+Attack and Cast Speed Buff: 1.4 sec.
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Radius (in paces): 9
+	
+Attack and Cast Speed Buff: 1.5 sec.
+	
+Duration of Spell: 8	
+	
+@@@	
+	
+</skill10>
+<skill11>Skill Level 11:
+	
+Radius (in paces): 9.5
+	
+Attack and Cast Speed Buff: 1.6 sec.
+	
+Duration of Spell: 8	
+	
+@@@	
+	
+</skill11>
+<skill12>Skill Level 12:
+	
+Radius (in paces): 10
+	
+Attack and Cast Speed Buff: 1.7 sec.
+	
+Duration of Spell: 8	
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Radius (in paces): 10.5
+	
+Attack and Cast Speed Buff: 1.8 sec.
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Radius (in paces): 11
+	
+Attack and Cast Speed Buff: 1.9 sec.
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Radius (in paces): 12
+	
+Attack and Cast Speed Buff: 2 sec.
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+</skill>
+
+
+<skill number="104">
+<name>Magic Shield</name>
+<description>@Forging School@
+Summon a crystalized orb of magical energy around a target location, which is able to absorb and disintegrate incoming spells while allowing you to still fire from within. The more potent the spell, the more health the projected shield has before dissipating.
+
+(OccMod = Occult # > 10) 
+	
+Cast on ground
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@	
+	
+	</description>
+
+<skill0>Skill Level 0:
+	
+Shield Health: OccMod + 1
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill0>
+<skill1>Skill Level 1:
+	
+Shield Health: OccMod + 2
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill1>
+<skill2>Skill Level 2:
+	
+Shield Health: OccMod + 3
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill2>
+<skill3>Skill Level 3:
+	
+Shield Health: OccMod + 4
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill3>
+<skill4>Skill Level 4:
+	
+Shield Health: OccMod + 5
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill4>
+<skill5>Skill Level 5:
+	
+Shield Health: OccMod + 6
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill5>
+<skill6>Skill Level 6:
+	
+Shield Health: OccMod + 7
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill6>
+<skill7>Skill Level 7:
+	
+Shield Health: OccMod + 8
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill7>
+<skill8>Skill Level 8:
+	
+Shield Health: OccMod + 9
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill8>
+<skill9>Skill Level 9:
+	
+Shield Health: OccMod + 10
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill9>
+<skill10>Skill Level 10:
+	
+Shield Health: OccMod + 11
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill10>
+<skill11>Skill Level 11:
+	
+Shield Health: OccMod + 12
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill11>
+<skill12>Skill Level 12:
+	
+Shield Health: OccMod + 13
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill12>
+<skill13>Skill Level 13:
+	
+Shield Health: OccMod + 14
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill13>
+<skill14>Skill Level 14:
+	
+Shield Health: OccMod + 15
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill14>
+<skill15>Skill Level 15:
+	
+Shield Health: OccMod + 16
+	
+Radius (in Paces): 8	
+	
+@@@	
+
+</skill15>
+<skill16>
+</skill16>
+
+</skill>
+
+
+<skill number="105">
+<name><!--Shadow Weave Cloud--></name>
+<description></description>
+</skill>
+
+<skill number="106">
+<name>Searing Light</name>
+<description>@Illumination School@
+Sear your enemy and anyone near by them with a white-hot beam of light. Your spell will surge with fresh damage every 8 seconds for as long as you hold it on one target.	
+	
+Cast on target
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@	
+	
+</description>
+<skill0>Skill Level 0:
+	
+Radius (in paces): 4
+	
+Magic Dmg: 1d1
+	
+Duration of Spell: 8	
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Radius (in paces): 4.5
+	
+Magic Dmg: 1d1 + 1
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Radius (in paces): 5
+	
+Magic Dmg: 1d2 + 2
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Radius (in paces): 5.5
+	
+Magic Dmg: 1d3 + 3
+	
+Duration of Spell: 8	
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Radius (in paces): 6
+	
+Magic Dmg: 2d2 + 4
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill4>
+<skill5>Skill Level 5:
+	
+Radius (in paces): 6.5
+	
+Magic Dmg: 2d3 + 5
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Radius (in paces): 7
+	
+Magic Dmg: 2d4 + 6
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill6>
+<skill7>Skill Level 7:
+	
+Radius (in paces): 7.5
+	
+Magic Dmg: 3d3 + 7
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Radius (in paces): 8
+	
+Magic Dmg: 3d4 + 8
+	
+Duration of Spell: 8	
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Radius (in paces): 8.5
+	
+Magic Dmg: 3d5 + 9
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Radius (in paces): 9
+	
+Magic Dmg: 4d4 + 10
+	
+Duration of Spell: 8	
+	
+@@@	
+	
+</skill10>
+<skill11>Skill Level 11:
+	
+Radius (in paces): 9.5
+	
+Magic Dmg: 4d5 + 11
+	
+Duration of Spell: 8	
+	
+@@@	
+	
+</skill11>
+<skill12>Skill Level 12:
+	
+Radius (in paces): 10
+	
+Magic Dmg: 4d6 + 12
+	
+Duration of Spell: 8	
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Radius (in paces): 10.5
+	
+Magic Dmg: 5d5 + 13
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Radius (in paces): 11
+	
+Magic Dmg: 5d6 + 14
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Radius (in paces): 12
+	
+Magic Dmg: 5d7 + 15
+	
+Duration of Spell: 8
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+</skill>
+
+
+<skill number="107">
+<name><!--Piercing Light--></name>
+<description></description>
+</skill>
+
+<skill number="108">
+<name><!--Sap OCC--></name>
+<description></description>
+</skill>
+
+<skill number="109">
+<name><!--Marking An Enemy--></name>
+<description></description>
+</skill>
+
+<skill number="110">
+<name><!--Slug Corpses--></name>
+<description></description>
+</skill>
+
+<skill number="111">
+<name><!--Body Lock--></name>
+<description></description>
+</skill>
+
+<skill number="112">
+<name>Morph Into Zana</name>
+<description>@Morphing School@
+Polymorph your body into a Zana, a free-spirited sprite of the forest, and a creature well known but rarely seen. Zanas are blessed with an unnatural capacity for arcane power, and can cast powerful and bewitching magics, although they are defenseless against metal and can be easily cut down.
+	
+Cast on self
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@
+	
+	</description>
+<skill0>Skill Level 0:
+	
+Phys Dodge Change Ailment: 1d1
+	
+Armor Class Ailment: 1d1
+	
+Intelligence Buff: +1
+
+Occult Buff: +1
+
+Spell Hit Chance Buff: 1d1
+	
+Duration (in sec.): 10	
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Phys Dodge Change Ailment: 1d1
+	
+Armor Class Ailment: 1d1
+	
+Intelligence Buff: +2
+
+Occult Buff: +2
+
+Spell Hit Chance Buff: 1d1
+	
+Duration (in sec.): 12
+	
+@@@	
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Phys Dodge Change Ailment: 2d1
+	
+Armor Class Ailment: 2d1
+	
+Intelligence Buff: +3
+
+Occult Buff: +3
+
+Spell Hit Chance Buff: 1d2
+	
+Duration (in sec.): 14
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Phys Dodge Change Ailment: 3d1
+	
+Armor Class Ailment: 3d1
+	
+Intelligence Buff: +4
+
+Occult Buff: +4
+
+Spell Hit Chance Buff: 1d3
+	
+Duration (in sec.): 16
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Phys Dodge Change Ailment: 4d1
+	
+Armor Class Ailment: 4d1
+	
+Intelligence Buff: +5
+
+Occult Buff: +5
+
+Spell Hit Chance Buff: 2d2
+	
+Duration (in sec.): 18
+	
+@@@	
+</skill4>
+<skill5>Skill Level 5:
+	
+Phys Dodge Change Ailment: 5d1
+	
+Armor Class Ailment: 5d1
+	
+Intelligence Buff: +6
+
+Occult Buff: +6
+
+Spell Hit Chance Buff: 2d3
+	
+Duration (in sec.): 20
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Phys Dodge Change Ailment: 6d1
+	
+Armor Class Ailment: 6d1
+	
+Intelligence Buff: +7
+
+Occult Buff: +7
+
+Spell Hit Chance Buff: 2d4
+	
+Duration (in sec.): 22
+	
+@@@	
+	
+</skill6>
+<skill7>Skill Level 7:
+	
+Phys Dodge Change Ailment: 7d1
+	
+Armor Class Ailment: 7d1
+	
+Intelligence Buff: +8
+
+Occult Buff: +8
+
+Spell Hit Chance Buff: 3d3
+	
+Duration (in sec.): 24
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Phys Dodge Change Ailment: 8d1
+	
+Armor Class Ailment: 8d1
+	
+Intelligence Buff: +9
+
+Occult Buff: +9
+
+Spell Hit Chance Buff: 3d4
+	
+Duration (in sec.): 26	
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Phys Dodge Change Ailment: 9d1
+	
+Armor Class Ailment: 9d1
+	
+Intelligence Buff: +10
+
+Occult Buff: +10
+
+Spell Hit Chance Buff: 3d5
+	
+Duration (in sec.): 28	
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Phys Dodge Change Ailment: 10d1
+	
+Armor Class Ailment: 10d1
+	
+Intelligence Buff: +11
+
+Occult Buff: +11
+
+Spell Hit Chance Buff: 4d4
+	
+Duration (in sec.): 30	
+	
+@@@	
+	
+</skill10>
+<skill11>Skill Level 11:
+	
+Phys Dodge Change Ailment: 11d1
+	
+Armor Class Ailment: 11d1
+	
+Intelligence Buff: +12
+
+Occult Buff: +12
+
+Spell Hit Chance Buff: 3d6
+	
+Duration (in sec.): 32
+</skill11>
+
+<skill12>Skill Level 12:
+	
+Phys Dodge Change Ailment: 12d1
+	
+Armor Class Ailment: 12d1
+	
+Intelligence Buff: +13
+
+Occult Buff: +13
+
+Spell Hit Chance Buff: 4d5
+	
+Duration (in sec.): 34	
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Phys Dodge Change Ailment: 13d1
+	
+Armor Class Ailment: 13d1
+	
+Intelligence Buff: +14
+
+Occult Buff: +14
+
+Spell Hit Chance Buff: 4d6
+	
+Duration (in sec.): 36	
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Phys Dodge Change Ailment: 14d1
+	
+Armor Class Ailment: 14d1
+	
+Intelligence Buff: +15
+
+Occult Buff: +15
+
+Spell Hit Chance Buff: 5d5
+	
+Duration (in sec.): 38	
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Phys Dodge Change Ailment: 15d1
+	
+Armor Class Ailment: 15d1
+	
+Intelligence Buff: +16
+
+Occult Buff: +16
+
+Spell Hit Chance Buff: 5d6
+	
+Duration (in sec.): 40	
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+</skill>
+
+
+<skill number="113">
+<name><!--Remove Flesh Ailments--></name>
+<description></description>
+</skill>
+
+<skill number="114">
+<name>Planar Jump</name>
+<description>@Linking School@
+Open a portal at your feet that links to one where you cast to on the ground. Enemies that near your portal will slide in and reappear on your cast point, taking some damage along the way. Once you create your portal, it will stay without you needing to continually fuel it with arcane power.
+
+(IntMod = Intelligence # > 10) 	
+	
+Cast on ground
+
+*If already cast, a sorcerer cannot stack another Planar Jump, but can re-cast it in a new location and reset the time it exists in a new location.
+	
+Cast speed: 5 sec.
+	
+@@@@@@@@@@@@@		
+	
+	</description>
+
+<skill0>Skill Level 0:
+	
+Magic dmg: 1d(IntMod)
+	
+Radius (in paces): 3
+	
+Duration (in sec.): 10
+	
+@@@	
+	
+</skill0>
+<skill1>Skill Level 1:
+	
+Magic dmg: 1d(1 + IntMod)
+	
+Radius (in paces): 3
+	
+Duration (in sec.): 11
+	
+@@@	
+	
+</skill1>
+<skill2>Skill Level 2:
+	
+Magic dmg: 1d(2 + IntMod)
+	
+Radius (in paces): 3
+	
+Duration (in sec.): 12
+	
+@@@	
+	
+</skill2>
+<skill3>Skill Level 3:
+	
+Magic dmg: 1d(3 + IntMod)
+	
+Radius (in paces): 3
+	
+Duration (in sec.): 13
+	
+@@@	
+	
+</skill3>
+<skill4>Skill Level 4:
+	
+Magic dmg: 1d(4 + IntMod)
+	
+Radius (in paces): 3
+	
+Duration (in sec.): 14
+	
+@@@	
+	
+</skill4>
+<skill5>Skill Level 5:
+	
+Magic dmg: 1d(5 + IntMod)
+	
+Radius (in paces): 3
+	
+Duration (in sec.): 15
+	
+@@@	
+	
+</skill5>
+<skill6>Skill Level 6:
+	
+Magic dmg: 1d(6 + IntMod)
+	
+Radius (in paces): 3
+	
+Duration (in sec.): 16
+
+@@@
+
+</skill6>
+<skill7>Skill Level 7:
+	
+Magic dmg: 1d(7 + IntMod)
+	
+Radius (in paces): 3
+	
+Duration (in sec.): 17
+	
+@@@	
+	
+</skill7>
+<skill8>Skill Level 8:
+	
+Magic dmg: 1d(8 + IntMod)
+	
+Radius (in paces): 3
+	
+Duration (in sec.): 18
+	
+@@@	
+	
+</skill8>
+<skill9>Skill Level 9:
+	
+Magic dmg: 1d(9 + IntMod)
+	
+Radius (in paces): 3
+	
+Duration (in sec.): 19
+	
+@@@	
+	
+</skill9>
+<skill10>Skill Level 10:
+	
+Magic dmg: 1d(10 + IntMod)
+	
+Radius (in paces): 3
+	
+Duration (in sec.): 20
+	
+@@@	
+	
+</skill10>
+<skill11>Skill Level 11:
+	
+Magic dmg: 1d(11 + IntMod)
+	
+Radius (in paces): 3
+	
+Duration (in sec.): 21
+	
+@@@	
+	
+</skill11>
+<skill12>Skill Level 12:
+	
+Magic dmg: 1d(12 + IntMod)
+	
+Radius (in paces): 3
+	
+Duration (in sec.): 22
+	
+@@@	
+	
+</skill12>
+<skill13>Skill Level 13:
+	
+Magic dmg: 1d(13 + IntMod)
+	
+Radius (in paces): 3
+	
+Duration (in sec.): 23
+	
+@@@	
+	
+</skill13>
+<skill14>Skill Level 14:
+	
+Magic dmg: 1d(14 + IntMod)
+	
+Radius (in paces): 3
+	
+Duration (in sec.): 24
+	
+@@@	
+	
+</skill14>
+<skill15>Skill Level 15:
+	
+Magic dmg: 1d(15 + IntMod)
+	
+Radius (in paces): 3
+	
+Duration (in sec.): 25
+	
+@@@	
+	
+</skill15>
+<skill16>
+</skill16>
+</skill>
+
+</skills>

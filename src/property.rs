@@ -7,6 +7,7 @@ pub enum Property {
     Integer(u32),
     Float(f32),
     String(String),
+    List(Vec<String>),
     Unknown(Vec<u8>, u8),
 }
 
@@ -26,6 +27,10 @@ impl From<String> for Property {
     fn from(v: String) -> Self { Property::String(v) }
 }
 
+impl From<Vec<String>> for Property {
+    fn from(v: Vec<String>) -> Self { Property::List(v) }
+}
+
 impl<'a> From<&'a str> for Property {
     fn from(v: &'a str) -> Self { Property::String(String::from(v)) }
 }
@@ -37,6 +42,16 @@ impl fmt::Display for Property {
             Property::Integer(v) => write!(f, "{}", v),
             Property::Float(v) => write!(f, "{}", v),
             Property::String(ref v) => write!(f, "{}", v),
+            Property::List(ref v) => {
+                let joined: String = v.iter().fold("".to_string(), |mut i, j| {
+                    if !i.is_empty() {
+                        i.push_str(",");
+                    }
+                    i.push_str(j);
+                    i
+                });
+                write!(f, "{}", joined)
+            },
             Property::Unknown(ref v, _) => write!(f, "<{} bytes>", v.len()),
         }
     }

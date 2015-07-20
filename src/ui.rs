@@ -1,4 +1,5 @@
 use std::cell::RefCell;
+use std::collections::HashMap;
 use std::fs::copy;
 use std::path::Path;
 use std::str::FromStr;
@@ -6,11 +7,13 @@ use std::rc::Rc;
 
 use iup;
 use iup::prelude::*;
-use iup::control::{Button, Frame, List, Text};
+use iup::control::{Button, Label, List, Text};
 use iup::dialog::{FileDlg};
+use iup::element::{Handle};
 use iup::led;
 
 use time;
+use xml;
 
 use parser::{read_path, write_path};
 use property::{Property, PropertyMap};
@@ -21,14 +24,14 @@ type PropertyMapRc = Rc<RefCell<PropertyMap>>;
 
 // LED dialog specification.
 static DIALOG: &'static str = r#"
-    text_emeralds = text[SPIN=YES, SPINMAX=99999, MASKINT=0:99999, ALIGNMENT=ARIGHT](_)
-    text_int = text[SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
-    text_dex = text[SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
-    text_str = text[SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
-    text_occ = text[SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
-    text_per = text[SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
+    text_emeralds = text[SIZE=x12, SPIN=YES, SPINMAX=99999, MASKINT=0:99999, ALIGNMENT=ARIGHT, VISIBLECOLUMNS=5](_)
+    text_int = text[SIZE=x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT, VISIBLECOLUMNS=2](_)
+    text_dex = text[SIZE=x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT, VISIBLECOLUMNS=2](_)
+    text_str = text[SIZE=x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT, VISIBLECOLUMNS=2](_)
+    text_occ = text[SIZE=x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT, VISIBLECOLUMNS=2](_)
+    text_per = text[SIZE=x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT, VISIBLECOLUMNS=2](_)
 
-    list_party = list[DROPDOWN=YES, VALUE=1, VISIBLE_ITEMS=6](_)
+    list_party = list[SIZE=x12, DROPDOWN=YES, VALUE=1, VISIBLE_ITEMS=6](_)
 
     button_save = button[PADDING=6x1]("Save and Close", _)
     button_cancel = button[PADDING=6x1]("Cancel", _)
@@ -36,21 +39,39 @@ static DIALOG: &'static str = r#"
     dlg_open = filedlg[TITLE="Select saved game folder:", DIALOGTYPE=DIR]()
 
     dlg = dialog[TITLE="SitS Editor"](
-        vbox[CGAP=2, CMARGIN=4x2, ALIGNMENT=ARIGHT](
-            gridbox[NUMDIV=2, SIZECOL=1, CGAPCOL=4, CGAPLIN=2, NORMALIZESIZE=HORIZONTAL](
-                label("Emeralds"), text_emeralds,
-                label("Party"), list_party
+        vbox[CGAP=2, CMARGIN=2x2](
+            hbox[CGAP=8, CMARGIN=8x4](
+                label[SIZE=x12]("Companion"), list_party,
+                fill(),
+                label[SIZE=x12]("Emeralds"), text_emeralds
             ),
-            member = frame[TITLE=""](
-                gridbox[NUMDIV=2, SIZECOL=1, CGAPCOL=4, CGAPLIN=2, NORMALIZESIZE=HORIZONTAL](
-                    label("Intelligence (+10)"), text_int,
-                    label("Dexterity (+10)"),    text_dex,
-                    label("Strength (+10)"),     text_str,
-                    label("Occult (+10)"),       text_occ,
-                    label("Perception (+10)"),   text_per
+            hbox(
+                vbox(
+                    frame[TITLE="Stats"](
+                        gridbox[NUMDIV=2, SIZECOL=1, CGAPCOL=4, CGAPLIN=2](
+                            label[SIZE=86x12]("Intelligence (+10)"), text_int,
+                            label[SIZE=86x12]("Dexterity (+10)"),    text_dex,
+                            label[SIZE=86x12]("Strength (+10)"),     text_str,
+                            label[SIZE=86x12]("Occult (+10)"),       text_occ,
+                            label[SIZE=86x12]("Perception (+10)"),   text_per
+                        )
+                    ),
+                    frame[TITLE="Aptitudes"](
+                        apt_grid = gridbox[NUMDIV=2, SIZECOL=1, CGAPCOL=4, CGAPLIN=2](
+                            label("Placeholder")
+                        )
+                    )
+                ),
+                vbox(
+                    frame[TITLE="Skills"](
+                        skill_grid = gridbox[NUMDIV=8, SIZECOL=1, CGAPCOL=4, CGAPLIN=2](
+                            label("Placeholder")
+                        )
+                    )
                 )
             ),
-            hbox[CGAP=2](
+            hbox(
+                fill(),
                 button_save,
                 button_cancel
             )
@@ -58,7 +79,12 @@ static DIALOG: &'static str = r#"
     )
 "#;
 
-// Get an element from named handle (defined in the LED input)
+// Get an element from handle
+fn from_handle<E>(handle: iup::element::Handle) -> E where E: Element {
+    E::from_handle(handle).unwrap()
+}
+
+// Get an element from named handle
 fn from_name<E>(name: &str) -> E where E: Element {
     E::from_handle(E::from_name(name).unwrap()).unwrap()
 }
@@ -92,9 +118,40 @@ fn bind<T, E>(elem: &mut E, props: PropertyMapRc, key: &'static str)
     });
 }
 
+// Data-bind an element to a list property value, at given index.
+//
+// Value of the element is set to the current value of the property at index,
+// and changes to element value are written back to the property map.
+//
+// @param props {PropertyMapRc} a cloned refcounted property map.
+//
+fn bind_list<E>(elem: &mut E, props: PropertyMapRc, key: &'static str, index: usize)
+    where E: Element + ValueChangedCb {
+
+    // Remove previous bindings, if any.
+    elem.remove_valuechanged_cb();
+
+    if let Some(&Property::List(ref v)) = props.borrow().get(key) {
+        elem.set_attrib("VALUE", v[index].to_string());
+    }
+    elem.set_valuechanged_cb(move |(elem,): (E,)| {
+        if let Some(ref value) = elem.attrib("VALUE") {
+            if let Some(&mut Property::List(ref mut v)) = props.borrow_mut().get_mut(key) {
+                v[index] = value.to_string();
+            }
+        }
+    });
+}
+
 macro_rules! bind_stat {
     ($i:ident, $p:expr, $e:expr) => {
         bind::<f32,_>(&mut from_name::<Text>(stringify!($i)), $p.clone(), $e);
+    }
+}
+
+macro_rules! bind_skill {
+    ($i:ident, $p:expr, $n:expr) => {
+        bind_list::<_>(&mut from_handle::<Text>($i), $p.clone(), "SkillPoints", $n);
     }
 }
 
@@ -103,17 +160,26 @@ macro_rules! bind_stat {
 // @param props {PropertyMapRc} a cloned refcounted property map.
 //
 fn bind_member(props: PropertyMapRc) {
-    if let Some(&Property::String(ref name)) = props.borrow().get("Name") {
-        if let Some(&Property::Float(level)) = props.borrow().get("Level") {
-            let title = format!("{} (Level {})", name, level);
-            from_name::<Frame>("member").set_attrib("TITLE", title);
-        }
-    }
     bind_stat!(text_int, props, "Int");
     bind_stat!(text_dex, props, "Dex");
     bind_stat!(text_str, props, "Str");
     bind_stat!(text_occ, props, "Occ");
     bind_stat!(text_per, props, "Per");
+
+    if let Some(apt_grid) = Handle::from_named("apt_grid") {
+        for i in 1..7 {
+            if let Some(child) = apt_grid.child((i - 1) * 2 + 1) {
+                bind_skill!(child, props, i);
+            }
+        }
+    }
+    if let Some(skill_grid) = Handle::from_named("skill_grid") {
+        for i in 7..115 {
+            if let Some(child) = skill_grid.child((i - 7) * 2 + 1) {
+                bind_skill!(child, props, i);
+            }
+        }
+    }
 }
 
 /// Ui entry point.
@@ -195,10 +261,63 @@ pub fn ui_loop() -> Result<(), String> {
         let mut list_party = from_name::<List>("list_party");
         let mut list_party_items: Vec<String> = Vec::new();
         for member in party.borrow().iter().skip(1) {
-            if let Some(&Property::String(ref v)) = member.borrow().get("Name") {
-                list_party_items.push(v.to_string());
+            if let Some(&Property::String(ref name)) = member.borrow().get("Name") {
+                if let Some(&Property::Float(level)) = member.borrow().get("Level") {
+                    list_party_items.push(format!("{} ({})", name, level));
+                }
             }
         }
+
+        let skills = load_skills();
+        if let Some(mut apt_grid) = Handle::from_named("apt_grid") {
+            while let Some(mut child) = apt_grid.child(0) {
+                child.detach().destroy();
+            }
+            for i in 1..7 {
+                let mut label = Label::new()
+                    .set_attrib("SIZE", "86x12".to_string())
+                    .set_attrib("TITLE", "(empty)".to_string());
+                let mut text = Text::new_spin()
+                    .set_attrib("SIZE", "x12".to_string())
+                    .set_attrib("SPINMAX", "99".to_string())
+                    .set_attrib("MASKINT", "0:99".to_string())
+                    .set_attrib("ALIGNMENT", "ARIGHT".to_string())
+                    .set_attrib("VISIBLECOLUMNS", "2".to_string());
+                if let Some(ref name) = skills.get(&i) {
+                    label.set_attrib("TITLE", name.to_string());
+                } else {
+                    label.set_attrib("ACTIVE", "NO");
+                    text.set_attrib("ACTIVE", "NO");
+                }
+                apt_grid.append(label).unwrap();
+                apt_grid.append(text).unwrap();
+            }
+        }
+        if let Some(mut skill_grid) = Handle::from_named("skill_grid") {
+            while let Some(mut child) = skill_grid.child(0) {
+                child.detach().destroy();
+            }
+            for i in 7..115 {
+                let mut label = Label::new()
+                    .set_attrib("SIZE", "86x12".to_string())
+                    .set_attrib("TITLE", "(empty)".to_string());
+                let mut text = Text::new_spin()
+                    .set_attrib("SIZE", "x12".to_string())
+                    .set_attrib("SPINMAX", "99".to_string())
+                    .set_attrib("MASKINT", "0:99".to_string())
+                    .set_attrib("ALIGNMENT", "ARIGHT".to_string())
+                    .set_attrib("VISIBLECOLUMNS", "2".to_string());
+                if let Some(ref name) = skills.get(&i) {
+                    label.set_attrib("TITLE", name.to_string());
+                } else {
+                    label.set_attrib("ACTIVE", "NO");
+                    text.set_attrib("ACTIVE", "NO");
+                }
+                skill_grid.append(label).unwrap();
+                skill_grid.append(text).unwrap();
+            }
+        }
+
         let party_clone = party.clone();
         list_party.set_items(list_party_items);
         list_party.set_action(move |(_, _, i, _)| {
@@ -215,4 +334,30 @@ pub fn ui_loop() -> Result<(), String> {
         Err(e) => Err(format!("{:?}", e)),
         _ => Ok(())
     }
+}
+
+fn load_skills() -> HashMap<usize, String> {
+    let mut skills: HashMap<usize, String> = HashMap::with_capacity(115);
+    if let Ok(elem) = include_str!("../resources/skills.xml").parse::<xml::Element>() {
+        for child in elem.get_children("skill", None) {
+            let name = child.get_children("name", None).nth(0).map(|ref e| e.content_str());
+            let desc = child.get_children("description", None).nth(0).map(|ref e| e.content_str());
+            match name {
+                Some(ref name) if !name.is_empty() => {
+                    match desc {
+                        Some(ref desc) if !desc.is_empty() => {
+                            let id = child.attributes
+                                .get(&("number".to_string(), None)).unwrap()
+                                .parse::<usize>()
+                                .unwrap();
+                            skills.insert(id, name.to_owned());
+                        }
+                        _ => {}
+                    }
+                }
+                _ => {}
+            }
+        }
+    }
+    skills
 }

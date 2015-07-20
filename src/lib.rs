@@ -1,7 +1,8 @@
 #[macro_use]
+extern crate byteorder;
 extern crate iup;
 extern crate time;
-extern crate byteorder;
+extern crate xml;
 
 mod io;
 mod parser;
