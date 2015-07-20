@@ -33,8 +33,8 @@ static DIALOG: &'static str = r#"
 
     list_party = list[SIZE=x12, DROPDOWN=YES, VALUE=1, VISIBLE_ITEMS=6](_)
 
-    button_save = button[PADDING=6x1]("Save and Close", _)
-    button_cancel = button[PADDING=6x1]("Cancel", _)
+    button_save = button[PADDING=6x1]("Save", _)
+    button_close = button[PADDING=6x1]("Close", _)
 
     dlg_open = filedlg[TITLE="Select saved game folder:", DIALOGTYPE=DIR]()
 
@@ -73,7 +73,7 @@ static DIALOG: &'static str = r#"
             hbox(
                 fill(),
                 button_save,
-                button_cancel
+                button_close
             )
         )
     )
@@ -230,33 +230,8 @@ pub fn ui_loop() -> Result<(), String> {
             members
         }));
 
-        // Write game and party member files on save
-        let mut button_save = from_name::<Button>("button_save");
-        {
-            let game_clone = game.clone();
-            let party_clone = party.clone();
-            button_save.set_action(move |_| {
-                let timestamp = time::strftime("%FT%H.%M.%SZ.txt", &time::now_utc()).unwrap();
-                let path = Path::new(&dir).join("Game.txt");
-                copy(path.as_path(), path.with_extension(&timestamp)).unwrap();
-                write_path(path.as_path(), &game_clone.borrow()).unwrap();
-                for member in party_clone.borrow().iter().skip(1) {
-                    if let Some(&Property::String(ref id)) = member.borrow().get("PartyID") {
-                        let path = Path::new(&dir).join("Party".to_string() + id + ".txt");
-                        copy(path.as_path(), path.with_extension(&timestamp)).unwrap();
-                        write_path(path.as_path(), &member.borrow()).unwrap();
-                    }
-                }
-                CallbackReturn::Close
-            });
-        }
-        let mut button_cancel = from_name::<Button>("button_cancel");
-        button_cancel.set_action(|_| {
-            CallbackReturn::Close
-        });
-
         let mut text_emeralds = from_name::<Text>("text_emeralds");
-        bind::<u32,_>(&mut text_emeralds, game, "Emeralds");
+        bind::<u32,_>(&mut text_emeralds, game.clone(), "Emeralds");
 
         let mut list_party = from_name::<List>("list_party");
         let mut list_party_items: Vec<String> = Vec::new();
@@ -283,8 +258,8 @@ pub fn ui_loop() -> Result<(), String> {
                     .set_attrib("MASKINT", "0:99".to_string())
                     .set_attrib("ALIGNMENT", "ARIGHT".to_string())
                     .set_attrib("VISIBLECOLUMNS", "2".to_string());
-                if let Some(ref name) = skills.get(&i) {
-                    label.set_attrib("TITLE", name.to_string());
+                if let Some(ref skill) = skills.get(&i) {
+                    label.set_attrib("TITLE", skill.name.to_string());
                 } else {
                     label.set_attrib("ACTIVE", "NO");
                     text.set_attrib("ACTIVE", "NO");
@@ -307,8 +282,8 @@ pub fn ui_loop() -> Result<(), String> {
                     .set_attrib("MASKINT", "0:99".to_string())
                     .set_attrib("ALIGNMENT", "ARIGHT".to_string())
                     .set_attrib("VISIBLECOLUMNS", "2".to_string());
-                if let Some(ref name) = skills.get(&i) {
-                    label.set_attrib("TITLE", name.to_string());
+                if let Some(ref skill) = skills.get(&i) {
+                    label.set_attrib("TITLE", skill.name.to_string());
                 } else {
                     label.set_attrib("ACTIVE", "NO");
                     text.set_attrib("ACTIVE", "NO");
@@ -326,6 +301,85 @@ pub fn ui_loop() -> Result<(), String> {
         });
         bind_member(party.borrow()[1].clone());
 
+        // Write game and party member files on save
+        let mut button_save = from_name::<Button>("button_save");
+        {
+            let game_clone = game.clone();
+            let party_clone = party.clone();
+            button_save.set_action(move |_| {
+                let timestamp = time::strftime("%FT%H.%M.%SZ.txt", &time::now_utc()).unwrap();
+                let path = Path::new(&dir).join("Game.txt");
+                copy(path.as_path(), path.with_extension(&timestamp)).unwrap();
+                write_path(path.as_path(), &game_clone.borrow()).unwrap();
+                for member in party_clone.borrow().iter().skip(1) {
+
+                    // Validate
+                    let mut combat_skills: Vec<String> = Vec::new();
+                    let mut spell_skills: Vec<String> = Vec::new();
+                    if let Some(&Property::List(ref v)) = member.borrow().get("SkillPoints") {
+                        let spell_grade = {
+                            if let Some(&Property::Float(int_mod)) = member.borrow().get("Int") {
+                                if let Some(&Property::Float(occ_mod)) = member.borrow().get("Occ") {
+                                    int_mod + occ_mod + 20f32
+                                } else {
+                                    0f32
+                                }
+                            } else {
+                                0f32
+                            }
+                        };
+                        for (i, ref val) in v.iter().enumerate() {
+                            match val.parse::<u32>() {
+                                // Combat skills (1-3)
+                                Ok(n) if i >= 7 && i <= 61 && n > 0 => {
+                                    if let Some(ref skill) = skills.get(&i) {
+                                        combat_skills.push(skill.internal.to_string())
+                                    }
+                                }
+                                // Spell skills (1)
+                                Ok(n) if i >= 62 && i <= 72 && (n > 0 || spell_grade >= 21f32) => {
+                                    if let Some(ref skill) = skills.get(&i) {
+                                        spell_skills.push(skill.internal.to_string())
+                                    }
+                                }
+                                // Spell skills (2)
+                                Ok(n) if i >= 73 && i <= 86 && (n > 0 || spell_grade >= 26f32) => {
+                                    if let Some(ref skill) = skills.get(&i) {
+                                        spell_skills.push(skill.internal.to_string())
+                                    }
+                                }
+                                // Spell skills (3)
+                                Ok(n) if i >= 87 && i <= 114 && (n > 0 || spell_grade >= 32f32) => {
+                                    if let Some(ref skill) = skills.get(&i) {
+                                        spell_skills.push(skill.internal.to_string())
+                                    }
+                                }
+                                _ => {}
+                            }
+                        }
+                    }
+                    if let Some(&mut Property::List(ref mut v)) = member.borrow_mut().get_mut("CombatSelects") {
+                        v.retain(|ref x| combat_skills.contains(&x));
+                    }
+                    if let Some(&mut Property::List(ref mut v)) = member.borrow_mut().get_mut("SpellFavorites") {
+                        v.retain(|ref x| spell_skills.contains(&x));
+                    }
+                    member.borrow_mut().insert("CombatSkills".to_string(), Property::List(combat_skills));
+                    member.borrow_mut().insert("SpellSkills".to_string(), Property::List(spell_skills));
+
+                    if let Some(&Property::String(ref id)) = member.borrow().get("PartyID") {
+                        let path = Path::new(&dir).join("Party".to_string() + id + ".txt");
+                        copy(path.as_path(), path.with_extension(&timestamp)).unwrap();
+                        write_path(path.as_path(), &member.borrow()).unwrap();
+                    }
+                }
+            });
+        }
+        let mut button_close = from_name::<Button>("button_close");
+        button_close.set_action(|_| {
+            CallbackReturn::Close
+        });
+
         let mut dlg = from_name::<Dialog>("dlg");
         dlg.show()
 
@@ -336,8 +390,13 @@ pub fn ui_loop() -> Result<(), String> {
     }
 }
 
-fn load_skills() -> HashMap<usize, String> {
-    let mut skills: HashMap<usize, String> = HashMap::with_capacity(115);
+struct Skill {
+    name: String,
+    internal: String,
+}
+
+fn load_skills() -> HashMap<usize, Skill> {
+    let mut skills: HashMap<usize, Skill> = HashMap::with_capacity(115);
     if let Ok(elem) = include_str!("../resources/skills.xml").parse::<xml::Element>() {
         for child in elem.get_children("skill", None) {
             let name = child.get_children("name", None).nth(0).map(|ref e| e.content_str());
@@ -350,7 +409,12 @@ fn load_skills() -> HashMap<usize, String> {
                                 .get(&("number".to_string(), None)).unwrap()
                                 .parse::<usize>()
                                 .unwrap();
-                            skills.insert(id, name.to_owned());
+                            let internal = child.attributes
+                                .get(&("spritename".to_string(), None)).unwrap_or(name);
+                            skills.insert(id, Skill {
+                                name: name.to_owned(),
+                                internal: internal.to_owned(),
+                            });
                         }
                         _ => {}
                     }

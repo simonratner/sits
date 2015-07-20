@@ -6849,7 +6849,7 @@ Target down: 2 sec.
 <id>61</id>
 </skill>
 
-<skill number="62">
+<skill number="62" spritename="FoulCreep">
 <name>Foul Creep</name>
 <description>@Herbology School@
 Throttle your enemies with a creeping corruption. While you hold the spell, it will continue to work its foul magic, causing both magic damage, and reducing your target's vitals.
@@ -7068,7 +7068,7 @@ Seconds to Proc: 8
 
 </skill>
 
-<skill number="63">
+<skill number="63" spritename="MagicRootBandagingSingle">
 <name>Blood Cocoon</name>
 <description>@Herbology School@
 Hatch a Cocoon of purifying blood to be sprayed at a target, quickly healing wounds. A sorcerer may continuously hatch cocoons over a target if they hold the spell on them, and increase the frequency at which they spawn.
@@ -7231,7 +7231,7 @@ Seconds to Proc: 2
 </skill16>
 </skill>
 
-<skill number="64">
+<skill number="64" spritename="SlipperyPile">
 <name>Festering Ooze</name>
 <description>@Herbology School@
 Create a murky, molding sludge on the ground to trip up both your enemies and friends and leave them incapacitated for a period of time. With more skill, your sludge will become so vile it will leave a festering damage to all that fall prey.
@@ -7421,7 +7421,7 @@ Festering Damage: 1d(FullInt)
 </skill16>
 </skill>
 
-<skill number="65">
+<skill number="65" spritename="HeatMetal">
 <name>Heat Metal</name>
 <description>@Forging School@
 Cast a smoldering beam of heat to a single target's weapon, ailing their ability to hold the weapon while you hold the beam. After 5 skill levels you begin searing the flesh holding the weapon, doing unblockable burn damage.
@@ -7574,7 +7574,7 @@ Burn Damage: 1d(15+IntMod)
 </skill16>
 </skill>
 
-<skill number="66">
+<skill number="66" spritename="BlindingWeapon">
 <name>Radiant Stave</name>
 <description>@Forging School@
 Erect a stave of pure blindingly hot metal out of the ground to blind enemies who gaze into its splendorous light, ailing their ability to evade and land attacks. This Spell can be emitted from a location upon cast without needing to be mentally held.
@@ -7768,7 +7768,7 @@ Duration: 5+IntMod
 </skill16>
 </skill>
 
-<skill number="67">
+<skill number="67" spritename="FearfulLight">
 <name>Fearful Light</name>
 <description>@Illumination School@
 Cast a ray of cosmic moonlight which can shock enemies around it into fleeing. The moonlight can continuously radiate a fearful glow for as long as it is held by the sorcerer. Sorcerers can invest more power into the spell to increase the radiating light's effectiveness and area of influence.
@@ -7929,7 +7929,7 @@ Increase Spell Hit Chance: 1d15
 </skill16>
 </skill>
 
-<skill number="68">
+<skill number="68" spritename="WartyHands">
 <name>Feverish Haze</name>
 <description>@Flesh School@
 Condemn a single target's body to ruin by sending it plundering into a feverish wreck, weakening their ability to quickly act and even manage to hold their weapon. The longer the duration a sorcerer invokes this spell on a target, the more intense the affliction and chances the target will drop their held weapon.
@@ -8090,7 +8090,7 @@ Seconds to Proc: 2
 </skill16>
 </skill>
 
-<skill number="69">
+<skill number="69" spritename="MorphIntoCat">
 <name>Morph Into Cat</name>
 <description>@Morphing School@
 Polymorph your body into that of a mainland feline, the fox eared Shraazen. As a nimble cat, the sorcerer can be astonishingly evasive while in and out of combat, increasing dodge chance and movement speed. This spell is a favorite for scouts and spies looking for a quick getaway, entrance, or to toy with their opponents. Sorcerers are said to be able to even evade magical assaults with the more knowledge invested.
@@ -8283,7 +8283,7 @@ Duration: FullOcc + (Buff from Endure Polymorph if Active)
 <description></description>
 </skill>
 
-<skill number="71">
+<skill number="71" spritename="ProtectMind">
 <name>Arcane Shield</name>
 <description>@Linking School@
 Conjure an arcane shield to scatter incoming spells, increasing Spell Resistances of the sorcerer and allies. Arcane Shield will radiate out of whomever is targeted and shield any allies within their vicinity.
@@ -8477,7 +8477,7 @@ Duration of Shield: 8
 </skill16>
 </skill>
 
-<skill number="72">
+<skill number="72" spritename="ArcaneAttack">
 <name>Arcane Attack</name>
 <description>@Forging School@
 Imbue your weapon with an arcane aura that disperses magical damage when attacking, allowing you to do physical and magical damage. A sorcerer can cast this augmentation once and it will last on its own energies for a duration of time.
@@ -8637,7 +8637,7 @@ Duration: 1xFullInt
 </skill16>
 </skill>
 
-<skill number="73">
+<skill number="73" spritename="PolymorphIntoWolf">
 <name>Polymorph Into Wolf</name>
 <description>@Morphing School@
 Polymorph your body into a ferocious western-lands wolf, with blackish red fur and brutally sharp claws. Found commonly in the winter forests, the nocturnal beast is outfitted for hunting large prey that stray in its territory, and are rarely seen outside the thickest of forests. The magical conjuring of its skin and mind can be amplified with increased combat prowess and agility.
@@ -8858,7 +8858,7 @@ Duration (in sec.): 40
 </skill16>
 </skill>
 
-<skill number="74">
+<skill number="74" spritename="Hallucinagon">
 <name>Hallucinogen</name>
 <description>@Herbology School@
 Conjure an abomination inside a target's mind. While the abomination writhes and tears within their mind and memories, horrors lash out from the corners of their mind's eye, creating dreadful images of past mistakes, horrifically killed loved ones, and anguish beyond reason. The target flees in terror and rends at their body to try to remove the hallucinogenic corruption. The more concentrated the caster's spell, the more compelled to kill oneself while under the magical hallucinogen.
@@ -9023,7 +9023,7 @@ Seconds to Proc: 8
 
 </skill>
 
-<skill number="75">
+<skill number="75" spritename="Nauseate">
 <name>Nauseate</name>
 <description>@Flesh School@
 Issuing a magical infestation to degrade the immunities of a target, a caster can cause an immense sickness. Through this sickness a usually simple ailment created within can cause immense pain and internal bleeding, while also lowering the target's strength through frequent throws of the body trying to remove said ailment. A potent casting can cause greater damage, and the longer the casting is in effect the weaker the target will become.
@@ -9221,7 +9221,7 @@ Phys Dmg Ailment to Target Increase on Proc: 1d1
 
 </skill>
 
-<skill number="76">
+<skill number="76" spritename="QuickGrowTrapSeeds">
 <name>Strangling Vines</name>
 <description>@Herbology School@
 Hatch a quick growing seedling that magically erupts and grows to massive sizes below the surface of your targeted ground. The seed has a parasitic mind of its own, and latches onto creatures above ground. It lashes out at targets with barbed branches, grinding at armor and flesh, and wrangles what limbs it can to slow targets down and ail their agility.Â Â The more potent the spell, the higher the chance the seedling can entangle those above it, though it could embrace both friend and foe.
@@ -9440,7 +9440,7 @@ Movement Speed Reduced
 
 </skill>
 
-<skill number="77">
+<skill number="77" spritename="MetalScales">
 <name>Shimmering Scales</name>
 <description>@Forging School@
 Imbue a target's skin with dense, shimmering scales. The metallic exoskeleton grants additional protection to both physical weapons and deflection to magical assaults.
@@ -9570,7 +9570,7 @@ Armor Class and Spell Resistance Buff to Target: 3d17
 
 </skill>
 
-<skill number="78">
+<skill number="78" spritename="PhysicalShield">
 <name>Physical Shield</name>
 <description>@Forging School@
 Summon a crystalized orb of magical energy around a target location, which is able to absorb and disintegrate incoming projectiles while allowing you to still fire from within. The more potent the spell, the more health the projected shield has before dissipating.
@@ -9734,7 +9734,7 @@ Radius (in Paces): 8
 
 </skill>
 
-<skill number="79">
+<skill number="79" spritename="UndeadWeapon">
 <name>Ethereal Weapon</name>
 <description>@Forging School@
 After summoning the necessary magical energies to safely keep the blade intact, a sorcerer can emit a long ethereal blade to wield. While with the snap of his fingers the blade can appear, it will also be removed from Vol when the energy to contain it wanes. The more powerful the casting, the more potent and devastating the blade.
@@ -9925,7 +9925,7 @@ Duration (in sec.): 5+IntMod
 </skill16>
 </skill>
 
-<skill number="80">
+<skill number="80" spritename="HealingLight">
 <name>Eclipse</name>
 <description>@Illumination School@
 Illuminating a target with the moon's unyielding light, you can magically mirror their destruction by transmuting it into a healing beam that is reflected back at any companions. The more destruction your target does, the more healing is reflected back to your party. The more powerful the casting, the more augmented the reflection.
@@ -10059,7 +10059,7 @@ Health Restored to Each Party Member: 1d(Dmg Output+OccMod+15) / Number in Party
 
 </skill>
 
-<skill number="81">
+<skill number="81" spritename="SpeedAge">
 <name>Crippling Ray</name>
 <description>@Flesh School@
 Cripple your target by casting a withering ray at them, debilitating their body to that of an elder. Your ray will seize every one of their vitals, so no matter how strong or willed they are, they will break before you.
@@ -10223,7 +10223,7 @@ Proc Time (in sec.): 8
 
 </skill>
 
-<skill number="82">
+<skill number="82" spritename="MorphIntoLivestock">
 <name>Morph Into Fiend</name>
 <description>@Morphing School@
 Polymorph a target into a fiend, transmuting its physical appearance to those around it so much that they are compelled to squelch it from their sight. Even their allies can be frenzied with the need to kill them in their new skin. Upon death, the fiend absorbs the hatred around it and explodes onto its allies, wounding them both physically and emotionally. The more potent the illusion of the fiend by the caster, the more hatred it can absorb and in turn inflict back at allies.
@@ -10384,7 +10384,7 @@ Duration: 20
 
 </skill>
 
-<skill number="83">
+<skill number="83" spritename="PolymorphPartyIntoBats">
 <name>Morph Into Bats</name>
 <description>@Morphing School@
 Polymorph you and your companions into a gang of large winged bats, with unparalleled speed. Bats can traverse and scout faster than other winged creatures, and are the morphing spell of choice for both engaging and disengaging battles. Their height and small size can also allow entrance into difficult to reach places for regular mortals.
@@ -10549,7 +10549,7 @@ Duration: 25
 
 </skill>
 
-<skill number="84">
+<skill number="84" spritename="MindDrain">
 <name>Parasitic Orb</name>
 <description>@Linking School@
 Cast a magical orb at a target location which syphons a target's willpower and any trace of their innate magical barriers. The parasitic orb, with a high enough skill, can shatter even the most powerful magical barriers.
@@ -10714,7 +10714,7 @@ Duration: 5+IntMod
 <description></description>
 </skill>
 
-<skill number="86">
+<skill number="86" spritename="CurePoison">
 <name>Siphon Poisons</name>
 <description>
 @Herbology School@
@@ -10859,7 +10859,7 @@ Seconds to Proc: 2
 <description></description>
 </skill>
 
-<skill number="89">
+<skill number="89" spritename="MagicRootBandaging">
 <name>Greater Blood Cocoon</name>
 <description>@Herbology School@
 Hatch a Cocoon of purifying blood to be sprayed at your party, quickly healing wounds. This spell only heals once, and must be recast to heal again.
@@ -11009,7 +11009,7 @@ Blood Healing: 1d(15 + Occ)
 <description></description>
 </skill>
 
-<skill number="94">
+<skill number="94" spritename="TurnToStone">
 <name>Turn To Stone</name>
 <description>@Forging School@
 Turn your enemies to stone, effectively halting their movement, interrupting their attack, and making them an easy target for yourself and your party. If your target takes a hit while you are locking them into their static state, they will roll against crumbling instantly to dust.
@@ -11242,7 +11242,7 @@ Proc Time (in sec.): 8
 <description></description>
 </skill>
 
-<skill number="103">
+<skill number="103" spritename="SteroidsTeam">
 <name>Amplify</name>
 <description>@Linking School@
 Pick an ally and and boost their attack speed and casts speed as well as the stats of any companion near to them. The effects of this spell will remain for as long as you are casting it.
@@ -11437,7 +11437,7 @@ Duration of Spell: 8
 </skill>
 
 
-<skill number="104">
+<skill number="104" spritename="MagicShield">
 <name>Magic Shield</name>
 <description>@Forging School@
 Summon a crystalized orb of magical energy around a target location, which is able to absorb and disintegrate incoming spells while allowing you to still fire from within. The more potent the spell, the more health the projected shield has before dissipating.
@@ -11607,7 +11607,7 @@ Radius (in Paces): 8
 <description></description>
 </skill>
 
-<skill number="106">
+<skill number="106" spritename="SearingLight">
 <name>Searing Light</name>
 <description>@Illumination School@
 Sear your enemy and anyone near by them with a white-hot beam of light. Your spell will surge with fresh damage every 8 seconds for as long as you hold it on one target.	
@@ -11825,7 +11825,7 @@ Duration of Spell: 8
 <description></description>
 </skill>
 
-<skill number="112">
+<skill number="112" spritename="MorphIntoLife">
 <name>Morph Into Zana</name>
 <description>@Morphing School@
 Polymorph your body into a Zana, a free-spirited sprite of the forest, and a creature well known but rarely seen. Zanas are blessed with an unnatural capacity for arcane power, and can cast powerful and bewitching magics, although they are defenseless against metal and can be easily cut down.
@@ -12116,7 +12116,7 @@ Duration (in sec.): 40
 <description></description>
 </skill>
 
-<skill number="114">
+<skill number="114" spritename="PlanarJump">
 <name>Planar Jump</name>
 <description>@Linking School@
 Open a portal at your feet that links to one where you cast to on the ground. Enemies that near your portal will slide in and reappear on your cast point, taking some damage along the way. Once you create your portal, it will stay without you needing to continually fuel it with arcane power.
