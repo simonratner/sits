@@ -8,9 +8,9 @@ Save game editor for [Serpent in the Staglands](http://serpentinthestaglands.com
   - [x] Emeralds
 - Companions
   - [x] Stats
-  - [ ] Skills
-  - [ ] Spells
-  - [ ] Aptitudes
+  - [x] Skills
+  - [x] Spells
+  - [x] Aptitudes
   - [ ] Unallocated points
   - [ ] Weapon specialisations
   - [ ] Name
@@ -19,7 +19,7 @@ Save game editor for [Serpent in the Staglands](http://serpentinthestaglands.com
   - [ ] Race and racial attributes
   - [ ] HP
   - [ ] XP
-  - [ ] Bound status
+  - [ ] Bound?
   - [ ] Companions not currently in party
 
 # Usage
