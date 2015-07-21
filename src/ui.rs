@@ -24,12 +24,22 @@ type PropertyMapRc = Rc<RefCell<PropertyMap>>;
 
 // LED dialog specification.
 static DIALOG: &'static str = r#"
-    text_emeralds = text[SIZE=x12, SPIN=YES, SPINMAX=99999, MASKINT=0:99999, ALIGNMENT=ARIGHT, VISIBLECOLUMNS=5](_)
-    text_int = text[SIZE=x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT, VISIBLECOLUMNS=2](_)
-    text_dex = text[SIZE=x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT, VISIBLECOLUMNS=2](_)
-    text_str = text[SIZE=x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT, VISIBLECOLUMNS=2](_)
-    text_occ = text[SIZE=x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT, VISIBLECOLUMNS=2](_)
-    text_per = text[SIZE=x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT, VISIBLECOLUMNS=2](_)
+    text_emeralds = text[SIZE=64x12, SPIN=YES, SPINMAX=99999, MASKINT=0:99999, ALIGNMENT=ARIGHT](_)
+
+    text_int = text[SIZE=36x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
+    text_dex = text[SIZE=36x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
+    text_str = text[SIZE=36x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
+    text_occ = text[SIZE=36x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
+    text_per = text[SIZE=36x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
+
+    text_wpn_sword  = text[SIZE=36x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
+    text_wpn_short  = text[SIZE=36x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
+    text_wpn_blunt  = text[SIZE=36x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
+    text_wpn_cleave = text[SIZE=36x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
+    text_wpn_whip   = text[SIZE=36x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
+    text_wpn_bow    = text[SIZE=36x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
+    text_wpn_xbow   = text[SIZE=36x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
+    text_wpn_elixir = text[SIZE=36x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
 
     list_party = list[SIZE=x12, DROPDOWN=YES, VALUE=1, VISIBLE_ITEMS=6](_)
 
@@ -46,15 +56,39 @@ static DIALOG: &'static str = r#"
                 label[SIZE=x12]("Emeralds"), text_emeralds
             ),
             hbox(
-                vbox(
-                    frame[TITLE="Stats"](
+                vbox[CGAP=6](
+                    frame[TITLE="Stats (1)"](
                         gridbox[NUMDIV=2, SIZECOL=1, CGAPCOL=4, CGAPLIN=2](
-                            label[SIZE=86x12]("Intelligence (+10)"), text_int,
-                            label[SIZE=86x12]("Dexterity (+10)"),    text_dex,
-                            label[SIZE=86x12]("Strength (+10)"),     text_str,
-                            label[SIZE=86x12]("Occult (+10)"),       text_occ,
-                            label[SIZE=86x12]("Perception (+10)"),   text_per
+                            label[SIZE=92x12]("Intelligence (+10)"), text_int,
+                            label[SIZE=92x12]("Dexterity (+10)"),    text_dex,
+                            label[SIZE=92x12]("Strength (+10)"),     text_str,
+                            label[SIZE=92x12]("Occult (+10)"),       text_occ,
+                            label[SIZE=92x12]("Perception (+10)"),   text_per
                         )
+                    ),
+                    label[ACTIVE=NO, WORDWRAP=YES](
+"(1) Stats are stored as modifiers for the
+base value of 10. Add 10 to get the full
+stat value."),
+                    frame[TITLE="Weapons (2)"](
+                        gridbox[NUMDIV=2, SIZECOL=1, CGAPCOL=4, CGAPLIN=2](
+                            label[SIZE=92x12]("Long Blade"),   text_wpn_sword,
+                            label[SIZE=92x12]("Short Blade"),  text_wpn_short,
+                            label[SIZE=92x12]("Heavy Blunt"),  text_wpn_blunt,
+                            label[SIZE=92x12]("Heavy Cleave"), text_wpn_cleave,
+                            label[SIZE=92x12]("Whip"),         text_wpn_whip,
+                            label[SIZE=92x12]("Bow"),          text_wpn_bow,
+                            label[SIZE=92x12]("Crossbow"),     text_wpn_xbow,
+                            label[SIZE=92x12]("Elixir"),       text_wpn_elixir
+                        )
+                    ),
+                    vbox[CGAP=5, CMARGIN=0x0](
+                        label[ACTIVE=NO, WORDWRAP=YES](
+"(2) Weapon proficiency is stored as hits
+in the range [0, 650]. Proficiency bonus,
+when non-zero, can be calculated as:"),
+                        label[ACTIVE=NO, WORDWRAP=YES](
+"        Prof = 1 + Ceil[(Hits - 50) / 75].")
                     ),
                     frame[TITLE="Aptitudes"](
                         apt_grid = gridbox[NUMDIV=2, SIZECOL=1, CGAPCOL=4, CGAPLIN=2](
@@ -70,6 +104,7 @@ static DIALOG: &'static str = r#"
                     )
                 )
             ),
+            fill(),
             hbox(
                 fill(),
                 button_save,
@@ -166,6 +201,15 @@ fn bind_member(props: PropertyMapRc) {
     bind_stat!(text_occ, props, "Occ");
     bind_stat!(text_per, props, "Per");
 
+    bind_stat!(text_wpn_sword,  props, "WpnSword");
+    bind_stat!(text_wpn_short,  props, "WpnShortSword");
+    bind_stat!(text_wpn_blunt,  props, "WpnSceptor");
+    bind_stat!(text_wpn_cleave, props, "WpnAxe");
+    bind_stat!(text_wpn_whip,   props, "WpnWhip");
+    bind_stat!(text_wpn_bow,    props, "WpnBow");
+    bind_stat!(text_wpn_xbow,   props, "WpnXbow");
+    bind_stat!(text_wpn_elixir, props, "WpnElixir");
+
     if let Some(apt_grid) = Handle::from_named("apt_grid") {
         for i in 1..7 {
             if let Some(child) = apt_grid.child((i - 1) * 2 + 1) {
@@ -250,14 +294,13 @@ pub fn ui_loop() -> Result<(), String> {
             }
             for i in 1..7 {
                 let mut label = Label::new()
-                    .set_attrib("SIZE", "86x12".to_string())
+                    .set_attrib("SIZE", "92x12".to_string())
                     .set_attrib("TITLE", "(empty)".to_string());
                 let mut text = Text::new_spin()
-                    .set_attrib("SIZE", "x12".to_string())
+                    .set_attrib("SIZE", "36x12".to_string())
                     .set_attrib("SPINMAX", "99".to_string())
                     .set_attrib("MASKINT", "0:99".to_string())
-                    .set_attrib("ALIGNMENT", "ARIGHT".to_string())
-                    .set_attrib("VISIBLECOLUMNS", "2".to_string());
+                    .set_attrib("ALIGNMENT", "ARIGHT".to_string());
                 if let Some(ref skill) = skills.get(&i) {
                     label.set_attrib("TITLE", skill.name.to_string());
                 } else {
@@ -274,14 +317,13 @@ pub fn ui_loop() -> Result<(), String> {
             }
             for i in 7..115 {
                 let mut label = Label::new()
-                    .set_attrib("SIZE", "86x12".to_string())
+                    .set_attrib("SIZE", "92x12".to_string())
                     .set_attrib("TITLE", "(empty)".to_string());
                 let mut text = Text::new_spin()
-                    .set_attrib("SIZE", "x12".to_string())
+                    .set_attrib("SIZE", "36x12".to_string())
                     .set_attrib("SPINMAX", "99".to_string())
                     .set_attrib("MASKINT", "0:99".to_string())
-                    .set_attrib("ALIGNMENT", "ARIGHT".to_string())
-                    .set_attrib("VISIBLECOLUMNS", "2".to_string());
+                    .set_attrib("ALIGNMENT", "ARIGHT".to_string());
                 if let Some(ref skill) = skills.get(&i) {
                     label.set_attrib("TITLE", skill.name.to_string());
                 } else {
