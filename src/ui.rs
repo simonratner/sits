@@ -317,9 +317,15 @@ pub fn ui_loop() -> Result<(), String> {
                     }
                     if let Some(&mut Property::List(ref mut v)) = member.borrow_mut().get_mut("CombatSelects") {
                         v.retain(|ref x| combat_skills.contains(&x));
+                        while v.len() < 3 {
+                            v.push("Empty".to_string());
+                        }
                     }
                     if let Some(&mut Property::List(ref mut v)) = member.borrow_mut().get_mut("SpellFavorites") {
                         v.retain(|ref x| spell_skills.contains(&x));
+                        while v.len() < 10 {
+                            v.push("".to_string());
+                        }
                     }
                     member.borrow_mut().insert("CombatSkills".to_string(), Property::List(combat_skills));
                     member.borrow_mut().insert("SpellSkills".to_string(), Property::List(spell_skills));
