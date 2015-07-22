@@ -178,6 +178,9 @@ pub fn ui_loop() -> Result<(), String> {
             let mut members: Vec<PropertyMapRc> = Vec::new();
             if let Some(&Property::String(ref ids)) = game.borrow().get("PartyIDs") {
                 for id in ids.split(",") {
+                    if id == "0" {
+                        continue;
+                    }
                     let path = Path::new(&dir).join("Party".to_string() + id + ".txt");
                     match read_path(path.as_path()) {
                         Ok(v) => members.push(Rc::new(RefCell::new(v))),
@@ -195,7 +198,7 @@ pub fn ui_loop() -> Result<(), String> {
 
         let mut list_party = from_name::<List>("list_party");
         let mut list_party_items: Vec<String> = Vec::new();
-        for member in party.borrow().iter().skip(1) {
+        for member in party.borrow().iter() {
             if let Some(&Property::String(ref name)) = member.borrow().get("Name") {
                 if let Some(&Property::Float(level)) = member.borrow().get("Level") {
                     list_party_items.push(format!("{} ({})", name, level));
@@ -254,10 +257,12 @@ pub fn ui_loop() -> Result<(), String> {
         let party_clone = party.clone();
         list_party.set_items(list_party_items);
         list_party.set_action(move |(_, _, i, _)| {
-            let member = party_clone.borrow()[i as usize].clone();
+            let member = party_clone.borrow()[i as usize - 1].clone();
             bind_member(member);
         });
-        bind_member(party.borrow()[1].clone());
+        if let Some(&ref member) = party.borrow().first() {
+            bind_member(member.clone());
+        }
 
         // Write game and party member files on save
         let mut button_save = from_name::<Button>("button_save");
@@ -269,7 +274,7 @@ pub fn ui_loop() -> Result<(), String> {
                 let path = Path::new(&dir).join("Game.txt");
                 copy(path.as_path(), path.with_extension(&timestamp)).unwrap();
                 write_path(path.as_path(), &game_clone.borrow()).unwrap();
-                for member in party_clone.borrow().iter().skip(1) {
+                for member in party_clone.borrow().iter() {
 
                     // Validate
                     let mut combat_skills: Vec<String> = Vec::new();
