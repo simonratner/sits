@@ -105,15 +105,17 @@ macro_rules! bind_skill {
 // @param title if specified, it is used for the label, otherwise the controls are disabled.
 fn make_control_pair(title: Option<&String>) -> (Label, Text) {
     let mut label = Label::new()
-        .set_attrib("SIZE", "92x12".to_string())
+        .set_attrib("SIZE", "63x11".to_string())
+        .set_attrib("ELLIPSIS", "YES".to_string())
         .set_attrib("TITLE", "(empty)".to_string());
     let mut text = Text::new_spin()
-        .set_attrib("SIZE", "36x12".to_string())
+        .set_attrib("SIZE", "32x12".to_string())
         .set_attrib("SPINMAX", "99".to_string())
         .set_attrib("MASKINT", "0:99".to_string())
         .set_attrib("ALIGNMENT", "ARIGHT".to_string());
     if let Some(ref s) = title {
         label.set_attrib("TITLE", s.to_string());
+        label.set_attrib("TIP", s.to_string());
     } else {
         label.set_attrib("ACTIVE", "NO");
         text.set_attrib("ACTIVE", "NO");

@@ -1,85 +1,90 @@
-text_emeralds = text[SIZE=64x12, SPIN=YES, SPINMAX=99999, MASKINT=0:99999, ALIGNMENT=ARIGHT](_)
+text_emeralds = text[SIZE=52x12, SPIN=YES, SPINMAX=999999, MASKINT=0:999999, ALIGNMENT=ARIGHT](_)
 
-text_int = text[SIZE=36x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
-text_dex = text[SIZE=36x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
-text_str = text[SIZE=36x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
-text_occ = text[SIZE=36x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
-text_per = text[SIZE=36x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
+text_int = text[SIZE=32x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
+text_dex = text[SIZE=32x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
+text_str = text[SIZE=32x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
+text_occ = text[SIZE=32x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
+text_per = text[SIZE=32x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
 
-text_wpn_sword  = text[SIZE=36x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
-text_wpn_short  = text[SIZE=36x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
-text_wpn_blunt  = text[SIZE=36x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
-text_wpn_cleave = text[SIZE=36x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
-text_wpn_whip   = text[SIZE=36x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
-text_wpn_bow    = text[SIZE=36x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
-text_wpn_xbow   = text[SIZE=36x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
-text_wpn_elixir = text[SIZE=36x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
+text_wpn_sword  = text[SIZE=32x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
+text_wpn_short  = text[SIZE=32x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
+text_wpn_blunt  = text[SIZE=32x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
+text_wpn_cleave = text[SIZE=32x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
+text_wpn_whip   = text[SIZE=32x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
+text_wpn_bow    = text[SIZE=32x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
+text_wpn_xbow   = text[SIZE=32x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
+text_wpn_elixir = text[SIZE=32x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
 
 list_party = list[SIZE=x12, DROPDOWN=YES, VALUE=1, VISIBLE_ITEMS=6](_)
 
-button_save = button[PADDING=6x1]("Save", _)
-button_close = button[PADDING=6x1]("Close", _)
+button_save = button[PADDING=6x1]("&Save Changes", _)
+button_close = button[PADDING=6x1]("&Close", _)
 
 dlg_open = filedlg[TITLE="Select save game folder (for example, _Quick_Save):", DIALOGTYPE=DIR]()
 
 dlg = dialog[TITLE="Serpent in the Staglands Editor"](
-    vbox[CGAP=2, CMARGIN=2x2](
+    vbox[CGAP=0, CMARGIN=2x2](
         hbox[CGAP=8, CMARGIN=8x4](
             label[SIZE=x12]("Companion"), list_party,
             fill(),
-            label[SIZE=x12]("Emeralds"), text_emeralds
+            label[SIZE=40x11]("Emeralds"), text_emeralds
         ),
-        hbox(
-            vbox[CGAP=6](
-                frame[TITLE="Stats [1]"](
-                    gridbox[NUMDIV=2, SIZECOL=1, CGAPCOL=4, CGAPLIN=2](
-                        label[SIZE=92x12]("Intelligence (+10)"), text_int,
-                        label[SIZE=92x12]("Dexterity (+10)"),    text_dex,
-                        label[SIZE=92x12]("Strength (+10)"),     text_str,
-                        label[SIZE=92x12]("Occult (+10)"),       text_occ,
-                        label[SIZE=92x12]("Perception (+10)"),   text_per
+        hbox[CGAP=4](
+            vbox[CGAP=4](
+                frame[TITLE="Stats"](
+                    vbox[CGAP=3, CMARGIN=3x2](
+                        label[ACTIVE=NO](
+"Stats are stored as modifiers
+from their base value of 10."),
+                        gridbox[NUMDIV=3, CGAPCOL=3, GAPLIN=4, CMARGIN=0x1](
+                            label[SIZE=x11, EXPAND=HORIZONTAL]("Intelligence"), label[SIZE=x11]("10 +"), text_int,
+                            label[SIZE=x11, EXPAND=HORIZONTAL]("Dexterity"),    label[SIZE=x11]("10 +"), text_dex,
+                            label[SIZE=x11, EXPAND=HORIZONTAL]("Strength"),     label[SIZE=x11]("10 +"), text_str,
+                            label[SIZE=x11, EXPAND=HORIZONTAL]("Occult"),       label[SIZE=x11]("10 +"), text_occ,
+                            label[SIZE=x11, EXPAND=HORIZONTAL]("Perception"),   label[SIZE=x11]("10 +"), text_per,
+                            label[SIZE=x11, EXPAND=HORIZONTAL](" ")
+                        )
                     )
                 ),
-                label[ACTIVE=NO, WORDWRAP=YES](
-"[1] Stats are stored as modifiers for the
-base value of 10. Add 10 to get the full
-stat value."),
-                frame[TITLE="Weapons [2]"](
-                    gridbox[NUMDIV=2, SIZECOL=1, CGAPCOL=4, CGAPLIN=2](
-                        label[SIZE=92x12]("Long Blade"),   text_wpn_sword,
-                        label[SIZE=92x12]("Short Blade"),  text_wpn_short,
-                        label[SIZE=92x12]("Heavy Blunt"),  text_wpn_blunt,
-                        label[SIZE=92x12]("Heavy Cleave"), text_wpn_cleave,
-                        label[SIZE=92x12]("Whip"),         text_wpn_whip,
-                        label[SIZE=92x12]("Bow"),          text_wpn_bow,
-                        label[SIZE=92x12]("Crossbow"),     text_wpn_xbow,
-                        label[SIZE=92x12]("Elixir"),       text_wpn_elixir
-                    )
-                ),
-                vbox[CGAP=5, CMARGIN=0x0](
-                    label[ACTIVE=NO, WORDWRAP=YES](
-"[2] Weapon proficiency is stored as hits
-in the range [0, 650]. Proficiency bonus,
-when non-zero, can be calculated as:"),
-                    label[ACTIVE=NO, WORDWRAP=YES](
-"        Prof = 1 + Ceil[(Hits - 50) / 75].")
-                ),
-                frame[TITLE="Aptitudes"](
-                    apt_grid = gridbox[NUMDIV=2, SIZECOL=1, CGAPCOL=4, CGAPLIN=2](
-                        label("Placeholder")
+                frame[TITLE="Weapon proficiencies"](
+                    vbox[CGAP=3, CMARGIN=3x2](
+                        vbox[CGAP=2, CMARGIN=0x1](
+                            label[ACTIVE=NO](
+"Weapon proficiencies are in
+the range 0-650. The bonus,
+if non-zero, is calculated as
+follows:"),
+                            label[ACTIVE=NO](
+"Prof = 1 + Ceil[(n - 50) / 75]")
+                        ),
+                        gridbox[NUMDIV=2, CGAPCOL=3, GAPLIN=4, CMARGIN=0x1](
+                            label[SIZE=x11, EXPAND=HORIZONTAL]("Long Blade"),   text_wpn_sword,
+                            label[SIZE=x11, EXPAND=HORIZONTAL]("Short Blade"),  text_wpn_short,
+                            label[SIZE=x11, EXPAND=HORIZONTAL]("Heavy Blunt"),  text_wpn_blunt,
+                            label[SIZE=x11, EXPAND=HORIZONTAL]("Heavy Cleave"), text_wpn_cleave,
+                            label[SIZE=x11, EXPAND=HORIZONTAL]("Whip"),         text_wpn_whip,
+                            label[SIZE=x11, EXPAND=HORIZONTAL]("Bow"),          text_wpn_bow,
+                            label[SIZE=x11, EXPAND=HORIZONTAL]("Crossbow"),     text_wpn_xbow,
+                            label[SIZE=x11, EXPAND=HORIZONTAL]("Elixir"),       text_wpn_elixir
+                        )
                     )
                 )
             ),
-            vbox(
+            vbox[CGAP=4](
+                frame[TITLE="Aptitudes"](
+                    apt_grid = gridbox[NUMDIV=12, CGAPCOL=3, GAPLIN=4, CMARGIN=3x3](
+                        label("Placeholder")
+                    )
+                ),
                 frame[TITLE="Skills"](
-                    skill_grid = gridbox[NUMDIV=8, SIZECOL=1, CGAPCOL=4, CGAPLIN=2](
+                    skill_grid = gridbox[NUMDIV=12, CGAPCOL=3, GAPLIN=4, CMARGIN=3x3](
                         label("Placeholder")
                     )
                 )
             )
         ),
         fill(),
-        hbox(
+        hbox[CMARGIN=4x4](
             fill(),
             button_save,
             button_close
