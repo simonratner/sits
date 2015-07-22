@@ -101,6 +101,26 @@ macro_rules! bind_skill {
     }
 }
 
+// Creates a pair of (label, text) for inputting numeric values.
+// @param title if specified, it is used for the label, otherwise the controls are disabled.
+fn make_control_pair(title: Option<&String>) -> (Label, Text) {
+    let mut label = Label::new()
+        .set_attrib("SIZE", "92x12".to_string())
+        .set_attrib("TITLE", "(empty)".to_string());
+    let mut text = Text::new_spin()
+        .set_attrib("SIZE", "36x12".to_string())
+        .set_attrib("SPINMAX", "99".to_string())
+        .set_attrib("MASKINT", "0:99".to_string())
+        .set_attrib("ALIGNMENT", "ARIGHT".to_string());
+    if let Some(ref s) = title {
+        label.set_attrib("TITLE", s.to_string());
+    } else {
+        label.set_attrib("ACTIVE", "NO");
+        text.set_attrib("ACTIVE", "NO");
+    }
+    (label, text)
+}
+
 // Data-bind all elements relevant to a party member.
 //
 // @param props {PropertyMapRc} a cloned refcounted property map.
@@ -212,20 +232,7 @@ pub fn ui_loop() -> Result<(), String> {
                 child.detach().destroy();
             }
             for i in 1..7 {
-                let mut label = Label::new()
-                    .set_attrib("SIZE", "92x12".to_string())
-                    .set_attrib("TITLE", "(empty)".to_string());
-                let mut text = Text::new_spin()
-                    .set_attrib("SIZE", "36x12".to_string())
-                    .set_attrib("SPINMAX", "99".to_string())
-                    .set_attrib("MASKINT", "0:99".to_string())
-                    .set_attrib("ALIGNMENT", "ARIGHT".to_string());
-                if let Some(ref skill) = skills.get(&i) {
-                    label.set_attrib("TITLE", skill.name.to_string());
-                } else {
-                    label.set_attrib("ACTIVE", "NO");
-                    text.set_attrib("ACTIVE", "NO");
-                }
+                let (label, text) = make_control_pair(skills.get(&i).map(|ref x| &(x.name)));
                 apt_grid.append(label).unwrap();
                 apt_grid.append(text).unwrap();
             }
@@ -235,20 +242,7 @@ pub fn ui_loop() -> Result<(), String> {
                 child.detach().destroy();
             }
             for i in 7..115 {
-                let mut label = Label::new()
-                    .set_attrib("SIZE", "92x12".to_string())
-                    .set_attrib("TITLE", "(empty)".to_string());
-                let mut text = Text::new_spin()
-                    .set_attrib("SIZE", "36x12".to_string())
-                    .set_attrib("SPINMAX", "99".to_string())
-                    .set_attrib("MASKINT", "0:99".to_string())
-                    .set_attrib("ALIGNMENT", "ARIGHT".to_string());
-                if let Some(ref skill) = skills.get(&i) {
-                    label.set_attrib("TITLE", skill.name.to_string());
-                } else {
-                    label.set_attrib("ACTIVE", "NO");
-                    text.set_attrib("ACTIVE", "NO");
-                }
+                let (label, text) = make_control_pair(skills.get(&i).map(|ref x| &(x.name)));
                 skill_grid.append(label).unwrap();
                 skill_grid.append(text).unwrap();
             }
