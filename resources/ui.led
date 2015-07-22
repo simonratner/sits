@@ -31,7 +31,7 @@ dlg = dialog[TITLE="Serpent in the Staglands Editor"](
         ),
         hbox(
             vbox[CGAP=6](
-                frame[TITLE="Stats (1)"](
+                frame[TITLE="Stats [1]"](
                     gridbox[NUMDIV=2, SIZECOL=1, CGAPCOL=4, CGAPLIN=2](
                         label[SIZE=92x12]("Intelligence (+10)"), text_int,
                         label[SIZE=92x12]("Dexterity (+10)"),    text_dex,
@@ -41,10 +41,10 @@ dlg = dialog[TITLE="Serpent in the Staglands Editor"](
                     )
                 ),
                 label[ACTIVE=NO, WORDWRAP=YES](
-"(1) Stats are stored as modifiers for the
+"[1] Stats are stored as modifiers for the
 base value of 10. Add 10 to get the full
 stat value."),
-                frame[TITLE="Weapons (2)"](
+                frame[TITLE="Weapons [2]"](
                     gridbox[NUMDIV=2, SIZECOL=1, CGAPCOL=4, CGAPLIN=2](
                         label[SIZE=92x12]("Long Blade"),   text_wpn_sword,
                         label[SIZE=92x12]("Short Blade"),  text_wpn_short,
@@ -58,7 +58,7 @@ stat value."),
                 ),
                 vbox[CGAP=5, CMARGIN=0x0](
                     label[ACTIVE=NO, WORDWRAP=YES](
-"(2) Weapon proficiency is stored as hits
+"[2] Weapon proficiency is stored as hits
 in the range [0, 650]. Proficiency bonus,
 when non-zero, can be calculated as:"),
                     label[ACTIVE=NO, WORDWRAP=YES](
