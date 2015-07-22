@@ -121,6 +121,11 @@ fn bind_member(props: PropertyMapRc) {
     bind_stat!(text_wpn_xbow,   props, "WpnXbow");
     bind_stat!(text_wpn_elixir, props, "WpnElixir");
 
+    if let Some(&mut Property::List(ref mut v)) = props.borrow_mut().get_mut("SkillPoints") {
+        while v.len() < 115 {
+            v.push("0".to_string())
+        }
+    }
     if let Some(apt_grid) = Handle::from_named("apt_grid") {
         for i in 1..7 {
             if let Some(child) = apt_grid.child((i - 1) * 2 + 1) {
