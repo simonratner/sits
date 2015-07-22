@@ -98,7 +98,7 @@ pub fn write_path(path: &Path, props: &PropertyMap) -> Result<()> {
                 try!(buf.write_u8(0x01));
                 try!(buf.write_variable_string(v));
             },
-            Property::List(ref v) => {
+            Property::List(..) => {
                 let s = prop.to_string();
                 let len = s.len() as u32;
                 try!(buf.write_u32::<LittleEndian>(2 + match len.leading_zeros() {
