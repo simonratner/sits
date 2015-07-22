@@ -162,6 +162,22 @@ fn bind_member(props: PropertyMapRc) {
     }
 }
 
+fn calculate_grade(props: &PropertyMapRc, first: &str, second: &str) -> f32 {
+    if let Some(&Property::Float(first_mod)) = props.borrow().get(first) {
+        if let Some(&Property::Float(second_mod)) = props.borrow().get(second) {
+            let total = first_mod + second_mod + 20.0;
+            if total >= 32.0 {
+                return 3.0;
+            } else if total >= 26.0 {
+                return 2.0;
+            } else if total >= 21.0 {
+                return 1.0;
+            }
+        }
+    };
+    return 0.0;
+}
+
 /// Ui entry point.
 ///
 /// Starts by showing a direction selection dialog; after the user selects a directory,
@@ -271,42 +287,35 @@ pub fn ui_loop() -> Result<(), String> {
                 for member in party_clone.borrow().iter() {
 
                     // Validate
+                    let combat_grade = calculate_grade(member, "Str", "Dex");
                     let mut combat_skills: Vec<String> = Vec::new();
+
+                    let spell_grade = calculate_grade(member, "Int", "Occ");
                     let mut spell_skills: Vec<String> = Vec::new();
+
                     if let Some(&Property::List(ref v)) = member.borrow().get("SkillPoints") {
-                        let spell_grade = {
-                            if let Some(&Property::Float(int_mod)) = member.borrow().get("Int") {
-                                if let Some(&Property::Float(occ_mod)) = member.borrow().get("Occ") {
-                                    int_mod + occ_mod + 20f32
-                                } else {
-                                    0f32
-                                }
-                            } else {
-                                0f32
-                            }
-                        };
                         for (i, ref val) in v.iter().enumerate() {
-                            match val.parse::<u32>() {
+                            match (i, val.parse::<u32>()) {
                                 // Combat skills (1-3)
-                                Ok(n) if i >= 7 && i <= 61 && n > 0 => {
+                                (7...61, Ok(n)) if n > 0 => {
                                     if let Some(ref skill) = skills.get(&i) {
                                         combat_skills.push(skill.internal.to_string())
                                     }
                                 }
                                 // Spell skills (1)
-                                Ok(n) if i >= 62 && i <= 72 && (n > 0 || spell_grade >= 21f32) => {
+                                (62...72, Ok(n)) if n > 0 || spell_grade >= 1.0 => {
                                     if let Some(ref skill) = skills.get(&i) {
                                         spell_skills.push(skill.internal.to_string())
                                     }
                                 }
                                 // Spell skills (2)
-                                Ok(n) if i >= 73 && i <= 86 && (n > 0 || spell_grade >= 26f32) => {
+                                (73...86, Ok(n)) if n > 0 || spell_grade >= 2.0 => {
                                     if let Some(ref skill) = skills.get(&i) {
                                         spell_skills.push(skill.internal.to_string())
                                     }
                                 }
                                 // Spell skills (3)
-                                Ok(n) if i >= 87 && i <= 114 && (n > 0 || spell_grade >= 32f32) => {
+                                (87...114, Ok(n)) if n > 0 || spell_grade >= 3.0 => {
                                     if let Some(ref skill) = skills.get(&i) {
                                         spell_skills.push(skill.internal.to_string())
                                     }
@@ -327,7 +336,9 @@ pub fn ui_loop() -> Result<(), String> {
                             v.push("".to_string());
                         }
                     }
+                    member.borrow_mut().insert("CombatGrade".to_string(), Property::Float(combat_grade));
                     member.borrow_mut().insert("CombatSkills".to_string(), Property::List(combat_skills));
+                    member.borrow_mut().insert("SpellGrade".to_string(), Property::Float(spell_grade));
                     member.borrow_mut().insert("SpellSkills".to_string(), Property::List(spell_skills));
 
                     if let Some(&Property::String(ref id)) = member.borrow().get("PartyID") {
