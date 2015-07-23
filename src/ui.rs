@@ -134,6 +134,9 @@ fn bind_member(props: PropertyMapRc) {
     bind_stat!(text_occ, props, "Occ");
     bind_stat!(text_per, props, "Per");
 
+    bind_stat!(text_hp_cur, props, "CurrHealth");
+    bind_stat!(text_hp_max, props, "MaxHealth");
+
     bind_stat!(text_wpn_sword,  props, "WpnSword");
     bind_stat!(text_wpn_short,  props, "WpnShortSword");
     bind_stat!(text_wpn_blunt,  props, "WpnSceptor");

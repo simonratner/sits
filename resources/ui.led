@@ -6,6 +6,9 @@ text_str = text[SIZE=32x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALI
 text_occ = text[SIZE=32x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
 text_per = text[SIZE=32x12, SPIN=YES, SPINMIN=-9, SPINMAX=99, MASKINT=-9:99, ALIGNMENT=ARIGHT](_)
 
+text_hp_cur = text[SIZE=32x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
+text_hp_max = text[SIZE=32x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
+
 text_wpn_sword  = text[SIZE=32x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
 text_wpn_short  = text[SIZE=32x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
 text_wpn_blunt  = text[SIZE=32x12, SPIN=YES, SPINMAX=999, MASKINT=0:999, ALIGNMENT=ARIGHT](_)
@@ -32,23 +35,27 @@ dlg = dialog[TITLE="Serpent in the Staglands Editor"](
         hbox[CGAP=4](
             vbox[CGAP=4](
                 frame[TITLE="Stats"](
-                    vbox[CGAP=3, CMARGIN=3x2](
-                        label[ACTIVE=NO](
+                    vbox[CGAP=2, CMARGIN=3x2](
+                        vbox[CGAP=3, CMARGIN=0x1](
+                            label[ACTIVE=NO](
 "Stats are stored as modifiers
-from their base value of 10."),
-                        gridbox[NUMDIV=3, CGAPCOL=3, GAPLIN=4, CMARGIN=0x1](
+from their base value of 10.")
+                        ),
+                        gridbox[NUMDIV=3, CGAPCOL=3, GAPLIN=4, CMARGIN=0x0](
                             label[SIZE=x11, EXPAND=HORIZONTAL]("Intelligence"), label[SIZE=x11]("10 +"), text_int,
                             label[SIZE=x11, EXPAND=HORIZONTAL]("Dexterity"),    label[SIZE=x11]("10 +"), text_dex,
                             label[SIZE=x11, EXPAND=HORIZONTAL]("Strength"),     label[SIZE=x11]("10 +"), text_str,
                             label[SIZE=x11, EXPAND=HORIZONTAL]("Occult"),       label[SIZE=x11]("10 +"), text_occ,
-                            label[SIZE=x11, EXPAND=HORIZONTAL]("Perception"),   label[SIZE=x11]("10 +"), text_per,
-                            label[SIZE=x11, EXPAND=HORIZONTAL](" ")
+                            label[SIZE=x11, EXPAND=HORIZONTAL]("Perception"),   label[SIZE=x11]("10 +"), text_per
+                        ),
+                        hbox[CGAP=4, CMARGIN=0x0](
+                            label[SIZE=x11, EXPAND=HORIZONTAL]("HP"), text_hp_cur, label[SIZE=x11]("/"), text_hp_max
                         )
                     )
                 ),
                 frame[TITLE="Weapon proficiencies"](
-                    vbox[CGAP=3, CMARGIN=3x2](
-                        vbox[CGAP=2, CMARGIN=0x1](
+                    vbox[CGAP=2, CMARGIN=3x2](
+                        vbox[CGAP=3, CMARGIN=0x1](
                             label[ACTIVE=NO](
 "Weapon proficiencies are in
 the range 0-650. The bonus,
