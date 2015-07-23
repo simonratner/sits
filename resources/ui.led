@@ -26,75 +26,75 @@ button_close = button[PADDING=6x1]("&Close", _)
 dlg_open = filedlg[TITLE="Select save game folder (for example, _Quick_Save):", DIALOGTYPE=DIR]()
 
 dlg = dialog[TITLE="Serpent in the Staglands Editor"](
-    vbox[CGAP=0, CMARGIN=2x2](
-        hbox[CGAP=8, CMARGIN=8x4](
-            label[SIZE=x12]("Companion"), list_party,
-            fill(),
-            label[SIZE=40x11]("Emeralds"), text_emeralds
-        ),
-        hbox[CGAP=4](
-            vbox[CGAP=4](
-                frame[TITLE="Stats"](
-                    vbox[CGAP=2, CMARGIN=3x2](
-                        vbox[CGAP=3, CMARGIN=0x1](
-                            label[ACTIVE=NO](
+  vbox[CGAP=0, CMARGIN=2x2](
+    hbox[CGAP=8, CMARGIN=8x4](
+      label[SIZE=x12]("Companion"), list_party,
+      fill(),
+      label[SIZE=40x11]("Emeralds"), text_emeralds
+    ),
+    hbox[CGAP=4](
+      vbox[CGAP=4](
+        frame[TITLE="Stats"](
+          vbox[CGAP=2, CMARGIN=3x2](
+            vbox[CGAP=3, CMARGIN=0x1](
+              label[ACTIVE=NO](
 "Stats are stored as modifiers
 from their base value of 10.")
-                        ),
-                        gridbox[NUMDIV=3, CGAPCOL=3, GAPLIN=4, CMARGIN=0x0](
-                            label[SIZE=x11, EXPAND=HORIZONTAL]("Intelligence"), label[SIZE=x11]("10 +"), text_int,
-                            label[SIZE=x11, EXPAND=HORIZONTAL]("Dexterity"),    label[SIZE=x11]("10 +"), text_dex,
-                            label[SIZE=x11, EXPAND=HORIZONTAL]("Strength"),     label[SIZE=x11]("10 +"), text_str,
-                            label[SIZE=x11, EXPAND=HORIZONTAL]("Occult"),       label[SIZE=x11]("10 +"), text_occ,
-                            label[SIZE=x11, EXPAND=HORIZONTAL]("Perception"),   label[SIZE=x11]("10 +"), text_per
-                        ),
-                        hbox[CGAP=4, CMARGIN=0x0](
-                            label[SIZE=x11, EXPAND=HORIZONTAL]("HP"), text_hp_cur, label[SIZE=x11]("/"), text_hp_max
-                        )
-                    )
-                ),
-                frame[TITLE="Weapon proficiencies"](
-                    vbox[CGAP=2, CMARGIN=3x2](
-                        vbox[CGAP=3, CMARGIN=0x1](
-                            label[ACTIVE=NO](
+            ),
+            gridbox[NUMDIV=3, CGAPCOL=3, GAPLIN=4, CMARGIN=0x0](
+              label[SIZE=x11, EXPAND=HORIZONTAL]("Intelligence"), label[SIZE=x11]("10 +"), text_int,
+              label[SIZE=x11, EXPAND=HORIZONTAL]("Dexterity"),    label[SIZE=x11]("10 +"), text_dex,
+              label[SIZE=x11, EXPAND=HORIZONTAL]("Strength"),     label[SIZE=x11]("10 +"), text_str,
+              label[SIZE=x11, EXPAND=HORIZONTAL]("Occult"),       label[SIZE=x11]("10 +"), text_occ,
+              label[SIZE=x11, EXPAND=HORIZONTAL]("Perception"),   label[SIZE=x11]("10 +"), text_per
+            ),
+            hbox[CGAP=4, CMARGIN=0x0](
+              label[SIZE=x11, EXPAND=HORIZONTAL]("HP"), text_hp_cur, label[SIZE=x11]("/"), text_hp_max
+            )
+          )
+        ),
+        frame[TITLE="Weapon proficiencies"](
+          vbox[CGAP=2, CMARGIN=3x2](
+            vbox[CGAP=3, CMARGIN=0x1](
+              label[ACTIVE=NO](
 "Weapon proficiencies are in
 the range 0-650. The bonus,
 if non-zero, is calculated as
 follows:"),
-                            label[ACTIVE=NO](
+              label[ACTIVE=NO](
 "Prof = 1 + Ceil[(n - 50) / 75]")
-                        ),
-                        gridbox[NUMDIV=2, CGAPCOL=3, GAPLIN=4, CMARGIN=0x1](
-                            label[SIZE=x11, EXPAND=HORIZONTAL]("Long Blade"),   text_wpn_sword,
-                            label[SIZE=x11, EXPAND=HORIZONTAL]("Short Blade"),  text_wpn_short,
-                            label[SIZE=x11, EXPAND=HORIZONTAL]("Heavy Blunt"),  text_wpn_blunt,
-                            label[SIZE=x11, EXPAND=HORIZONTAL]("Heavy Cleave"), text_wpn_cleave,
-                            label[SIZE=x11, EXPAND=HORIZONTAL]("Whip"),         text_wpn_whip,
-                            label[SIZE=x11, EXPAND=HORIZONTAL]("Bow"),          text_wpn_bow,
-                            label[SIZE=x11, EXPAND=HORIZONTAL]("Crossbow"),     text_wpn_xbow,
-                            label[SIZE=x11, EXPAND=HORIZONTAL]("Elixir"),       text_wpn_elixir
-                        )
-                    )
-                )
             ),
-            vbox[CGAP=4](
-                frame[TITLE="Aptitudes"](
-                    apt_grid = gridbox[NUMDIV=12, CGAPCOL=3, GAPLIN=4, CMARGIN=3x3](
-                        label("Placeholder")
-                    )
-                ),
-                frame[TITLE="Skills"](
-                    skill_grid = gridbox[NUMDIV=12, CGAPCOL=3, GAPLIN=4, CMARGIN=3x3](
-                        label("Placeholder")
-                    )
-                )
+            gridbox[NUMDIV=2, CGAPCOL=3, GAPLIN=4, CMARGIN=0x1](
+              label[SIZE=x11, EXPAND=HORIZONTAL]("Long Blade"),   text_wpn_sword,
+              label[SIZE=x11, EXPAND=HORIZONTAL]("Short Blade"),  text_wpn_short,
+              label[SIZE=x11, EXPAND=HORIZONTAL]("Heavy Blunt"),  text_wpn_blunt,
+              label[SIZE=x11, EXPAND=HORIZONTAL]("Heavy Cleave"), text_wpn_cleave,
+              label[SIZE=x11, EXPAND=HORIZONTAL]("Whip"),         text_wpn_whip,
+              label[SIZE=x11, EXPAND=HORIZONTAL]("Bow"),          text_wpn_bow,
+              label[SIZE=x11, EXPAND=HORIZONTAL]("Crossbow"),     text_wpn_xbow,
+              label[SIZE=x11, EXPAND=HORIZONTAL]("Elixir"),       text_wpn_elixir
             )
-        ),
-        fill(),
-        hbox[CMARGIN=4x4](
-            fill(),
-            button_save,
-            button_close
+          )
         )
+      ),
+      vbox[CGAP=4](
+        frame[TITLE="Aptitudes"](
+          apt_grid = gridbox[NUMDIV=12, CGAPCOL=3, GAPLIN=4, CMARGIN=3x3](
+            label("Placeholder")
+          )
+        ),
+        frame[TITLE="Skills"](
+          skill_grid = gridbox[NUMDIV=12, CGAPCOL=3, GAPLIN=4, CMARGIN=3x3](
+            label("Placeholder")
+          )
+        )
+      )
+    ),
+    fill(),
+    hbox[CMARGIN=4x4](
+      fill(),
+      button_save,
+      button_close
     )
+  )
 )
