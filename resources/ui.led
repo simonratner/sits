@@ -41,7 +41,7 @@ dlg = dialog[TITLE="Serpent in the Staglands Editor"](
 "Stats are stored as modifiers
 from their base value of 10.")
             ),
-            gridbox[NUMDIV=3, CGAPCOL=3, GAPLIN=4, CMARGIN=0x0](
+            gridbox[NUMDIV=3, CGAPCOL=2, GAPLIN=4, CMARGIN=0x0](
               label[SIZE=x11, EXPAND=HORIZONTAL]("Intelligence"), label[SIZE=x11]("10 +"), text_int,
               label[SIZE=x11, EXPAND=HORIZONTAL]("Dexterity"),    label[SIZE=x11]("10 +"), text_dex,
               label[SIZE=x11, EXPAND=HORIZONTAL]("Strength"),     label[SIZE=x11]("10 +"), text_str,
