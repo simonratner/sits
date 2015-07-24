@@ -17,12 +17,13 @@ Save game editor for [Serpent in the Staglands](http://serpentinthestaglands.com
   - [ ] Gender
   - [ ] Portrait
   - [ ] Race and racial attributes
-  - [ ] HP
+  - [x] HP
   - [ ] XP
   - [ ] Bound?
   - [ ] Companions not currently in party
 - Versions
   - [x] V.13
+  - [x] V.14
 
 # Usage
 
